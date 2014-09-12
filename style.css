@@ -70,6 +70,9 @@ a:active{
 footer{
     background-color: #EEEEEE;
     height: 42px;
+	position:absolute;
+    bottom:0;
+	width:100%;
 }
 #FooterText{
     font-family: 'toms handwritten new', sans-serif;
