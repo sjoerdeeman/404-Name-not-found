@@ -3,8 +3,8 @@
     Author     : Mark Hartging, Sjoerd Eeman, Niek Guijt, Jhinenton Hooplot, Tim Nijssen
 */
 @font-face {
-    font-family: 'toms handwritten new';
-    src: url('http://www.fontsaddict.com/fontface/toms-handwritten-new.ttf');
+    font-family: 'Ubuntu';
+    src: url('http://www.fontsaddict.com/fontface/ubuntu.ttf');
 }
 
 *{
@@ -32,7 +32,7 @@ a:active{
     
 }
 .MenuItem{
-    font-family: 'toms handwritten new', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 22px;
     text-decoration: none;
     margin: 15px 15px 15px 15px;
@@ -61,13 +61,13 @@ a:active{
 }
 
 #TopText{
-    font-family: 'toms handwritten new', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 22px;
     background-color:#CCCCCC;
     height:145px;
 }
 #Content{
-    font-family: 'toms handwritten new', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 22px;
     height:300px;   
 }
@@ -79,7 +79,7 @@ footer{
 	width:100%;
 }
 #FooterText{
-    font-family: 'toms handwritten new', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 22px;
     padding: 9px 0 0 10px;
 }
