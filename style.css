@@ -53,7 +53,7 @@ a:active{
     float:right;
     
 }
-#logo{
+#Logo{
     height:30px;
     margin-top: 7px;
     margin-left: 5px;
@@ -74,7 +74,7 @@ a:active{
 footer{
     background-color: #EEEEEE;
     height: 42px;
-	position:fixed;
+	/* position:fixed; */
     bottom:0;
 	width:100%;
 }
@@ -83,4 +83,9 @@ footer{
     font-size: 22px;
     padding: 9px 0 0 10px;
 }
-
+.footerlogo{
+    margin-left: 5px;
+    position: relative;
+    height: 42px;
+    width: auto;
+}
