@@ -3,8 +3,8 @@
     Author     : Mark Hartging, Sjoerd Eeman, Niek Guijt, Jhinenton Hooplot, Tim Nijssen
 */
 @font-face {
-    font-family: 'toms handwritten new';
-    src: url('http://www.fontsaddict.com/fontface/toms-handwritten-new.ttf');
+    font-family: 'Ubuntu';
+    src: url("Fonts/Ubuntu-R.ttf");
 }
 
 *{
@@ -19,6 +19,8 @@ a:visited{
 }
 a:hover{
     background-color: #CCCCCC;
+    
+    
 }
 a:active{
     color: gray;
@@ -27,29 +29,32 @@ a:active{
     background-color: #EEEEEE;
     height: 42px;
     width: 100%;
-	
     
 }
 .MenuItem{
-    font-family: 'toms handwritten new', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 22px;
     text-decoration: none;
-    margin: 20px 20px 20px 20px;
-
+    margin: 15px 15px 15px 15px;
+    padding: 20px 5px 20px 5px;
+        
 }
 #UpperMenu{
-    top: 9px;
+    position:absolute;
+    top:7px;
     margin-left: 135px;
 }
-#Search{
-    display:inherit;
-    margin-left: 75%;
+
+#SearchBlock{
+    margin-right:50px;
+    
+    
 }
 .SearchInput{
-    margin-top: 9px;
     float:right;
+    
 }
-#logo{
+#Logo{
     height:30px;
     margin-top: 7px;
     margin-left: 5px;
@@ -57,28 +62,49 @@ a:active{
 }
 
 #TopText{
-    font-family: 'toms handwritten new', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 22px;
     background-color:#CCCCCC;
     height:145px;
 }
 #Content{
-    font-family: 'toms handwritten new', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 22px;
     height:300px;   
 }
 footer{
     background-color: #EEEEEE;
     height: 42px;
-	position: fixed;
+    position:fixed;
     bottom:0;
-	width:100%;
-	
+    width:100%;
 }
 #FooterText{
-    font-family: 'toms handwritten new', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 22px;
+}
+.footerlogo{
+    margin-left: 5px;
+    position: relative;
+    height: 42px;
+    width: auto;
+    float:right;
+}
+#CopyTekst{
     padding: 9px 0 0 10px;
 }
-
-
+#FooterImages{
+   margin-right: 5px;
+}
+.Poster{
+	Position: absolute;
+	Height: 600px;
+	width: auto;
+	left: 15%
+}
+#Info{
+    position: relative;
+    left: 40%;
+	width: 55%;
+	overflow: initial;
+}
