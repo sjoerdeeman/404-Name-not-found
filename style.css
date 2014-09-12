@@ -40,16 +40,16 @@ a:active{
         
 }
 #UpperMenu{
-      
+    position:absolute;  
     margin-left: 135px;
 }
 
 #SearchBlock{
     margin-right:50px;
     
+    
 }
 .SearchInput{
-    margin-top: 9px;
     float:right;
     
 }
@@ -74,7 +74,7 @@ a:active{
 footer{
     background-color: #EEEEEE;
     height: 42px;
-	position:absolute;
+	position:fixed;
     bottom:0;
 	width:100%;
 }
