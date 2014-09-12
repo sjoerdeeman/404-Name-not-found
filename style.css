@@ -82,11 +82,16 @@ footer{
 #FooterText{
     font-family: 'Ubuntu', sans-serif;
     font-size: 22px;
-    padding: 9px 0 0 10px;
+    
 }
 .footerlogo{
     margin-left: 5px;
     position: relative;
     height: 42px;
     width: auto;
+    float:right;
+}
+#CopyTekst{
+    
+    padding: 9px 0 0 10px;
 }
