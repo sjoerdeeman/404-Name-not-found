@@ -40,7 +40,8 @@ a:active{
         
 }
 #UpperMenu{
-    position:absolute;  
+    position:absolute;
+    top:7px;
     margin-left: 135px;
 }
 
