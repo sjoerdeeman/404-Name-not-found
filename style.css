@@ -19,6 +19,8 @@ a:visited{
 }
 a:hover{
     background-color: #CCCCCC;
+    
+    
 }
 a:active{
     color: gray;
@@ -73,14 +75,13 @@ a:active{
 footer{
     background-color: #EEEEEE;
     height: 42px;
-	/* position:fixed; */
+    position:fixed;
     bottom:0;
-	width:100%;
+    width:100%;
 }
 #FooterText{
     font-family: 'Ubuntu', sans-serif;
     font-size: 22px;
-    
 }
 .footerlogo{
     margin-left: 5px;
@@ -90,6 +91,8 @@ footer{
     float:right;
 }
 #CopyTekst{
-    
     padding: 9px 0 0 10px;
+}
+#FooterImages{
+   margin-right: 5px;
 }
