@@ -19,6 +19,8 @@ a:visited{
 }
 a:hover{
     background-color: #CCCCCC;
+    
+    
 }
 a:active{
     color: gray;
@@ -33,21 +35,24 @@ a:active{
     font-family: 'toms handwritten new', sans-serif;
     font-size: 22px;
     text-decoration: none;
-    margin: 20px 20px 20px 20px;
-
+    margin: 15px 15px 15px 15px;
+    padding: 20px 5px 20px 5px;
+        
 }
 #UpperMenu{
     position: fixed;
     top: 9px;
     margin-left: 135px;
 }
-#Search{
-    display:inherit;
-    margin-left: 75%;
+
+#SearchBlock{
+    margin-right:20%;
+    
 }
 .SearchInput{
     margin-top: 9px;
     float:right;
+    
 }
 #logo{
     height:30px;
