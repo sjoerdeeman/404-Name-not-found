@@ -73,7 +73,7 @@ a:active{
 footer{
     background-color: #EEEEEE;
     height: 42px;
-	/* position:fixed; */
+	position:fixed;
     bottom:0;
 	width:100%;
 }
@@ -82,14 +82,19 @@ footer{
     font-size: 22px;
     
 }
-.footerlogo{
+.FooterLogo{
     margin-left: 5px;
     position: relative;
     height: 42px;
     width: auto;
-    float:right;
+    float: right;
+
 }
 #CopyTekst{
     
     padding: 9px 0 0 10px;
+}
+
+#FooterLogo{
+    margin-right: 5px;
 }
