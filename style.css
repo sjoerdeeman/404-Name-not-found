@@ -75,11 +75,7 @@ a:active{
 footer{
     background-color: #EEEEEE;
     height: 42px;
-<<<<<<< HEAD
-	position:fixed;
-=======
     position:fixed;
->>>>>>> origin/master
     bottom:0;
     width:100%;
 }
@@ -87,24 +83,16 @@ footer{
     font-family: 'Ubuntu', sans-serif;
     font-size: 22px;
 }
-.FooterLogo{
+.footerlogo{
     margin-left: 5px;
     position: relative;
     height: 42px;
     width: auto;
-    float: right;
-
+    float:right;
 }
 #CopyTekst{
     padding: 9px 0 0 10px;
 }
-<<<<<<< HEAD
-
-#FooterLogo{
-    margin-right: 5px;
-}
-=======
 #FooterImages{
    margin-right: 5px;
 }
->>>>>>> origin/master
