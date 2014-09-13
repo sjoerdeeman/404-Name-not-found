@@ -14,7 +14,8 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="../style.css" rel="stylesheet" type="text/css">
-        <script src="../Javascript/script1.js" type="text/javascript"></script>
+        <link href="ContactStyle.css" rel="stylesheet" type="text/css">
+        <script src="../Javascript/ContactScript.js" type="text/javascript"></script>
     </head>
     <body>
         <div id="TopMenuBar">
@@ -36,13 +37,22 @@ and open the template in the editor.
         </div><!--TopText-->
         <div id="Content">
             <p style="display:none;" id="error"></p>
-            <form action="success.html" method="get" onsubmit="return CheckContactForm()">
-                Naam<input type="text" name="naam" id="Naam" onblur="CheckIfValueEmpty('Naam')"><br/>
-                Mail<input type="text" name="Bericht" id="Mail" onblur="CheckIfValueEmpty('Mail');
+         
+          
+            <div id="Omschrijving" style="float:left;">
+                Naam <br/>
+                Mail<br/>
+                Bericht<br/>
+            </div>
+            <div style="float:left;">
+                <form action="success.html" method="get">
+                <input class="FormInput" type="text" name="naam" id="Naam" onblur="CheckIfValueEmpty('Naam')"><br/>
+                <input class="FormInput" type="text" name="Bericht" id="Mail" onblur="CheckIfValueEmpty('Mail');
                         CheckMailAdress();"><br/>
-                Bericht<textarea placeholder="Max 500 tekens" rows="10" cols="20" id="Bericht" onblur="CheckIfValueEmpty('Bericht')"></textarea><br/>
+                <textarea class="FormInput" placeholder="Max 500 tekens" rows="10" cols="20" id="Bericht" onblur="CheckIfValueEmpty('Bericht')"></textarea><br/>
                 <button type="submit" >Verzenden</button>
-            </form>
+                </form>
+            </div>
         </div><!--Content-->
         <footer>
             <div id="FooterText">
