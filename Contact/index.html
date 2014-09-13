@@ -45,7 +45,7 @@ and open the template in the editor.
                 Bericht<br/>
             </div>
             <div style="float:left;">
-                <form action="success.html" method="get">
+                <form action="success.html" method="get" onsubmit="return CheckContactForm()">
                 <input class="FormInput" type="text" name="naam" id="Naam" onblur="CheckIfValueEmpty('Naam')"><br/>
                 <input class="FormInput" type="text" name="Bericht" id="Mail" onblur="CheckIfValueEmpty('Mail');
                         CheckMailAdress();"><br/>
