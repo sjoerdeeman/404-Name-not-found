@@ -25,6 +25,11 @@ a:hover{
 a:active{
     color: gray;
 }
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+
+}
 #TopMenuBar{ 
     background-color: #EEEEEE;
     height: 42px;
@@ -69,7 +74,7 @@ a:active{
 }
 #Content{
     font-family: 'Ubuntu', sans-serif;
-    font-size: 22px;
+    font-size: 14px;
     height:300px;   
 }
 footer{
@@ -81,7 +86,7 @@ footer{
 }
 #FooterText{
     font-family: 'Ubuntu', sans-serif;
-    font-size: 22px;
+    font-size: 16px;
 }
 .footerlogo{
     margin-left: 5px;
@@ -91,7 +96,7 @@ footer{
     float:right;
 }
 #CopyTekst{
-    padding: 9px 0 0 10px;
+    padding: 12px 0 0 10px;
 }
 #FooterImages{
    margin-right: 5px;
