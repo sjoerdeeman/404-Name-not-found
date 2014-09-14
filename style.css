@@ -75,8 +75,8 @@ a:active{
 footer{
     background-color: #EEEEEE;
     height: 42px;
-    position:fixed;
-    bottom:0;
+    position: absolute;
+    margin-bottom:0;
     width:100%;
 }
 #FooterText{

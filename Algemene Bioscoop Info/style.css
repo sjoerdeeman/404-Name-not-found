@@ -70,26 +70,39 @@ a:active{
 
 .Container{
     position: relative;
-    max-width: 800px;
+    max-width: 650px;
     height: 906px;
-    border: solid blue 10px;
+    border: solid white 10px;
     margin: 0 auto;
 }
-.Txt1{
-    position: absolute;
-    max-width: 400px;
-    height: 453px;
-    border: solid green 5px;
+@media screen and (min-width: 657px){
+    .Txt1{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 50%;
+        height: 453px;
+        /*border: solid green 5px;*/
+    }
+    .Image1{
+        margin-top: 25%;
+        margin-left: 51%;
+    }
+    .Txt2{
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        width: 50%;
+        height: 453px;
+        /* border: solid green 5px; */
+    }
+    .Image2{
+        position: absolute;
+        bottom: 17%;
+        left: 0px;
+    }
 }
-.Txt2{
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    max-width: 400px;
-    height: 453px;
-    border: solid green 5px;
-}
-footer{
+    footer{
     background-color: #EEEEEE;
     height: 42px;
     position: absolute;
@@ -111,5 +124,6 @@ footer{
     padding: 9px 0 0 10px;
 }
 #FooterImages{
-   margin-right: 5px;
+    margin-right: 5px;
 }
+
