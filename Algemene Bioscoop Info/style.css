@@ -68,9 +68,15 @@ a:active{
     height:145px;
 }
 #Content{
+    text-align: center;
     font-family: 'Ubuntu', sans-serif;
     font-size: 22px;
     height:300px;   
+}
+#pic1, #txt1{
+    text-align: center;
+    float: left;
+    margin-left: 10px;
 }
 footer{
     background-color: #EEEEEE;
