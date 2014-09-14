@@ -69,10 +69,12 @@ a:active{
 }
 
 .Container{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
     position: relative;
     max-width: 650px;
-    height: 906px;
-    border: solid white 10px;
+    height: 1359px;
+    border: solid blue 10px;
     margin: 0 auto;
 }
 @media screen and (min-width: 657px){
@@ -82,32 +84,44 @@ a:active{
         left: 0px;
         width: 50%;
         height: 453px;
-        /*border: solid green 5px;*/
+        border: solid green 5px;
     }
     .Image1{
-        margin-top: 25%;
-        margin-left: 51%;
+        margin-top: 22%;
+        margin-left: 51.2%;
     }
     .Txt2{
         position: absolute;
-        bottom: 0px;
+        bottom: 450px;
         right: 0px;
         width: 50%;
         height: 453px;
-        /* border: solid green 5px; */
+        border: solid green 5px;
     }
     .Image2{
         position: absolute;
-        bottom: 17%;
+        bottom: 44%;
         left: 0px;
     }
+    .Txt3{
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 50%;
+        height: 453px;
+        border: solid green 5px; 
+    }
+    .Image3{
+        position: absolute;
+        bottom: 22%;
+    }
 }
-    footer{
-    background-color: #EEEEEE;
-    height: 42px;
-    position: absolute;
-    margin-bottom: 0px;
-    width:100%;
+footer{
+background-color: #EEEEEE;
+height: 42px;
+position: absolute;
+margin-bottom: 0px;
+width:100%;
 }
 #FooterText{
     font-family: 'Ubuntu', sans-serif;
