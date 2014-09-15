@@ -75,7 +75,8 @@ body{
 #Content{
     font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
-    height:300px;   
+    position: relative;
+    height:800px;   
 }
 footer{
     background-color: #EEEEEE;
