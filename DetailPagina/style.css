@@ -67,47 +67,45 @@ a:active{
     background-color:#CCCCCC;
     height:145px;
 }
-@media screen and (min-width: 1625px){
+@media screen and (min-width: 1000px){
 	#Content{
     font-family: 'Ubuntu', sans-serif;
     font-size: 22px;
 	position: relative;
-    height: 100%;
+    
 	width: 90%;
 	border: solid blue 10px;
 	margin: 0 auto;
 	
 	}
 	.Poster{
-	Position: absolute;
-	Height: 729px;
-	width: auto;
-	left: 100px;
+	float:left;
+	height:729px;
 	border: solid blue 4px;
 	}
 	#Info{
-    position: relative;
-    left: 40%;
-	width: 55%;
-	height: 1000px;
+	width:899px;
+	margin-left:0px;
+    float:left;
+	height:80%;
 	border: solid blue 4px;
 	}
 	.Details{
-	border: solid blue 4px;
-	height: 60%;
-	width: 20%;
-	padding-left: 180px; 
-	margin-left: 100px;
-	margin-top: 100px;
+	position:absolute;
+	top:730px;
+	clear:both;
+	
+	
+	
 	}
 }
 
 footer{
-    background-color: #EEEEEE;
-    height: 42px;
-    position:absolute;
-	margin-bottom: 0px;
-    width:100%;
+  width: 100%;
+    
+    position: fixed;
+    background-color:#EEEEEE;
+    bottom: 0%;
 }
 #FooterText{
     font-family: 'Ubuntu', sans-serif;
