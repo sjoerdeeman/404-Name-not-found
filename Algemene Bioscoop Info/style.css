@@ -91,7 +91,7 @@ img{
         left: 0px;
         width: 50%;
         height: 453px;
-        /*border: solid green 5px;*/
+        border: solid green 5px;
     }
     .Image1{
         margin-top: 22%;
@@ -103,7 +103,7 @@ img{
         right: 0px;
         width: 50%;
         height: 453px;
-        /*border: solid green 5px;*/
+        border: solid green 5px;
     }
     .Image2{
         position: absolute;
@@ -116,7 +116,7 @@ img{
         left: 0px;
         width: 50%;
         height: 453px;
-        /*border: solid green 5px;*/
+        border: solid green 5px;
     }
     .Image3{
         position: absolute;
