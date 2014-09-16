@@ -67,16 +67,44 @@ a:active{
     background-color:#CCCCCC;
     height:145px;
 }
-#Content{
+@media screen and (min-width: 1625px){
+	#Content{
     font-family: 'Ubuntu', sans-serif;
     font-size: 22px;
-    height:300px;   
+	position: relative;
+    height: 100%;
+	width: 90%;
+	border: solid blue 10px;
+	margin: 0 auto;
+	
+	}
+	.Poster{
+	Position: absolute;
+	Height: 729px;
+	width: auto;
+	left: 80px;
+	border: solid blue 4px;
+	}
+	#Info{
+    position: relative;
+    left: 40%;
+	width: 55%;
+	height: 800px;
+	border: solid blue 4px;
+	}
+	.Details1{
+	border: solid blue 4px;
+	height: 60%;
+	width: 30%;
+	
+	}
 }
+
 footer{
     background-color: #EEEEEE;
     height: 42px;
-    position:fixed;
-    bottom:0;
+    position:absolute;
+	margin-bottom: 0px;
     width:100%;
 }
 #FooterText{
@@ -95,16 +123,4 @@ footer{
 }
 #FooterImages{
    margin-right: 5px;
-}
-.Poster{
-	Position: absolute;
-	Height: 600px;
-	width: auto;
-	left: 15%
-}
-#Info{
-    position: relative;
-    left: 40%;
-	width: 55%;
-	overflow: initial;
 }
