@@ -67,14 +67,15 @@ a:active{
     background-color:#CCCCCC;
     height:145px;
 }
-@media screen and (min-width: 1900px){
+@media screen and (min-width: 1300px){
 	#Content{
     font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
 	position: relative;
-	width: 90%;
-	border: solid white 6px;
+	width: 100%;
+	/*border: solid blue 6px;*/
 	margin: 0 auto;
+	float: center;
 	
 	}
 	#FindingFannyImg{
@@ -83,7 +84,7 @@ a:active{
 	}
 	.Poster{
 	float:left;
-	margin-left: 200px;
+	margin-left: 15%;
 	height:600px;
 	border: solid white 6px;
 	}
@@ -96,14 +97,14 @@ a:active{
 	.Details{
 	position:absolute;
 	top:610px;
-	left: 200px;
+	left: 15%;
 	clear:both;
 	border: solid white 6px;
 	}
 	.Details2{
 	position:absolute;
 	top:920px;
-	left:650px;
+	left:40%;
 	clear:both;
 	border: solid white 6px;
 	}
@@ -114,7 +115,7 @@ a:active{
 	.Details4{
 	position:absolute;
 	top:610px;
-	left: 400px;
+	left: 24%;
 	clear:both;
 	border: solid white 6px;
 	}
@@ -122,7 +123,7 @@ a:active{
 	{
 	position:absolute;
 	top:800px;
-	left: 260px;
+	left: 18%;
 	clear:both;
 	font-size: 35px;
 	
