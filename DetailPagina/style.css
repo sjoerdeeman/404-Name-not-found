@@ -67,41 +67,65 @@ a:active{
     background-color:#CCCCCC;
     height:145px;
 }
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1900px){
 	#Content{
     font-family: 'Ubuntu', sans-serif;
-    font-size: 22px;
+    font-size: 18px;
 	position: relative;
 	width: 90%;
-	border: solid blue 10px;
+	border: solid white 6px;
 	margin: 0 auto;
 	
 	}
+	#FindingFannyImg{
+	height: 600px;
+	width: auto;
+	}
 	.Poster{
 	float:left;
-	margin-left: 150px;
-	height:729px;
-	border: solid blue 4px;
+	margin-left: 200px;
+	height:600px;
+	border: solid white 6px;
 	}
 	#Info{
 	width:950px;
-	margin-left:50px;
     float:left;
 	height:80%;
-	border: solid blue 4px;
+	border: solid white 6px;
 	}
 	.Details{
 	position:absolute;
-	top:730px;
+	top:610px;
+	left: 200px;
 	clear:both;
-	border: solid blue 4px;
+	border: solid white 6px;
 	}
 	.Details2{
 	position:absolute;
-	top:1050px;
-	left:700px;
+	top:920px;
+	left:650px;
 	clear:both;
-	border: solid blue 4px;
+	border: solid white 6px;
+	}
+	.Details3{
+	display: inline-block;
+	margin-right: 250px;
+	}
+	.Details4{
+	position:absolute;
+	top:610px;
+	left: 400px;
+	clear:both;
+	border: solid white 6px;
+	}
+	#ReserveerKnop
+	{
+	position:absolute;
+	top:800px;
+	left: 260px;
+	clear:both;
+	font-size: 35px;
+	
 	}
 }
 
