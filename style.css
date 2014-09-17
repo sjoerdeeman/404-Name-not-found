@@ -2,6 +2,7 @@
     Created on : 11-sep-2014, 9:58:01
     Author     : Mark Hartging, Sjoerd Eeman, Niek Guijt, Jhinenton Hooplot, Tim Nijssen
 */
+
 @font-face {
     font-family: 'Ubuntu';
     src: url("Fonts/Ubuntu-R.ttf");
@@ -19,8 +20,8 @@ a:visited{
 }
 a:hover{
     background-color: #CCCCCC;
-    
-    
+
+
 }
 a:active{
     color: gray;
@@ -34,7 +35,7 @@ body{
     background-color: #EEEEEE;
     height: 42px;
     width: 100%;
-    
+
 }
 .MenuItem{
     font-family: 'Ubuntu', sans-serif;
@@ -42,7 +43,7 @@ body{
     text-decoration: none;
     margin: 15px 15px 15px 15px;
     padding: 20px 5px 20px 5px;
-        
+
 }
 #UpperMenu{
     position:absolute;
@@ -52,12 +53,12 @@ body{
 
 #SearchBlock{
     margin-right:50px;
-    
-    
+
+
 }
 .SearchInput{
     float:right;
-    
+
 }
 #Logo{
     height:30px;
@@ -76,13 +77,14 @@ body{
     font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
     position: relative;
+    margin-bottom: 44px;
     height:800px;   
 }
 footer{
     background-color: #EEEEEE;
     height: 42px;
     position: absolute;
-    margin-bottom:0;
+
     width:100%;
 }
 #FooterText{
@@ -100,5 +102,40 @@ footer{
     padding: 12px 0 0 10px;
 }
 #FooterImages{
-   margin-right: 5px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 851px){
+    #Logo{
+        height:15px;
+    }
+    .MenuItem{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 14px;
+        text-decoration: none;
+        margin: 5px 5px 5px 5px;
+        padding: 5px 5px 5px 5px;
+
+    }
+    #Logo{
+        width:59px;
+        margin-top: 7px;
+
+        position:absolute;
+    }
+    #UpperMenu{
+        position:absolute;
+        top:7px;
+        margin-left: 60px;
+    }
+    #SearchBlock{
+        display:none;
+    }   
+    .footerlogo{
+        width:90px;
+    }
+    #FooterImages{
+        display:none;
+    }
+
 }
