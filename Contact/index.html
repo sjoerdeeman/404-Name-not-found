@@ -37,22 +37,33 @@ and open the template in the editor.
         </div><!--TopText-->
         <div id="Content">
             <p style="display:none;" id="error"></p>
-         
-          
+
+
             <div id="Omschrijving" style="float:left;">
                 Naam <br/>
                 Mail<br/>
                 Bericht<br/>
             </div>
             <div style="float:left;">
+                <!--This version sends you to a success page but the form doesn't really sent a email -->
                 <form action="success.html" method="get" onsubmit="return CheckContactForm()">
+                    <input class="FormInput" type="text" name="naam" id="Naam" onblur="CheckIfValueEmpty('Naam')"><br/>
+                    <input class="FormInput" type="text" name="Bericht" id="Mail" onblur="CheckIfValueEmpty('Mail'); CheckMailAdress();"><br/>
+                    <textarea class="FormInput" placeholder="Max 500 tekens" rows="10" cols="20" id="Bericht" onblur="CheckIfValueEmpty('Bericht')"></textarea><br/>
+                    <button type="submit" >Verzenden</button>
+                </form>
+            </div>
+            <!--
+            **Version that really sends a email**
+            <form action="mailto:info@filmpje.nl?SUBJECT=Contact" enctype="text/plain" method="post">
                 <input class="FormInput" type="text" name="naam" id="Naam" onblur="CheckIfValueEmpty('Naam')"><br/>
                 <input class="FormInput" type="text" name="Bericht" id="Mail" onblur="CheckIfValueEmpty('Mail');
                         CheckMailAdress();"><br/>
                 <textarea class="FormInput" placeholder="Max 500 tekens" rows="10" cols="20" id="Bericht" onblur="CheckIfValueEmpty('Bericht')"></textarea><br/>
                 <button type="submit" >Verzenden</button>
                 </form>
-            </div>
+            
+            -->
         </div><!--Content-->
         <footer>
             <div id="FooterText">
