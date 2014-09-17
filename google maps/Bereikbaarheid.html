@@ -7,52 +7,52 @@ and open the template in the editor.
 <html>
     <head>
         <title>Filmpje</title>
-		<meta name="keywords" content="film, films, movie, movies, bios, bioscoop, cinema, oer, hollandse, oer-hollandse, 3D, Imax, Aura3d, Aura, zaal, zalen, stoel, stoelen, bioscoopzaal, bioscoopzalen, bioscoopstoel, bioscoopstoelen, uniek, unieke, inrichting, ervaring, zit, plaatsen, goed, nu in de bioscoop, nu in de bios, films op dit moment, movies op dit moment, verwachte films, verwachte movies">
+        <meta name="keywords" content="film, films, movie, movies, bios, bioscoop, cinema, oer, hollandse, oer-hollandse, 3D, Imax, Aura3d, Aura, zaal, zalen, stoel, stoelen, bioscoopzaal, bioscoopzalen, bioscoopstoel, bioscoopstoelen, uniek, unieke, inrichting, ervaring, zit, plaatsen, goed, nu in de bioscoop, nu in de bios, films op dit moment, movies op dit moment, verwachte films, verwachte movies">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta property="og:sitename" content="Filmpje">
-		<meta property="og:description" content="Filmpje is een oer-Hollandse bioscoop met de meeste nieuwe technieken.">
+        <meta property="og:sitename" content="Filmpje">
+        <meta property="og:description" content="Filmpje is een oer-Hollandse bioscoop met de meeste nieuwe technieken.">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="style.css" rel="stylesheet" type="text/css">
-		<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
+        <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
         </script>
-		<script>
-          var myCenter=new
-		  google.maps.LatLng(51.9204173,4.4697347);
-		  function initialize()
-{
-          var mapProp = {
-          center:myCenter,
-          zoom:16,
-          mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-          var map=new google.maps.Map(document.getElementById("googleMap")
-          ,mapProp);
-		  
-		  var marker=new google.maps.Marker({
-		  position:myCenter,
-		  });
-		  
-		  marker.setMap(map);
-}
+        <script>
+            var myCenter = new
+                    google.maps.LatLng(51.9204173, 4.4697347);
+            function initialize()
+            {
+                var mapProp = {
+                    center: myCenter,
+                    zoom: 16,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                };
+                var map = new google.maps.Map(document.getElementById("googleMap")
+                        , mapProp);
 
-          google.maps.event.addDomListener(window, 'load', initialize);
-          </script>
+                var marker = new google.maps.Marker({
+                    position: myCenter,
+                });
 
-          <script type="text/javascript"> 
-		   
+                marker.setMap(map);
+            }
 
-          var anwb_tool="postnv"; 
-          var anwb_tool_type="small"; 
-          var anwb_tool_tekst="Filmpje"; 
-          var anwb_tool_lon="4.4697347"; 
-          var anwb_tool_lat="51.9204173"; 
-          var anwb_tool_postcode=""; 
- 
-           
-          
-      </script> 
-      
+            google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+
+        <script type="text/javascript">
+
+
+            var anwb_tool = "postnv";
+            var anwb_tool_type = "small";
+            var anwb_tool_tekst = "Filmpje";
+            var anwb_tool_lon = "4.4697347";
+            var anwb_tool_lat = "51.9204173";
+            var anwb_tool_postcode = "";
+
+
+
+        </script> 
+
 
     </head>
     <body>
@@ -63,35 +63,36 @@ and open the template in the editor.
                 <a href="movies.html" class="MenuItem">Films</a>
                 <a href="../Algemene Bioscoop Info/overons.html" class="MenuItem">Over ons</a>
                 <a href="../Contact/contact.html" class="MenuItem">Contact</a>
-				<a href="Bereikbaarheid.html" class="MenuItem">Bereikbaarheid</a>
+                <a href="Bereikbaarheid.html" class="MenuItem">Bereikbaarheid</a>
             </nav><!--UpperMenu-->
             <div id="SearchBlock">
-            <button class="SearchInput">Zoeken</button><input class="SearchInput">
+                <button class="SearchInput">Zoeken</button><input class="SearchInput">
             </div><!--SearchBlock-->
         </div><!--TopMenuBar-->
         <div id="TopText">
             <center>
-            <h1>Bereikbaarheid</h1>
+                <h1>Bereikbaarheid</h1>
             </center>
         </div><!--TopText-->
         <div id="Content">
-		<p><div id="googleMap" style="width:500px;height:380px;"></div></p>
-		<p>West-Kruiskade 26, 3014 AS Rotterdam</p>
-        </div>
-		
-		<section id="ANWB">
-		<script type="text/javascript" src="http://www.anwb.nl/verkeer/verkeerstool.js"></script>
-		</section>
-		<!--Content-->
-        <footer>
-            <div id="FooterText">
-                <div id="FooterImages" >
+            <div id="googleMap" style="width:500px;height:380px; float:left;"></div>
+        <p>Adres: &nbsp;West-Kruiskade 26, 3014 AS Rotterdam</p><br/>
+            <section id="ANWB">
+        <div style="float:left; margin:0px 0px 0px 5px"> <script type="text/javascript" src="http://www.anwb.nl/verkeer/verkeerstool.js"></script></div>
+    </section>
+    </div>
+
+    
+    <!--Content-->
+    <footer>
+        <div id="FooterText">
+            <div id="FooterImages" >
                 <img src="Images/3Dlogo.jpg" class="footerlogo" alt="logo">
                 <img src="Images/auralogo.jpg" class="footerlogo" alt="logo">
                 <img src="Images/imaxLogo.jpg" class="footerlogo" alt="logo">
-                </div>
-                <p id="CopyTekst"> &copy; Filmpje | adres | telefoonnummers  </p>
-            </div><!--FooterText-->
-        </footer>
-    </body>
+            </div>
+            <p id="CopyTekst"> &copy; Filmpje | adres | telefoonnummers  </p>
+        </div><!--FooterText-->
+    </footer>
+</body>
 </html>
