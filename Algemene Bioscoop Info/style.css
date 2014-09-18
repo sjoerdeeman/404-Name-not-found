@@ -94,8 +94,8 @@ img{
         /* border: solid green 5px; */
     }
     .Image1{
-        margin-top: 22%;
-        margin-left: 51.2%;
+        margin-top: 10px;
+        margin-left: 51.5%;
     }
     .Txt2{
         position: absolute;
@@ -107,7 +107,7 @@ img{
     }
     .Image2{
         position: absolute;
-        bottom: 44%;
+        bottom: 513px;
         left: 0px;
     }
     .Txt3{
