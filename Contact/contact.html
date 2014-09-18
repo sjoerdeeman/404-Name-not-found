@@ -37,32 +37,22 @@ and open the template in the editor.
         </div><!--TopText-->
         <div id="Content">
             <p>Via onderstaand formulier kunt u contact opnemen met Filmpje voor klachten en opmerkingen.</p>
-
+            
             <p style="display:none;" id="error"></p>
-
-
+         
+          
             <div id="Omschrijving" style="float:left;">
-                Voornaam <br/>
-                Achternaam <br/>
-                Onderwerp<br/>
+                Naam <br/>
                 Mail<br/>
                 Bericht<br/>
             </div>
             <div style="float:left;">
-                <form action="Process/doSendContactForm.php" method="POST" onsubmit="return CheckContactForm()" id="Contact">
-                    <input class="FormInput" type="text" name="voornaam" id="voornaam" required ><br/>
-                    <input class="FormInput" type="text" name="achternaam" id="achternaam" required ><br/>
-                    <select name="select" required form="Contact">
-                        <option></option>
-                        <option id="vraag" value="vraag">Vraag</option>
-                        <option id="opmerking" value="Opmerking">Opmerking</option>
-                        <option id="klacht" value="Klacht">Klacht</option>
-                    </select><br/>
-
-
-                    <input class="FormInput" type="email" name="email" id="email" required onblur="CheckMailAdress();" ><br/>
-                    <textarea class="FormInput" name="bericht" placeholder="Max 500 tekens" rows="10" cols="20" id="Bericht" onblur="CheckIfValueEmpty('Bericht')"></textarea><br/>
-                    <button type="submit" >Verzenden</button>
+                <form action="success.html" method="get" onsubmit="return CheckContactForm()">
+                <input class="FormInput" type="text" name="naam" id="Naam" onblur="CheckIfValueEmpty('Naam')"><br/>
+                <input class="FormInput" type="text" name="Bericht" id="Mail" onblur="CheckIfValueEmpty('Mail');
+                        CheckMailAdress();"><br/>
+                <textarea class="FormInput" placeholder="Max 500 tekens" rows="10" cols="20" id="Bericht" onblur="CheckIfValueEmpty('Bericht')"></textarea><br/>
+                <button type="submit" >Verzenden</button>
                 </form>
             </div>
         </div><!--Content-->
