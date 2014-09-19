@@ -43,6 +43,7 @@ and open the template in the editor.
 
             <div id="Omschrijving" style="float:left;">
                 Voornaam <br/>
+				tussenvoegsel <br/>
                 Achternaam <br/>
                 Onderwerp<br/>
                 Mail<br/>
@@ -51,6 +52,7 @@ and open the template in the editor.
             <div style="float:left;">
                 <form action="Process/doSendContactForm.php" method="POST" onsubmit="return CheckContactForm()" id="Contact">
                     <input class="FormInput" type="text" name="voornaam" id="voornaam" required ><br/>
+					<input class="FormInput" type="text" name="tussenvoegsel" id="tussenvoegsel" required ><br/>
                     <input class="FormInput" type="text" name="achternaam" id="achternaam" required ><br/>
                     <select name="select" required form="Contact">
                         <option></option>

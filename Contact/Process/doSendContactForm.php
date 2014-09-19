@@ -2,6 +2,7 @@
 
 //haalt alle benodigde informatie op
 $voornaam = filter_input(INPUT_POST, 'voornaam');
+$tussenvoegsel = filter_input(INPUT_POST, 'tussenvoegsel');
 $achternaam = filter_input(INPUT_POST, 'achternaam');
 $mail = filter_input(INPUT_POST, 'email');
 $type = filter_input(INPUT_POST, 'select');
@@ -22,6 +23,10 @@ $Message = "<html><body><p>Het contact formulier is verstuurd met de volgende in
             <tr>
                 <td><strong>Voornaam</strong></td>
                 <td>".$voornaam."</td>
+            </tr>
+			<tr>
+                <td><strong>Achternaam</strong></td>
+                <td>".$tussenvoegsel."</td>
             </tr>
             <tr>
                 <td><strong>Achternaam</strong></td>
