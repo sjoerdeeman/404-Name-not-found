@@ -14,3 +14,12 @@ and open the template in the editor.
 .FilmItem:hover{
     box-shadow: 5px 5px 1.2em black;
 }
+
+.FilmItemNewLine{
+    float:left;
+    margin: 0px 5px 10px 5px;
+	clear:left;
+}
+.FilmItemNewLine:hover{
+    box-shadow: 5px 5px 1.2em black;
+}
