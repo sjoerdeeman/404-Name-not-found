@@ -25,7 +25,7 @@ $Message = "<html><body><p>Het contact formulier is verstuurd met de volgende in
                 <td>".$voornaam."</td>
             </tr>
 			<tr>
-                <td><strong>Achternaam</strong></td>
+                <td><strong>Tussenvoegsel</strong></td>
                 <td>".$tussenvoegsel."</td>
             </tr>
             <tr>
