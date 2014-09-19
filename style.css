@@ -78,18 +78,20 @@ body{
     font-size: 14px;
     position: relative;
     margin-bottom: 44px;
-    height:800px;   
+    height:auto;   
 }
 footer{
     background-color: #EEEEEE;
     height: 42px;
     position: absolute;
-
+    clear:both;
     width:100%;
+    
 }
 #FooterText{
     font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
+    
 }
 .footerlogo{
     margin-left: 5px;
