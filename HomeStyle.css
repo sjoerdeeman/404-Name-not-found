@@ -16,7 +16,7 @@
 }
 #TopVijfWrapper{
      float:left;
-   
+   width:400px;
 }
 #TopVijfUL{
     overflow-y:scroll;
@@ -42,13 +42,13 @@
     #TopVijfWrapper{
         position:absolute;
         right:0;
-        top:50px;
+        top:0px;
    
     }
     #MoreAboutFilms{
    position:absolute;
         left:200px;
-        top:50px;
+        top:0px;
   
 }
 }
@@ -56,13 +56,13 @@
     #TopVijfWrapper{
         position:absolute;
         right:0;
-        top:50px;
+        top:0px;
    
     }
     #MoreAboutFilms{
    position:absolute;
         left:250px;
-        top:50px;
+        top:0px;
   
 }
 }
@@ -71,13 +71,13 @@
     #TopVijfWrapper{
         position:absolute;
         right:0;
-        top:50px;
+        top:0px;
    
     }
     #MoreAboutFilms{
    position:absolute;
         left:400px;
-        top:50px;
+        top:0px;
   
 }
 }
