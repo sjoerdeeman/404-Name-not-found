@@ -1,14 +1,26 @@
+.CloseImage{
+    position:absolute;
+    right:0;
+    top:0;
+}
 #FilmVandaag{
-    float:left; 
-    margin: 0px 40px 0px 0px;
+   float:left;
+
+   
+    
+}
+#MoreAboutFilms{
+   float:left;
+   width:400px;
+  
 }
 #TopVijfWrapper{
-    float:right; 
-    margin-right:10%;    
+     float:left;
+   
 }
 #TopVijfUL{
     overflow-y:scroll;
-    height:300px;
+    height:500px;
 }
 #slider{
     height:50px;
@@ -25,4 +37,47 @@
 }
 .TopVijfUlImageLink{
     float:left;
+}
+@media screen and (min-width:830px){
+    #TopVijfWrapper{
+        position:absolute;
+        right:0;
+        top:50px;
+   
+    }
+    #MoreAboutFilms{
+   position:absolute;
+        left:200px;
+        top:50px;
+  
+}
+}
+@media screen and (min-width:869px){
+    #TopVijfWrapper{
+        position:absolute;
+        right:0;
+        top:50px;
+   
+    }
+    #MoreAboutFilms{
+   position:absolute;
+        left:250px;
+        top:50px;
+  
+}
+}
+
+@media screen and (min-width:1024px){
+    #TopVijfWrapper{
+        position:absolute;
+        right:0;
+        top:50px;
+   
+    }
+    #MoreAboutFilms{
+   position:absolute;
+        left:400px;
+        top:50px;
+  
+}
 }

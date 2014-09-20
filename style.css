@@ -77,15 +77,15 @@ body{
     font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
     position: relative;
-    margin-bottom: 44px;
+   padding-bottom: 44px;
     height:auto;   
 }
 footer{
     background-color: #EEEEEE;
-    height: 42px;
-    position: absolute;
-    clear:both;
-    width:100%;
+    position:fixed;
+   bottom:0;
+   width:100%;
+   height:42px;
     
 }
 #FooterText{
@@ -106,7 +106,9 @@ footer{
 #FooterImages{
     margin-right: 5px;
 }
-
+#container{
+    height:auto;
+}
 @media screen and (max-width: 851px){
     #Logo{
         height:15px;
