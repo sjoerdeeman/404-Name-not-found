@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Filmpje</title>
+		<meta name="keywords" content="film, films, movie, movies, bios, bioscoop, cinema, oer, hollandse, oer-hollandse, 3D, Imax, Aura3d, Aura, zaal, zalen, stoel, stoelen, bioscoopzaal, bioscoopzalen, bioscoopstoel, bioscoopstoelen, uniek, unieke, inrichting, ervaring, zit, plaatsen, goed, nu in de bioscoop, nu in de bios, films op dit moment, movies op dit moment, verwachte films, verwachte movies">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta property="og:sitename" content="Filmpje">
+		<meta property="og:description" content="Filmpje is een oer-Hollandse bioscoop met de meeste nieuwe technieken.">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css">
+		
+		<script language="JavaScript">
+            function showMeerMinder(thisObj, bonusContent) {
+                var caption = thisObj.innerHTML;
+                //alert(caption);
+                if (caption == "Meer info") {
+                    document.getElementById(bonusContent).style.display = "inline";
+                    thisObj.innerHTML = "Minder info";
+                } else {
+                    document.getElementById(bonusContent).style.display = "none";
+                    thisObj.innerHTML = "Meer info";
+                }
+            }//je was dit haakje vergeten
+	</script>
+    </head>
+    <body>
+        <div id="TopMenuBar">
+            <a href="../index.html"> <img id="Logo" src="images/Logo.png" alt="logo"> </a>
+            <nav id="UpperMenu">
+                <a href="../../index.html" class="MenuItem" >Home</a>
+                <a href="../../films/index.html" class="MenuItem">Films</a>
+                <a href="../../Algemene Bioscoop Info/overons.html" class="MenuItem">Over ons</a>
+                <a href="../../Contact/contact.html" class="MenuItem">Contact</a>
+            </nav><!--UpperMenu-->
+            <div id="SearchBlock">
+            <button class="SearchInput">Zoeken</button><input class="SearchInput">
+            </div><!--SearchBlock-->
+        </div><!--TopMenuBar-->
+        <div id="TopText">
+            <center>
+            <h1>A Most Wanted Man</h1>
+            </center>
+        </div><!--TopText-->
+        <div id="Content">
+		<section class="Poster">
+				<img id="AMostWantedManImg" src="Posters/AMostWantedManPoster.jpg" alt="Poster">
+		</section> 
+		<section class="Details">
+				<p>Leeftijd: 12</p>
+				<br>
+				<p>Genre: thriller</p>
+				<br>
+				<p>Lengte: 121m</p>
+				<br>
+				<p>Regisseur:</p>
+					<p>Anton Corbijn</p>
+				</section>
+				<section class="Details4">
+				<p>Acteurs/Actrices:</p>
+					<p>Philip Seymour Hoffman</p>
+					<p>Rachel McAdams</p>
+					<p>Daniel Brühl</p>
+			</section>
+		<section class="Details2">
+				<p class="Details3">Prijs:</p>
+				<p class="Details3">Zaal:</p>
+				<p class="Details3">Draaitijd:</p>
+				<br>
+				<br>
+				<br>
+		</section>
+		<button id="ReserveerKnop">Reserveer nu!</button>
+			<section id="Info">
+				<p>In A Most Wanted Man, gebaseerd op de bestseller van John le Carré, volgen we een Tsjetsjeense moslim die illegaal naar Hamburg vlucht. Al snel komen de autoriteiten achter zijn komst en die zijn vastbesloten uit te zoeken wie de man is.</p>
+					<span id="MeerInfo" style="display:none">Wanneer de idealistische advocate Annabel Richter (Rachel McAdams) lucht krijgt van het verhaal, zet ze alles op alles om de Tsjetsjeen te beschermen. Ze krijgt echter tegenwerking uit onverwachte hoek. A Most Wanted Man is geregisseerd door de Nederlandse topfotograaf en regisseur Anton Corbijn, met een hoofdrol voor de recent overleden Philip Seymour Hoffman.</span> <a onclick="showMeerMinder(this,'MeerInfo');">Meer info</a>
+				<!--Trailer: https://www.youtube.com/watch?v=-m8V7G7e7gw-->
+				
+				<br>
+				<iframe type="text/html" 
+				width="100%" height="60%" src="https://www.youtube.com/embed/OUyYBrlF_W8"
+				frameborder="0" allowFullScreen>
+				</iframe>
+			</section>
+			
+        </div><!--Content-->
+        <footer>
+            <div id="FooterText">
+                <div id="FooterImages" >
+                <img src="images/3Dlogo.jpg" class="footerlogo" alt="logo">
+                <img src="images/auralogo.jpg" class="footerlogo" alt="logo">
+                <img src="images/imaxLogo.jpg" class="footerlogo" alt="logo">
+                </div>
+                <p id="CopyTekst"> &copy; Filmpje | adres | telefoonnummers  </p>
+            </div><!--FooterText-->
+        </footer>
+    </body>
+</html>
