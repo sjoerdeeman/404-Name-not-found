@@ -5,54 +5,55 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-    <head>
-        <title>Filmpje - Home</title>
-        <meta name="keywords" content="film, films, movie, movies, bios, bioscoop, cinema, oer, hollandse, oer-hollandse, 3D, Imax, Aura3d, Aura, zaal, zalen, stoel, stoelen, bioscoopzaal, bioscoopzalen, bioscoopstoel, bioscoopstoelen, uniek, unieke, inrichting, ervaring, zit, plaatsen, goed, nu in de bioscoop, nu in de bios, films op dit moment, movies op dit moment, verwachte films, verwachte movies">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta property="og:sitename" content="Filmpje">
-        <meta property="og:description" content="Filmpje is een oer-Hollandse bioscoop met de meeste nieuwe technieken.">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="style.css" rel="stylesheet" type="text/css">
-        <link href="HomeStyle.css" rel="stylesheet" type="text/css">
-        <script src="Javascript/FilmsToday.js" type="text/javascript"></script>
-        <script src="Javascript/Slider.js" type="text/javascript"></script>
-    </head>
-    <body onload="javascript: SetCurrentFilms(); Slider();">
-        <div id="TopMenuBar">
-            <img id="Logo" src="images/Logo.png" alt="logo">
-            <nav id="UpperMenu">
-                <a href="index.html" class="MenuItem" >Home</a>
-                <a href="Films/index.html" class="MenuItem">Films</a>
-                <a href="Algemene Bioscoop Info/overons.html" class="MenuItem">Over ons</a>
-                <a href="Contact/contact.html" class="MenuItem">Contact</a>				
-				</nav><!--UpperMenu-->
-            <div id="SearchBlock">
-                <button class="SearchInput">Zoeken</button><input class="SearchInput">
-            </div><!--SearchBlock-->
-        </div><!--TopMenuBar-->
-        <div id="TopText">
-            <center>
-                <h1>Homepage</h1>
-            </center>
-        </div><!--TopText-->
-        <div id="Content">
-            <center>
-               
+<head>
+    <title>Filmpje - Home</title>
+    <meta name="keywords" content="film, films, movie, movies, bios, bioscoop, cinema, oer, hollandse, oer-hollandse, 3D, Imax, Aura3d, Aura, zaal, zalen, stoel, stoelen, bioscoopzaal, bioscoopzalen, bioscoopstoel, bioscoopstoelen, uniek, unieke, inrichting, ervaring, zit, plaatsen, goed, nu in de bioscoop, nu in de bios, films op dit moment, movies op dit moment, verwachte films, verwachte movies">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:sitename" content="Filmpje">
+    <meta property="og:description" content="Filmpje is een oer-Hollandse bioscoop met de meeste nieuwe technieken.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="HomeStyle.css" rel="stylesheet" type="text/css">
+    <script src="Javascript/FilmsToday.js" type="text/javascript"></script>
+    <script src="Javascript/Slider.js" type="text/javascript"></script>
+</head>
+<body onload="javascript: SetCurrentFilms();
+            Slider();">
+    <div id="TopMenuBar">
+        <img id="Logo" src="images/Logo.png" alt="logo">
+        <nav id="UpperMenu">
+            <a href="index.html" class="MenuItem">Home</a>
+            <a href="Films/index.html" class="MenuItem">Films</a>
+            <a href="Algemene Bioscoop Info/overons.html" class="MenuItem">Over ons</a>
+            <a href="Contact/contact.html" class="MenuItem">Contact</a>
+        </nav><!--UpperMenu-->
+        <div id="SearchBlock">
+            <button class="SearchInput">Zoeken</button><input class="SearchInput">
+        </div><!--SearchBlock-->
+    </div><!--TopMenuBar-->
+    <div id="TopText">
+        <center>
+            <h1>Homepage</h1>
+        </center>
+    </div><!--TopText-->
+    <div id="Content">
+        <center>
 
-            </center>
+
+        </center>
 
         <div id="FilmsVandaag">
-            
+
             <div id="LaatsteFilms"><strong>De films die vanavond spelen</strong></div>
             <div id="FilmVandaagContent">
-                <section id="2000" style="display:none;" >
+                <section id="2000" style="display:none;">
                     <p>Vanavond om 20.00uur speelt:</p>
                     <a href="Detailpagina/FindingFanny/FindingFanny.html"><img onmouseover="javascript:ShowMoreOnHover(2000)" src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/mapstotherstars3.jpg" width="200" /></a>
                 </section>
                 <section id="2030" style="display:none;">
                     <p>Vanavond om 20.30uur speelt:</p>
-                    <a  href="Detailpagina/FindingFanny/FindingFanny.html"><img onmouseover="javascript:ShowMoreOnHover(2030)"  src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/mapstotherstars3.jpg" width="200" /></a>
+                    <a href="Detailpagina/FindingFanny/FindingFanny.html"><img onmouseover="javascript:ShowMoreOnHover(2030)" src="http://www.pathe.nl/thumb/180x252/gfx_content/profiel/herculesnlposter3b.jpg" width="200" /></a>
                 </section>
                 <section id="2100" style="display:none;">
                     <p>Vanavond om 21.00uur speelt:</p>
@@ -62,7 +63,7 @@ and open the template in the editor.
                     <p>Vanavond om 22.00uur speelt:</p>
                     <a href="Detailpagina/FindingFanny/FindingFanny.html"><img onmouseover="javascript:ShowMoreOnHover(2200)" src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/letsbecops3.jpg" width="200" /></a>
                 </section>
-                <section id="2230"style="display:none;">
+                <section id="2230" style="display:none;">
                     <p>Vanavond om 22.30uur speelt:</p>
                     <a href="Detailpagina/FindingFanny/FindingFanny.html"><img onmouseover="javascript:ShowMoreOnHover(2230)" src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/expendables3defposter.jpg" width="200" /></a>
                 </section>
@@ -71,90 +72,150 @@ and open the template in the editor.
                 </section>
             </div>
         </div>
-            <div id="MoreAboutFilms">
-                <section id="NoFilmHover">
-                    <p>
-                        <p>Ga met uw muis over een film voor meer informatie.</p>
-                    </p>
-                </section>
-                <section id="More2000" style="display:none;">
-                    <img src="Images/CloseIcon.png" width="30" height="30" class="CloseImage" alt="Sluiten" onclick="javascript: HideMe('More2000');" />
-                        <section id=" info">
-                        
-                        <h1>Film 1</h1>
-                        <p>Finding Fanny is een komische film over een aantal outsiders die een zoektocht starten naar Stefanie Fernandes (Fanny). Onderweg vinden ze troost en comfort bij elkaar en krijgen zo weer hoop in de toekomst ten opzichte van hun eerdere zinloze levens</p>
+        <div id="MoreAboutFilms">
+            <section id="NoFilmHover">
+                <p>
+                <p>Ga met uw muis over een film voor meer informatie.</p>
+                </p>
+            </section>
+            <section id="More2000" style="display:none;">
+                <img src="Images/CloseIcon.png" width="30" height="30" class="CloseImage" alt="Sluiten" onclick="javascript: HideMe('More2000');" />
+                <section id=" info">
 
+                    <h1>Maps to the stars</h1>
+                    <p>
+                        Een cliënt van een psychotherapeut wil een remake maken van een film waarin haar inmiddels overleden moeder in speelde
+                        De familie Weiss uit Hollywood bestaat uit Dr. Stafford Weiss; een psychotherapeut die zelfhulphandleidingen schrijft, zijn vrouw Cristina; manager van hun 13-jarige zoon, en hun dochter die onlangs vrijgelaten is uit een sanatorium waar ze werd behandeld voor criminele pyromanie. Eén van de cliënten van Dr. Weiss, actrice Havana, wil graag een remake maken van een film waarin haar inmiddels overleden moeder speelde.
+                    </p>
+
+                    <!--Trailer: https://www.youtube.com/watch?v=-tsFnwgUlrxs-->
+                    <br>
+                    <iframe type="text/html" width="400" height="240"
+                            src="https://www.youtube.com/embed/tsFnwgUlrxs"
+                            frameborder="0" allowfullscreen></iframe>
+                </section>
+            </section>
+            <section id="More2030" style="display:none;">
+                <img src="Images/CloseIcon.png" width="30" height="30" class="CloseImage" alt="Sluiten" onclick="javascript: HideMe('More2030');" />
+                <section id=" info">
+
+                    <h1>Hercules</h1>
+                    <p>
+                        Dwayne Johnson is Hercules in de spectaculaire 3D actiefilm gebaseerd op de klassieke mythe.
+                        De film, geïnspireerd door de Radical Comics 'Hercules' van Steven Moore, heeft een internationale cast bestaande uit o.a. Ian McShane, Rufus Sewell, Joseph Fiennes, Peter Mullan, John Hurt en Irina Shayk.
+                    </p>
+
+
+                    <!--Trailer: https://www.youtube.com/watch?v=OwlynHlZEc4 -->
+                    <br>
+                    <iframe type="text/html" width="400" height="240"
+                            src="https://www.youtube.com/embed/OwlynHlZEc4"
+                            frameborder="0" allowfullscreen></iframe>
+                </section>
+            </section>
+            <section id="More2100" style="display:none;">
+                <img src="Images/CloseIcon.png" width="30" height="30" class="CloseImage" alt="Sluiten" onclick="javascript: HideMe('More2100');" />
+                <section id=" info">
+
+                    <h1>Finding Fanny</h1>
+
+                    <p>Finding Fanny is een komische film over een aantal outsiders die een zoektocht starten naar Stefanie Fernandes (Fanny). Onderweg vinden ze troost en comfort bij elkaar en krijgen zo weer hoop in de toekomst ten opzichte van hun eerdere zinloze levens</p>
+                    <p>
                         In Finding Fanny volgende we vijf disfunctionele karakters uit Pocolim, Goa. Een plek waar nooit iets gebeurt en waar nutteloze conversaties de dag vullen. Op een avond wordt bij de oude postbode Ferdie (Naseeruddin Shah) een brief onder zijn deur geschoven. Al snel beseft hij dat het gaat om een brief die hij 46 jaar geleden heeft geschreven aan de liefde van zijn leven Stefanie Fernandes, waarin hij vraagt om met hem te trouwen. Nu blijkt dat de brief nooit is bezorgd. Ferdie heeft zijn hele leven met een pijnlijk plekje in zijn hart geleefd, omdat hij dacht dat Stefanie hem had afgewezen. Hij besluit om naar zijn geliefde Fanny op zoek te gaan en haar de waarheid te vertellen.
                         Waar zou ze zijn na 46 jaar? Dood? Gelukkig getrouwd? Zou ze hem wel herinneren? Of is Stefanie Fernandes slechts een verzinsel van Ferdie’s verbeelding? Vier kleurrijke personages reizen met Ferdie mee als afleiding van hun alledaagse leven. De jonge weduwe (Deepika Padukone), een bittere monteur (Arjun Kapoor), een oorlogvoerende kunstenaar (Pankaj Kapur) en de onaangename zelfbenoemde "Lady" van Pocolim (Dimple Kapadia). Of ze Fanny nu vinden of niet, het wordt in ieder geval een reis vol hilarische en ontroerende gebeurtenissen die voor altijd hun leven zal veranderen.
+                    </p>
 
-                        <!--Trailer: https://www.youtube.com/watch?v=-m8V7G7e7gw-->
+
+                    <!--Trailer: https://www.youtube.com/watch?v=OwlynHlZEc4 -->
+                    <br>
+                    <iframe type="text/html" width="400" height="240"
+                            src="https://www.youtube.com/embed/5O86FUOrlkY"
+                            frameborder="0" allowfullscreen></iframe>
+                </section>
+            </section>
+
+            <section id="More2200" style="display:none;">
+                <img src="Images/CloseIcon.png" width="30" height="30" class="CloseImage" alt="Sluiten" onclick="javascript: HideMe('More2200');" />
+                <section id=" info">
+
+                    <h1>Let's be cops</h1>
+
+                    <p>
+                        De ultieme politiefilm over politiemannen die geen politiemannen zijn
+                        Twee vrienden gaan naar een verkleedfeestje, verkleed als politieagenten, en worden ongewild de sensatie van de buurt. Maar als de nieuwbakken 'helden' verstrikt raken in een web van echte gangsters en corrupte rechercheurs, moeten ze hun nepbadges op het spel zetten.
+
+                    </p>
+
+
+                    <!--Trailer: https://www.youtube.com/watch?v=UKIAZjs__Xc -->
+                    <br>
+                    <iframe type="text/html" width="400" height="240"
+                            src="https://www.youtube.com/embed/UKIAZjs__Xc"
+                            frameborder="0" allowfullscreen></iframe>
+                </section>
+            </section>
+            <section id="More2230" style="display:none;">
+                <img src="Images/CloseIcon.png" width="30" height="30" class="CloseImage" alt="Sluiten" onclick="javascript: HideMe('More2230');" />
+                <section id=" info">
+
+                    <h1>The expendables 3</h1>
+
+                    <p>
+                        Barney (Stallone), Christmas (Statham) en de rest van het team komen oog in oog te staan met Conrad Stonebanks (Gibson), die jaren geleden samen met Barney The Expendables oprichtte.
+
+
+                        <!--Trailer: https://www.youtube.com/watch?v=4xD0junWlFc -->
                         <br>
                         <iframe type="text/html" width="400" height="240"
-                                src="https://www.youtube.com/embed/5O86FUOrlkY"
+                                src="https://www.youtube.com/embed/4xD0junWlFc"
                                 frameborder="0" allowfullscreen></iframe>
-                    </section>
                 </section>
-                <section id="More2030" style="display:none;">
-                    <img src="Images/CloseIcon.png" width="30" height="30" class="CloseImage" alt="Sluiten" onclick="javascript: HideMe('More2030');" />
-                    <p>Hier meer over de film van 20.30uur</p>
-                </section>
-                <section id="More2100" style="display:none;">
-                    <img src="Images/CloseIcon.png" width="30" height="30" class="CloseImage" alt="Sluiten" onclick="javascript: HideMe('More2100');" />
-                    <p>Hier meer over de film van 21.00uur</p>
-                </section>
-                <section id="More2200" style="display:none;">
-                    <img src="Images/CloseIcon.png" width="30" height="30" class="CloseImage" alt="Sluiten" onclick="javascript: HideMe('More2200');" />
-                    <p>Hier meer over de film van 22.00uur</p>
-                </section>
-                <section id="More2230" style="display:none;">
-                    <img src="Images/CloseIcon.png" width="30" height="30" class="CloseImage" alt="Sluiten" onclick="javascript: HideMe('More2230');" />
-                    <p>Hier meer over de film van 22.30uur</p>
-                </section>
+            </section>
 
-            </div>
-            <div id="TopVijfWrapper">
-                <p>De beste films:</p>
-            
-                <marquee behavior="scroll" direction="left">
-                    <a href="#">      <img src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/letsbecops3.jpg" width="120" height="200" /></a>
-                    <a href="#">   <img src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/mapstotherstars3.jpg" width="120" height="200"  /></a>
-                 <a href="#">  <img src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/guardiansofthegalaxy1.jpg" width="120" height="200"  /></a>
-                 <a href="#">   <img src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/cubanfury1(1).jpg" width="120" height="200" /></a>
+        </div>
+        <div id="TopVijfWrapper">
+            <p>De beste films:</p>
+
+            <marquee behavior="scroll" direction="left">
+                <a href="#">      <img src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/letsbecops3.jpg" width="120" height="200" /></a>
+                <a href="#">   <img src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/mapstotherstars3.jpg" width="120" height="200" /></a>
+                <a href="#">  <img src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/guardiansofthegalaxy1.jpg" width="120" height="200" /></a>
+                <a href="#">   <img src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/cubanfury1(1).jpg" width="120" height="200" /></a>
                 <a href="#">    <img src="http://upload.wikimedia.org/wikipedia/en/3/35/Finding_Fanny_Theatrical_release_poster.jpg" width="120" height="200" /></a>
-                </marquee>
-               <!-- <div id="TopVijf">
-                    <ul id="TopVijfUL">
-                        <li>
-                            <p class="TopVijfUlNumber">1</p><a class="TopVijfUlImageLink" href="Detailpagina/FindingFanny/FindingFanny.html"><img src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/letsbecops3.jpg" width="200" /></a>
-                        </li>
-                        <li>
-                            <p class="TopVijfUlNumber">2</p><a class="TopVijfUlImageLink" href="Detailpagina/FindingFanny/FindingFanny.html"><img src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/mapstotherstars3.jpg" width="200" /></a>
-                        </li>
-                        <li>
-                            <p class="TopVijfUlNumber">3</p><a class="TopVijfUlImageLink" href="Detailpagina/FindingFanny/FindingFanny.html"><img src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/guardiansofthegalaxy1.jpg" width="200" /></a>
-                        </li>
-                        <li>
-                            <p class="TopVijfUlNumber">4</p><a class="TopVijfUlImageLink" href="Detailpagina/FindingFanny/FindingFanny.html"><img src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/cubanfury1(1).jpg" width="200" /></a>
-                        </li>
-                        <li>
-                            <p class="TopVijfUlNumber">5</p><a class="TopVijfUlImageLink" href="Detailpagina/FindingFanny/FindingFanny.html"><img src="http://upload.wikimedia.org/wikipedia/en/3/35/Finding_Fanny_Theatrical_release_poster.jpg" width="200" /></a>
-                        </li>
-                    </ul>
-                </div>-->
-            </div>
-            
-        </div><!--Content-->
-        <footer>
-            <div id="FooterText">
-                <div id="FooterImages" >
-                    <img src="images/3DLogo.jpg" class="footerlogo" alt="logo">
-                    <img src="images/AuraLogo.jpg" class="footerlogo" alt="logo">
-                    <img src="images/ImaxLogo.jpg" class="footerlogo" alt="logo">
-                </div>
-                <p id="CopyTekst"> &copy; Filmpje | adres | telefoonnummers  </p>
+            </marquee>
+            <!-- <div id="TopVijf">
+                 <ul id="TopVijfUL">
+                     <li>
+                         <p class="TopVijfUlNumber">1</p><a class="TopVijfUlImageLink" href="Detailpagina/FindingFanny/FindingFanny.html"><img src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/letsbecops3.jpg" width="200" /></a>
+                     </li>
+                     <li>
+                         <p class="TopVijfUlNumber">2</p><a class="TopVijfUlImageLink" href="Detailpagina/FindingFanny/FindingFanny.html"><img src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/mapstotherstars3.jpg" width="200" /></a>
+                     </li>
+                     <li>
+                         <p class="TopVijfUlNumber">3</p><a class="TopVijfUlImageLink" href="Detailpagina/FindingFanny/FindingFanny.html"><img src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/guardiansofthegalaxy1.jpg" width="200" /></a>
+                     </li>
+                     <li>
+                         <p class="TopVijfUlNumber">4</p><a class="TopVijfUlImageLink" href="Detailpagina/FindingFanny/FindingFanny.html"><img src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/cubanfury1(1).jpg" width="200" /></a>
+                     </li>
+                     <li>
+                         <p class="TopVijfUlNumber">5</p><a class="TopVijfUlImageLink" href="Detailpagina/FindingFanny/FindingFanny.html"><img src="http://upload.wikimedia.org/wikipedia/en/3/35/Finding_Fanny_Theatrical_release_poster.jpg" width="200" /></a>
+                     </li>
+                 </ul>
+             </div>-->
+        </div>
 
-            </div><!--FooterText-->
-            
-        </footer>
-    </body>
+    </div><!--Content-->
+    <footer>
+        <div id="FooterText">
+            <div id="FooterImages">
+                <img src="images/3DLogo.jpg" class="footerlogo" alt="logo">
+                <img src="images/AuraLogo.jpg" class="footerlogo" alt="logo">
+                <img src="images/ImaxLogo.jpg" class="footerlogo" alt="logo">
+            </div>
+            <p id="CopyTekst"> &copy; Filmpje | adres | telefoonnummers  </p>
+
+        </div><!--FooterText-->
+
+    </footer>
+</body>
 </html>
