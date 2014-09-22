@@ -1,5 +1,15 @@
 <?php
+require_once('../recaptchalib.php');
+ $privatekey = "6LdiuPoSAAAAAAJ_7LopFDyy19MxojZBdKBKDzbc";
+ $resp = recaptcha_check_answer ($privatekey,
+                                 $_SERVER["REMOTE_ADDR"],
+                                 $_POST["recaptcha_challenge_field"],
+                                 $_POST["recaptcha_response_field"]);
 
+if (!$resp->is_valid) {
+echo"Invalid";
+}
+else{
 //haalt alle benodigde informatie op
 $voornaam = filter_input(INPUT_POST, 'voornaam');
 $tussenvoegsel = filter_input(INPUT_POST, 'tussenvoegsel');
@@ -49,5 +59,6 @@ $Message = "<html><body><p>Het contact formulier is verstuurd met de volgende in
 //verzend de mail
 mail($to, $subject, $Message,$headers );
 //stuurt de gebruiker door naar de success pagina
-header("location:../success.html");
+header("location:../success.html");}
+
 ?>

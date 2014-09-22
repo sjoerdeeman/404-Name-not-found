@@ -68,10 +68,10 @@ and open the template in the editor.
 
 
                         <input class="FormInput" type="email" name="email" id="email" required onblur="CheckMailAdress();"><br />
-                        <textarea class="FormInput" name="bericht" placeholder="Max 500 tekens" rows="10" cols="20" id="Bericht" onblur="CheckIfValueEmpty('Bericht')"></textarea><br />
+                        <textarea class="FormInput" name="bericht" placeholder="Max 500 tekens" rows="10" cols="20" id="Bericht" onblur="CheckIfValueEmpty('Bericht')"></textarea><br />						<script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LdiuPoSAAAAAJt81AoIg_auVT6IF0xv18GfDomU"></script>	<noscript>	  		<iframe src="http://www.google.com/recaptcha/api/noscript?k=6LdiuPoSAAAAAJt81AoIg_auVT6IF0xv18GfDomU" height="300" width="500" frameborder="0"></iframe><br/>  		<textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>  		<input type="hidden" name="recaptcha_response_field" value="manual_challenge"/>	</noscript>
                         <div class="OutLined"><button class="OutLined" type="submit">Verzenden</button></div>
                     </form>
-                </div>
+                </div><?php          require_once('recaptchalib.php');          $publickey = "6LdiuPoSAAAAAJt81AoIg_auVT6IF0xv18GfDomU"; // you got this from the signup page          echo recaptcha_get_html($publickey);        ?>
             </div><!--Content-->
             <footer>
                 <div id="FooterText">
