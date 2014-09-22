@@ -5,7 +5,11 @@ function SetCurrentFilms() {
     if (n < 10) {
         n = "0" + n;
     }
+    if (h < 10) {
+        h = "0" + h;
+    }
     var TimeCode = h + "" + n;
+    
       if (TimeCode < "2000" & TimeCode >= 0800) {
         document.getElementById("2000").style.display = "block";
         document.getElementById("2030").style.display = "block";
