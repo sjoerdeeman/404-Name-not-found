@@ -10,21 +10,21 @@ and open the template in the editor.
 .FilmItem{
     float:left;
     margin: 0px 20px 10px 5px;
-	left: 36%;
+	left: 33%;
 	position: relative;
 }
 
 .FilmItem1{
     float:left;
     margin: 0px 20px 10px 5px;
-	left: 36%;
+	left: 33%;
 	position: relative;
 	clear:left
 }
 .FilmItem2{
     float:left;
     margin: 0px 20px 50px 5px;
-	left: 36%;
+	left: 33%;
 	position: relative;
 	clear:left;
 	
