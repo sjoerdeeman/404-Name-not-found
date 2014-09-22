@@ -122,12 +122,22 @@ a:active{
 	#ReserveerKnop
 	{
 	position:absolute;
-	top:850px;
+	top:800px;
 	left: 18%;
 	clear:both;
 	font-size: 35px;
 	
 	}
+	#KijkWijzer
+	{
+	position:absolute;
+	top:860px;
+	left: 21%;
+	clear:both;
+	font-size: 35px;
+	
+	}
+
 }
 
 footer{
