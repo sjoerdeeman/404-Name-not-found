@@ -49,7 +49,7 @@ function ShowMoreOnHover(ID) {
     var NewArray = ["More2000", "More2030", "More2100", "More2200", "More2230"];
     for (i = 0 ; i < 6; i++){
         if (NewArray[i] == NewID) {
-            break;
+            document.getElementById(NewID).style.display = "block";
         }
         else {
             document.getElementById(NewArray[i]).style.display = "none";
