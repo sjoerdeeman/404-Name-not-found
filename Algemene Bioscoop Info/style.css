@@ -127,7 +127,7 @@ img{
 footer{
 background-color: #EEEEEE;
 height: 42px;
-position: absolute;
+position: fixed;
 margin-bottom: 0px;
 width:100%;
 }
