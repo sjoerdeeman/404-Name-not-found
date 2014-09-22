@@ -57,17 +57,19 @@ and open the template in the editor.
                         <input class="FormInput" type="text" name="voornaam" id="voornaam" required><br />
                         <input class="FormInput" type="text" name="tussenvoegsel" id="tussenvoegsel" required><br />
                         <input class="FormInput" type="text" name="achternaam" id="achternaam" required><br />
-                        <select name="select" required form="Contact">
-                            <option></option>
-                            <option id="vraag" value="vraag">Vraag</option>
-                            <option id="opmerking" value="Opmerking">Opmerking</option>
-                            <option id="klacht" value="Klacht">Klacht</option>
-                        </select><br />
+                        <div class="OutLined">
+                            <select class="OutLined" name="select" required form="Contact">
+                                <option></option>
+                                <option id="vraag" value="vraag">Vraag</option>
+                                <option id="opmerking" value="Opmerking">Opmerking</option>
+                                <option id="klacht" value="Klacht">Klacht</option>
+                            </select><br />
+                        </div>
 
 
                         <input class="FormInput" type="email" name="email" id="email" required onblur="CheckMailAdress();"><br />
                         <textarea class="FormInput" name="bericht" placeholder="Max 500 tekens" rows="10" cols="20" id="Bericht" onblur="CheckIfValueEmpty('Bericht')"></textarea><br />
-                        <button type="submit">Verzenden</button>
+                        <div class="OutLined"><button class="OutLined" type="submit">Verzenden</button></div>
                     </form>
                 </div>
             </div><!--Content-->
