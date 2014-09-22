@@ -1,3 +1,12 @@
+.NavigationImages{
+    margin-bottom:50px;
+}
+.NImageLinkWrapper{
+    display:none;
+}
+.ImageLinkWrapper{
+    display:block;
+}
 .CloseImage{
     position:absolute;
     right:0;
@@ -16,7 +25,7 @@
 }
 #TopVijfWrapper{
      float:left;
-   width:400px;
+   
 }
 #TopVijfUL{
     overflow-y:scroll;

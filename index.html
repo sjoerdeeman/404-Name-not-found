@@ -16,7 +16,7 @@ and open the template in the editor.
     <link href="style.css" rel="stylesheet" type="text/css">
     <link href="HomeStyle.css" rel="stylesheet" type="text/css">
     <script src="Javascript/FilmsToday.js" type="text/javascript"></script>
-    <script src="Javascript/Slider.js" type="text/javascript"></script>
+    <script src="Javascript/Slider2.js" type="text/javascript"></script>
 </head>
 <body onload="javascript: SetCurrentFilms();
             Slider();">
@@ -44,8 +44,9 @@ and open the template in the editor.
         </center>
 
         <div id="FilmsVandaag">
-
+            
             <div id="LaatsteFilms"><strong>De films die vanavond spelen</strong></div>
+            <p id="LoadingFilms">Loading...</p>
             <div id="FilmVandaagContent">
                 <section id="2000" style="display:none;">
                     <p>Vanavond om 20.00uur speelt:</p>
@@ -73,6 +74,7 @@ and open the template in the editor.
             </div>
         </div>
         <div id="MoreAboutFilms">
+            
             <section id="NoFilmHover">
                 <p>
                 <p>Ga met uw muis over een film voor meer informatie.</p>
@@ -175,14 +177,21 @@ and open the template in the editor.
         </div>
         <div id="TopVijfWrapper">
             <p>De beste films:</p>
-
-            <div  style="overflow-y:hidden; height:200px;">
-                <a href="Detailpagina/LetsBeCops/LetsBeCops.html" style="display:inline;">      <img src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/letsbecops3.jpg" width="120" height="200" /></a>
-                <a href="Detailpagina/MapsToTheStars/MapsToTheStars.html" style="display:inline;">   <img src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/mapstotherstars3.jpg" width="120" height="200" /></a>
-                <a href="Detailpagina/GuardiansOfTheGalaxy/GuardiansOfTheGalaxy.html" style="display:inline;">  <img src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/guardiansofthegalaxy1.jpg" width="120" height="200" /></a>
-                <a href="Detailpagina/CubanFury/CubanFury.html" style="display:inline;">   <img src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/cubanfury1(1).jpg" width="120" height="200" /></a>
-                <a href="Detailpagina/FindingFanny/FindingFanny.html" style="display:inline;">    <img src="http://upload.wikimedia.org/wikipedia/en/3/35/Finding_Fanny_Theatrical_release_poster.jpg" width="120" height="200" /></a>
+            <div id="Top5">
+                <img class="NavigationImages"src="Images/GoLeft.png" alt="GoLeft" width="100" onclick="javascript:ShowOtherFilmsBack();"/>
+                <span class="ImageLinkWrapper1"><a href="Detailpagina/LetsBeCops/LetsBeCops.html"><img id="ImageLinkWrapper1Image" src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/letsbecops3.jpg" width="120" height="200" /></a></span>
+                <span id="ImageLinkWrapper2"><a href="Detailpagina/MapsToTheStars/MapsToTheStars.html"><img id="ImageLinkWrapper2Image" src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/mapstotherstars3.jpg" width="120" height="200" /></a></span>
+                <span id="ImageLinkWrapperEnd"><a href="Detailpagina/GuardiansOfTheGalaxy/GuardiansOfTheGalaxy.html"><img id="ImageLinkWrapperEndImage" src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/guardiansofthegalaxy1.jpg" width="120" height="200" /></a></span>
+                <img class="NavigationImages"src="Images/GoRight.png" alt="GoLeft" width="100" onclick="javascript:ShowOtherFilmsFor();" />
             </div>
+            <!--
+            <marquee onmouseover="this.stop();" onmouseout="this.start();">
+                <a href="Detailpagina/LetsBeCops/LetsBeCops.html" >      <img  src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/letsbecops3.jpg" width="120" height="200" /></a>
+                <a href="Detailpagina/MapsToTheStars/MapsToTheStars.html" >   <img  src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/mapstotherstars3.jpg" width="120" height="200" /></a>
+                <a href="Detailpagina/GuardiansOfTheGalaxy/GuardiansOfTheGalaxy.html" >  <img  src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/guardiansofthegalaxy1.jpg" width="120" height="200" /></a>
+                <a href="Detailpagina/CubanFury/CubanFury.html" >   <img  src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/cubanfury1(1).jpg" width="120" height="200" /></a>
+                <a href="Detailpagina/FindingFanny/FindingFanny.html" >    <img  src="http://upload.wikimedia.org/wikipedia/en/3/35/Finding_Fanny_Theatrical_release_poster.jpg" width="120" height="200" /></a>
+            </marquee>-->
             <!-- <div id="TopVijf">
                  <ul id="TopVijfUL">
                      <li>
