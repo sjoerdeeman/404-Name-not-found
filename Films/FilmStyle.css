@@ -9,20 +9,33 @@ and open the template in the editor.
 */
 .FilmItem{
     float:left;
-    margin: 0px 5px 10px 5px;
+    margin: 0px 20px 10px 5px;
+	left: 33%;
+	position: relative;
 }
+
+.FilmItem1{
+    float:left;
+    margin: 0px 20px 10px 5px;
+	left: 33%;
+	position: relative;
+	clear:left
+}
+.FilmItem2{
+    float:left;
+    margin: 0px 20px 50px 5px;
+	left: 33%;
+	position: relative;
+	clear:left;
+	
+}
+
+
 .FilmItem:hover{
     box-shadow: 5px 5px 1.2em black;
 }
 
-.FilmItemNewLine{
-    float:left;
-    margin: 0px 5px 10px 5px;
-	clear:left;
-}
-.FilmItemNewLine:hover{
-    box-shadow: 5px 5px 1.2em black;
-}
 content{
     height:1000px;
 }
+/* clear:left

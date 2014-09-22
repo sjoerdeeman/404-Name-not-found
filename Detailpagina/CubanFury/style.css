@@ -123,11 +123,21 @@ a:active{
 	{
 	position:absolute;
 	top:820px;
-	left: 18%;
+	left: 17.5%;
 	clear:both;
 	font-size: 35px;
 	
 	}
+	#KijkWijzer
+	{
+	position:absolute;
+	top:880px;
+	left: 19.2%;
+	clear:both;
+	font-size: 35px;
+	
+	}
+
 }
 
 footer{
