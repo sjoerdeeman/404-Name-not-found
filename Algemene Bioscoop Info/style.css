@@ -120,12 +120,12 @@ img{
     }
     .Image3{
         position: absolute;
-        bottom: 512px;
+        bottom: 483px;
         left:51%;
     }
     .Txt4{
     position: absolute;
-    bottom: -54px;
+    bottom: -83px;
     left: 51%;
     width: 50%;
     height: 453px;
@@ -133,7 +133,7 @@ img{
     }
     .Image4{
     position: absolute;
-    bottom: 59px;
+    bottom: 30px;
     left: 0px;
     }
 }
