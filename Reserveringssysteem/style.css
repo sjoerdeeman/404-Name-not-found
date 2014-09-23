@@ -74,73 +74,23 @@ body{
 img{
     max-width: 100%
 }
-@media screen and (min-width: 657px){
-.Container{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 14px;
-    position: relative;
-    max-width: 650px;
-    height: 1800px;
-    border: solid white 10px;
-    margin: 0 auto;
+.grid { margin:1em auto; border-collapse:collapse }
+.grid td {
+    cursor:pointer;
+    width:30px; height:30px;
+    border:1px solid #ccc;
+    color: white;
+    text-align:center;
+    font-family:sans-serif; font-size:13px;
 }
-
-    .Txt1{
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        width: 50%;
-        height: 453px;
-        /* border: solid green 5px; */
-    }
-    .Image1{
-        margin-top: 10px;
-        margin-left: 51.5%;
-    }
-    .Txt2{
-        position: absolute;
-        bottom: 901px;
-        right: 0px;
-        width: 50%;
-        height: 453px;
-        /* border: solid green 5px; */
-    }
-    .Image2{
-        position: absolute;
-        bottom: 948px;
-        left: 0px;
-    }
-    .Txt3{
-        position: absolute;
-        bottom: 384px;
-        left: 0px;
-        width: 50%;
-        height: 453px;
-        /* border: solid green 5px; */
-    }
-    .Image3{
-        position: absolute;
-        bottom: 512px;
-        left:51%;
-    }
-    .Txt4{
-    position: absolute;
-    bottom: -54px;
-    left: 51%;
-    width: 50%;
-    height: 453px;
-    /* border: solid green 5px; */
-    }
-    .Image4{
-    position: absolute;
-    bottom: 59px;
-    left: 0px;
-    }
+.grid td.clicked {
+    background-color:cyan;
+    font-weight:bold; color:cyan;
 }
 footer{
 background-color: #EEEEEE;
 height: 42px;
-position: fixed;
+position: absolute;
 margin-bottom: 0px;
 width:100%;
 }

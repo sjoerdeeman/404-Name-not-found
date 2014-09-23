@@ -27,6 +27,16 @@ and open the template in the editor.
                     thisObj.innerHTML = "Meer info";
                 }
             }//je was dit haakje vergeten
+                document.onmousedown=disableclick;
+    status="Right Click Disabled";
+    Function disableclick(event)
+    {
+    	if(event.button==2)
+    	{
+    		alert(status);
+    		return false;    
+    	}
+    }
 	</script>
     </head>
     <body>

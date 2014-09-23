@@ -3,6 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
+     document.onmousedown=disableclick;
+    status="Right Click Disabled";
+    Function disableclick(event)
+    {
+        if(event.button==2)
+        {
+            alert(status);
+            return false;    
+        }
+    }
+    
 function CheckMailAdress() {
     var val = document.getElementById("Mail");
     //check if value has changed
