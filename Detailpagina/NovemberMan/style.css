@@ -67,7 +67,7 @@ a:active{
     background-color:#CCCCCC;
     height:145px;
 }
-@media screen and (min-width: 1300px){
+@media screen and (min-width: 600px){
 	#Content{
     font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
