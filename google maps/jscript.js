@@ -1,6 +1,6 @@
     document.onmousedown=disableclick;
     status="Right Click Disabled";
-    function disableclick(event)
+    Function disableclick(event)
     {
         if(event.button==2)
         {
