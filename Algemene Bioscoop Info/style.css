@@ -137,11 +137,12 @@ img{
     left: 0px;
     }
 }
+
 footer{
 background-color: #EEEEEE;
 height: 42px;
 position: fixed;
-margin-bottom: 0px;
+bottom:0;
 width:100%;
 }
 #FooterText{
