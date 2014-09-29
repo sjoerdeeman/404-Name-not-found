@@ -72,58 +72,58 @@ a:active{
     font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
 	position: relative;
-	width: 100%;
-	/*border: solid blue 6px;*/
-	margin: 0 auto;
+	max-width: 1300px;
+    height: 1000px;
+	margin: auto;
+	margin-bottom: 40px;
 	float: center;
 	
 	}
 	#AMostWantedManImg{
-	height: 600px;
-	width: auto;
-	}
-	.Poster{
+	height: 650px;
+	width: 440px;
 	float:left;
-	margin-left: 15%;
-	height:600px;
-	border: solid white 6px;
 	}
 	#Info{
-	width:950px;
-    float:left;
-	height:80%;
-	border: solid white 6px;
+	position:absolute;
+	margin-left: 480px;
+	width:auto;
+    float:right;
+	height:500px;
 	}
 	.Details{
 	position:absolute;
-	top:610px;
-	left: 15%;
+	float:left;
+	top:720px;
+	left: 30px;
 	clear:both;
-	border: solid white 6px;
+	width: 150px;
+	height: 150px;
 	}
 	.Details2{
 	position:absolute;
-	top:920px;
-	left:40%;
+	top:600px;
+	left:500px;
 	clear:both;
-	border: solid white 6px;
+	width: auto;
 	}
 	.Details3{
 	display: inline-block;
-	margin-right: 250px;
+	margin-right: 100px;
 	}
 	.Details4{
 	position:absolute;
-	top:610px;
-	left: 24%;
-	clear:both;
-	border: solid white 6px;
+	float:left;
+	left: 200px;
+	top:720px;
+	width: 200px;
+	height: 150px;
 	}
 	#ReserveerKnop
 	{
 	position:absolute;
-	top:800px;
-	left: 18%;
+	top:890px;
+	left:120px;
 	clear:both;
 	font-size: 35px;
 	
@@ -131,8 +131,8 @@ a:active{
 	#KijkWijzer
 	{
 	position:absolute;
-	top:860px;
-	left: 18.5%;
+	top:660px;
+	left: 120px;
 	clear:both;
 	font-size: 35px;
 	
