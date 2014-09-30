@@ -1,7 +1,3 @@
-/* 
-    Created on : 11-sep-2014, 9:58:01
-    Author     : Mark Hartging, Sjoerd Eeman, Niek Guijt, Jhinenton Hooplot, Tim Nijssen
-*/
 @font-face {
     font-family: 'Ubuntu';
     src: url("Fonts/Ubuntu-R.ttf");
@@ -19,8 +15,8 @@ a:visited{
 }
 a:hover{
     background-color: #CCCCCC;
-    
-    
+
+
 }
 a:active{
     color: gray;
@@ -33,7 +29,7 @@ body{
     background-color: #EEEEEE;
     height: 42px;
     width: 100%;
-    
+
 }
 .MenuItem{
     font-family: 'Ubuntu', sans-serif;
@@ -41,7 +37,7 @@ body{
     text-decoration: none;
     margin: 15px 15px 15px 15px;
     padding: 20px 5px 20px 5px;
-        
+
 }
 #UpperMenu{
     position:absolute;
@@ -51,12 +47,12 @@ body{
 
 #SearchBlock{
     margin-right:50px;
-    
-    
+
+
 }
 .SearchInput{
     float:right;
-    
+
 }
 #Logo{
     height:30px;
@@ -75,78 +71,123 @@ img{
     max-width: 100%
 }
 @media screen and (min-width: 657px){
-.Container{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 14px;
-    position: relative;
-    max-width: 650px;
-    height: 1800px;
-    border: solid white 10px;
-    margin: 0 auto;
-}
-
+    .Container{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 18px;
+        position: relative;
+        max-width: 1000px;
+        height: 1800px;
+        border: solid white 0.1px;
+        margin: 0 auto;
+    }
+    .section1{
+        margin: 0 auto;
+    }
     .Txt1{
         position: absolute;
         top: 0px;
-        left: 0px;
+        left: 0%;
         width: 50%;
         height: 453px;
         /* border: solid green 5px; */
+    }
+    .Break1{
+        background-color: #666666;
+        width: 60%;
+        height: 4px;
+        margin: 0 auto;
+        margin-top: 135px;
+    }
+    .Break2{
+        background-color: #FF6600;
+        width: 40%;
+        height: 2px;
+        margin: 0 auto;
+        margin-top: 3px;  
     }
     .Image1{
         margin-top: 10px;
-        margin-left: 51.5%;
+        margin-left: 70%;
     }
-    .Break1{
-        margin-top: 45px;
-    }
-    .Txt2{
-        position: absolute;
-        bottom: 901px;
-        right: 0px;
-        width: 50%;
-        height: 453px;
-        /* border: solid green 5px; */
-    }
-    .Image2{
-        position: absolute;
-        bottom: 948px;
-        left: 0px;
-    }
-    .Txt3{
-        position: absolute;
-        bottom: 384px;
-        left: 0px;
-        width: 50%;
-        height: 453px;
-        /* border: solid green 5px; */
-    }
-    .Image3{
-        position: absolute;
-        bottom: 483px;
-        left:51%;
-    }
-    .Txt4{
+}
+.section2{
+    margin: 0 auto;
+}
+.Txt2{
+    position: absolute;
+    bottom: 840px;
+    right: 20px;
+    width: 50%;
+    height: 453px;
+    /* border: solid green 5px; */
+}
+.Image2{
+    position: absolute;
+    bottom: 874px;
+    left: 0px;
+}
+.Break3{
+    background-color: #666666;
+    width: 60%;
+    height: 4px;
+    margin: 0 auto;
+    margin-top: 515px;
+}
+.Break4{
+    background-color: #FF6600;
+    width: 40%;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 4px;  
+}
+.Txt3{
+    position: absolute;
+    bottom: 297px;
+    left: 0px;
+    width: 50%;
+    height: 453px;
+    /* border: solid green 5px; */
+}
+.Image3{
+    position: absolute;
+    bottom: 386px;
+    margin-left: 70%;
+}
+.Break5{
+    background-color: #666666;
+    width: 60%;
+    height: 4px;
+    margin: 0 auto;
+    margin-top: 432px;
+}
+.Break6{
+    background-color: #FF6600;
+    width: 40%;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 4px;  
+}
+.Txt4{
     position: absolute;
     bottom: -83px;
     left: 51%;
     width: 50%;
     height: 453px;
     /* border: solid green 5px; */
-    }
-    .Image4{
+}
+.Image4{
     position: absolute;
     bottom: 30px;
     left: 0px;
-    }
+}
 }
 
 footer{
-background-color: #EEEEEE;
-height: 42px;
-position: fixed;
-bottom:0;
-width:100%;
+    background-color: #EEEEEE;
+    height: 42px;
+    position: fixed;
+    bottom:0;
+    width:100%;
 }
 #FooterText{
     font-family: 'Ubuntu', sans-serif;
