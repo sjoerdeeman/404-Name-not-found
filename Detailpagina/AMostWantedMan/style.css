@@ -2,6 +2,13 @@
     Created on : 11-sep-2014, 9:58:01
     Author     : Mark Hartging, Sjoerd Eeman, Niek Guijt, Jhinenton Hooplot, Tim Nijssen
 */
+
+@media screen and (max-width: 300px){
+	
+}
+
+
+@media screen and (min-width: 800px){
 @font-face {
     font-family: 'Ubuntu';
     src: url("Fonts/Ubuntu-R.ttf");
@@ -65,9 +72,8 @@ a:active{
     font-family: 'Ubuntu', sans-serif;
     font-size: 22px;
     background-color:#CCCCCC;
-    height:145px;
-}
-@media screen and (min-width: 600px){
+    height:
+	}
 	#Content{
     font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
@@ -137,9 +143,7 @@ a:active{
 	font-size: 35px;
 	
 	}
-}
-
-footer{
+	footer{
   width: 100%;
     
     position: fixed;
@@ -162,4 +166,6 @@ footer{
 }
 #FooterImages{
    margin-right: 5px;
+}
+
 }
