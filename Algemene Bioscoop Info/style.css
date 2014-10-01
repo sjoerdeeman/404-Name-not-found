@@ -40,7 +40,6 @@ body{
 
 }
 #UpperMenu{
-    position:absolute;
     top:7px;
     margin-left: 135px;
 }
@@ -55,9 +54,9 @@ body{
 
 }
 #Logo{
-    height:30px;
+    height:300px;
     margin-top: 7px;
-    margin-left: 5px;
+    margin-left: 15px;
     position:absolute;
 }
 

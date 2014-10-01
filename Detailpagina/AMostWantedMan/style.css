@@ -3,8 +3,148 @@
     Author     : Mark Hartging, Sjoerd Eeman, Niek Guijt, Jhinenton Hooplot, Tim Nijssen
 */
 
-@media screen and (max-width: 300px){
+@media screen and (max-width: 640px){
+	@font-face {
+    font-family: 'Ubuntu';
+    src: url("Fonts/Ubuntu-R.ttf");
+}
+
+*{
+    margin: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+}
+a:link{
+    color: rgb(0, 136, 204);
+}
+a:visited{
+    color: rgb(0, 136, 204);
+}
+a:hover{
+    background-color: #CCCCCC;
+    
+    
+}
+a:active{
+    color: gray;
+}
+#TopMenuBar{ 
+    background-color: #EEEEEE;
+    height: 100px;
+    width: 100%;
+    
+}
+.MenuItem{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 23px;
+    text-decoration: none;
+    margin: 4px 4px 4px 4px;
+}
+#UpperMenu{
+    position:absolute;
+    top:3px;
+    margin-left: 10px;
+	top: 50px;
+}
+
+#SearchBlock{
+	float: right;
+	top: 100px;
+    /*margin-right:50px;*/
+    
+    
+}
+.SearchInput{
+    float:right;
+	margin-right: 10px;
+	margin-top: 15px;
+	width: 90px;
+    
+}
+#Logo{
+    height:40px;
+    margin-top: 7px;
+    margin-left: 8px;
+    position:absolute;
+}
+
+#TopText{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    background-color:#CCCCCC;
+	}
+	#Content{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+	max-width: 1300px;
+	position: absolute;
+    height: 1000px;
+	margin: auto;
+	margin-bottom: 40px;
+	float: center;
 	
+	}
+	#AMostWantedManImg{
+	height: 300px;
+	width: 200px;
+	float:left;
+	clear: both;
+	}
+	#Info{
+	position:relative;
+	width:auto;
+    float:right;
+	height:500px;
+	}
+	.Details{
+	position:absolute;
+	float:left;
+	top:720px;
+	left: 30px;
+	clear:both;
+	width: 150px;
+	height: 150px;
+	}
+	.Details2{
+	position:absolute;
+	top:600px;
+	left:500px;
+	clear:both;
+	width: auto;
+	}
+	.Details3{
+	display: inline-block;
+	margin-right: 100px;
+	}
+	.Details4{
+	position:absolute;
+	float:left;
+	left: 200px;
+	top:720px;
+	width: 200px;
+	height: 150px;
+	}
+	#ReserveerKnop
+	{
+	position:absolute;
+	top:890px;
+	left:120px;
+	clear:both;
+	font-size: 35px;
+	
+	}
+	#KijkWijzer
+	{
+	position:absolute;
+	top:660px;
+	left: 120px;
+	clear:both;
+	font-size: 35px;
+	
+	}
+	
+footer{
+	visibility: hidden;
+}
 }
 
 
