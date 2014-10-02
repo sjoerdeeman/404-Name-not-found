@@ -26,7 +26,6 @@ body{
     font-size: 14px;
 }
 #TopMenuBar{ 
-    background-color: #666666;
     height: 42px;
     width: 100%;
 
@@ -63,7 +62,6 @@ body{
 #TopText{
     font-family: 'Ubuntu', sans-serif;
     font-size: 22px;
-    background-color:#AAAAAA;
     height:120px;
 }
 img{
