@@ -42,7 +42,12 @@ function ShowPrice(ChairCat, ID) {
         for (i = 0; i < Array.length ; i++) {
             Total = Total + Array[i];
         }
-        OutDiv.innerHTML = "<p>De totaalprijs van de geselecteerde stoelen: €" + Total + "</p>";
+        if (Total > 0) {
+            OutDiv.innerHTML = "<p>De totaalprijs van de geselecteerde stoelen: €" + Total + "</p>";
+        }
+        else {
+            OutDiv.innerHTML = "Klik op een stoel"
+        }
     }
     else {
         var value = 0;
