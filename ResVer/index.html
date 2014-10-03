@@ -14,10 +14,8 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="../style.css" rel="stylesheet" type="text/css">
-       
-        
     </head>
-    <body onload="PrintZaal('1')">
+    <body onload="PrintZaal('3')">
         <div id="container">
             <div id="TopMenuBar">
                 <a href="../index.html"> <img id="Logo" src="../Images/Logo.png" alt="logo"> </a>
@@ -38,12 +36,17 @@ and open the template in the editor.
             </div><!--TopText-->
             <div id="Content">
                
-			<div id="PlattegrondZaal">
+			<div id="PlattegrondZaal" style="float:left;">
                 <!-- Hier komt de zaal-->
                 
                 <div id="Chair" style="float:left; background-color:green; width:50px;">
                 </div>
             </div>
+            <div id="Price" style=" margin-left:10px;float:left;">
+                <p>Klik op een stoel</p>
+            </div>
+                <div id="TotalPrice">
+                </div>
             </div><!--Content-->
             <script src="ReservScript.js" type="text/javascript"></script>
             <footer>
