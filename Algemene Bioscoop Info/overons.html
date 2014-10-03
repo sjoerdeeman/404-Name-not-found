@@ -13,6 +13,7 @@ and open the template in the editor.
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="search.css" rel="stylesheet" type="text/css">
     <script href="jscript.js" type="text/javascript"></script>
 </head>
 <body>
@@ -24,9 +25,13 @@ and open the template in the editor.
             <a href="overons.html" class="MenuItem">Over ons</a>
             <a href="../Contact/contact.html" class="MenuItem">Contact</a>
         </nav><!--UpperMenu-->
-        <div id="SearchBlock">
+        <form class="form-wrapper cf">
+            <input type="text" placeholder="Zoek een film..." required>
+            <button type="submit">Zoeken</button>
+        </form>
+        <!--<div id="SearchBlock">
             <button class="SearchInput">Zoeken</button><input class="SearchInput">
-        </div><!--SearchBlock-->
+        </div>--><!--SearchBlock-->
     </div><!--TopMenuBar-->
     <div id="TopText">
         <center>
