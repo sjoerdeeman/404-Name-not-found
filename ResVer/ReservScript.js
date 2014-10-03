@@ -2,6 +2,7 @@
 var OccChair = new Array();
 function ShowPrice(ChairCat, ID) {   
     var Array = [];
+    var ClickedChair = document.getElementById(ID);
     var OutDiv = document.getElementById("Price");
     function ChangeChairState(IDForChair, CatForChair) {
         var L = OccChair.length;
@@ -9,7 +10,21 @@ function ShowPrice(ChairCat, ID) {
         var C = CatForChair;
         for (o = 0 ; o < L ; o++) {
             if (OccChair[o] == IDForChair) {
-                document.getElementById(IDForChair).style.backgroundColor = "green";
+                //document.getElementById(IDForChair).style.backgroundColor = "green";
+                switch (C) {                    
+                    case 1:                       
+                        ClickedChair.style.backgroundColor = "#839C36";
+                        break
+                        ;
+                    case 2:
+                        ClickedChair.style.backgroundColor = "#3E6DB5";                      
+                        break
+                        ;
+                    case 3:
+                        ClickedChair.style.backgroundColor = "#BA200B";                        
+                        break
+                        ;
+                }
                 r = false;
             }        
         }
@@ -17,7 +32,7 @@ function ShowPrice(ChairCat, ID) {
     }    
     if (ChangeChairState(ID, ChairCat)) {
         OccChair.push(ID);        
-        var ClickedChair = document.getElementById(ID);           
+              
         switch (ChairCat) {
             case 0:
                 alert("Dit is helaas geen stoel.");
@@ -80,53 +95,49 @@ function PrintZaal(Zaalnummer) {
     var id = "1";
     var OutputDiv = document.getElementById("PlattegrondZaal");
     OutputDiv.innerHTML = "";
-   /* var NoChairOutput = '<div class="NoChair" style="float:left; background-color:red; width:30px;" onmousedown="javascript:ShowPrice(0)"><p>NC</p></div>';
-    var ChairCat1Output = '<div class="Chair" style="float:left; background-color:green; width:30px;" onmousedown="javascript:ShowPrice(1)"><p>C</p></div>';
-    var ChairCat2Output = '<div class="Chair2" style="float:left; background-color:green; width:30px;" onmousedown="javascript:ShowPrice(2)"><p>2</p></div>';
-    var ChairCat3Output = '<div class="Chair3" style="float:left; background-color:green; width:30px;" onmousedown="javascript:ShowPrice(3)"><p>3</p></div>';*/
     function GoThroughRij() {
         var RijLength = rij.length;
         for (ab = 0 ; ab < RijLength ; ab++) {
             //Geen stoelen
             for (a = 0 ; a < rij[ab][0]; a++) {
                 id++;
-                var NoChairOutput = '<div class="NoChair" style="float:left; background-color:red; width:30px;" onmousedown="javascript:ShowPrice(0,'+id+')"id="'+ id +'"><p>NC</p></div>';
+                var NoChairOutput = '<div class="NoChair" style="float:left; background-color:#F2F3F5; width:30px;" id="' + id + '"><p class="invi">NC</p></div>';
                 OutputDiv.innerHTML += NoChairOutput;
             }
             //stoelen klasse 1 links vh midden
             for (b = 0 ; b < rij[ab][1]; b++) {
                 id++;
-                var ChairCat1Output = '<div class="Chair" style="float:left; background-color:green; width:30px;" onmousedown="javascript:ShowPrice(1,' + id + ')"id="' + id + '"><p>C</p></div>';
+                var ChairCat1Output = '<div class="Chair"  onmousedown="javascript:ShowPrice(1,' + id + ')"id="' + id + '"><p>1</p></div>';
                 OutputDiv.innerHTML += ChairCat1Output;
             }
             //stoelen klasse 2 links vh midden
             for (c = 0 ; c < rij[ab][2]; c++) {
                 id++;
-                var ChairCat2Output = '<div class="Chair2" style="float:left; background-color:green; width:30px;" onmousedown="javascript:ShowPrice(2,' + id + ')"id="' + id + '"><p>2</p></div>';
+                var ChairCat2Output = '<div class="Chair2"  onmousedown="javascript:ShowPrice(2,' + id + ')"id="' + id + '"><p>2</p></div>';
                 OutputDiv.innerHTML += ChairCat2Output;
             }
             //stoelen klasse 3
             for (d = 0 ; d < rij[ab][3]; d++) {
                 id++;
-                var ChairCat3Output = '<div class="Chair3" style="float:left; background-color:green; width:30px;" onmousedown="javascript:ShowPrice(3,' + id + ')"id="' + id + '"><p>3</p></div>';
+                var ChairCat3Output = '<div class="Chair3"  onmousedown="javascript:ShowPrice(3,' + id + ')"id="' + id + '"><p>3</p></div>';
                 OutputDiv.innerHTML += ChairCat3Output;
             }
             // stoelen klasse 2 rechts vh midden
             for (e = 0 ; e < rij[ab][4]; e++) {
                 id++;
-                var ChairCat2Output = '<div class="Chair2" style="float:left; background-color:green; width:30px;" onmousedown="javascript:ShowPrice(2,' + id + ')"id="' + id + '"><p>2</p></div>';
+                var ChairCat2Output = '<div class="Chair2" onmousedown="javascript:ShowPrice(2,' + id + ')"id="' + id + '"><p>2</p></div>';
                 OutputDiv.innerHTML += ChairCat2Output;
             }
             //stoelen klasse 1 rechts vh midden
             for (f = 0 ; f < rij[ab][5]; f++) {
                 id++;
-                var ChairCat1Output = '<div class="Chair" style="float:left; background-color:green; width:30px;" onmousedown="javascript:ShowPrice(1,' + id + ')"id="' + id + '"><p>C</p></div>';
+                var ChairCat1Output = '<div class="Chair"  onmousedown="javascript:ShowPrice(1,' + id + ')"id="' + id + '"><p>1</p></div>';
                 OutputDiv.innerHTML += ChairCat1Output;
             }
             //geen stoelen
             for (g = 0 ; g < rij[ab][6]; g++) {
                 id++;
-                var NoChairOutput = '<div class="NoChair" style="float:left; background-color:red; width:30px;" onmousedown="javascript:ShowPrice(0,' + id + ')"id="' + id + '"><p>NC</p></div>';
+                var NoChairOutput = '<div class="NoChair" id="' + id + '"><p class="invi">NC</p></div>';
                 OutputDiv.innerHTML += NoChairOutput;
             }
             //nieuwe regel als de rij stoelen klaar is

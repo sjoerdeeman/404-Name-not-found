@@ -1,0 +1,23 @@
+﻿.NoChair{
+    float:left;
+    background-color:#F2F3F5;
+    width:30px;
+}
+.Chair{
+    float:left;
+    background-color:#839C36;
+    width:30px;
+}
+.Chair2{
+    float:left;
+    background-color:#3E6DB5;
+    width:30px;
+}
+.Chair3{
+    float:left;
+    background-color:#BA200B;
+    width:30px;
+}
+.invi{
+    color:#F2F3F5;
+}
