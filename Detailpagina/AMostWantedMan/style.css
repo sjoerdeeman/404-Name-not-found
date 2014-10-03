@@ -35,7 +35,7 @@ a:active{
 }
 .MenuItem{
     font-family: 'Ubuntu', sans-serif;
-    font-size: 23px;
+    font-size: 20px;
     text-decoration: none;
     margin: 4px 4px 4px 4px;
 }
@@ -57,7 +57,7 @@ a:active{
     float:right;
 	margin-right: 10px;
 	margin-top: 15px;
-	width: 90px;
+	width: 75px;
     
 }
 #Logo{
@@ -74,7 +74,7 @@ a:active{
 	}
 	#Content{
     font-family: 'Ubuntu', sans-serif;
-    font-size: 18px;
+    font-size: 12px;
 	max-width: 1300px;
 	position: absolute;
     height: 1000px;
@@ -90,44 +90,48 @@ a:active{
 	clear: both;
 	}
 	#Info{
-	position:relative;
-	width:auto;
-    float:right;
-	height:500px;
+	margin-top: 110px;
+	width: 300px;
+	height:300px;
+	}
+	#InfoAll{
+	visibility: show;
+	height: 400px;
+	}
+	#InfoMeerMinder{
+	visibility: hidden;
 	}
 	.Details{
 	position:absolute;
 	float:left;
-	top:720px;
-	left: 30px;
+	left: 210px;
 	clear:both;
 	width: 150px;
 	height: 150px;
 	}
 	.Details2{
 	position:absolute;
-	top:600px;
-	left:500px;
-	clear:both;
+	top:170px;
+	left:210px;
 	width: auto;
 	}
 	.Details3{
 	display: inline-block;
-	margin-right: 100px;
+	margin-right: 300px;
 	}
 	.Details4{
 	position:absolute;
 	float:left;
-	left: 200px;
-	top:720px;
+	left: 210px;
+	top:95px;
 	width: 200px;
 	height: 150px;
 	}
 	#ReserveerKnop
 	{
 	position:absolute;
-	top:890px;
-	left:120px;
+	top:310px;
+	left:50px;
 	clear:both;
 	font-size: 35px;
 	
@@ -135,8 +139,8 @@ a:active{
 	#KijkWijzer
 	{
 	position:absolute;
-	top:660px;
-	left: 120px;
+	top:360px;
+	left: 70px;
 	clear:both;
 	font-size: 35px;
 	
@@ -236,6 +240,13 @@ a:active{
 	width:auto;
     float:right;
 	height:500px;
+	}
+	#InfoMeerMinder{
+	visibility: show;
+	height: 400px;
+	}
+	#InfoAll{
+	visibility: hidden;
 	}
 	.Details{
 	position:absolute;
