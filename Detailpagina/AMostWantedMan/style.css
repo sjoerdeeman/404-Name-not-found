@@ -91,7 +91,7 @@ a:active{
 	}
 	#Info{
 	margin-top: 110px;
-	width: 300px;
+	width: auto;
 	height:300px;
 	}
 	#InfoAll{
