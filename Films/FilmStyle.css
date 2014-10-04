@@ -1,41 +1,61 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 18-sep-2014, 11:35:38
-    Author     : Mark
-*/
 .FilmItem{
     float:left;
+    top: 97.5px;
     margin: 0px 20px 10px 5px;
-	left: 33%;
-	position: relative;
+    left: 33%;
+    position: relative;
 }
 
 .FilmItem1{
     float:left;
+    top: 301.5px;
     margin: 0px 20px 10px 5px;
-	left: 33%;
-	position: relative;
-	clear:left
+    left: 33%;
+    position: relative;
+    clear:left
 }
 .FilmItem2{
+    top: 614px;
+    float:left;
+    margin: 0px 20px 10px 5px;
+    left: 33%;
+    position: relative;
+    clear:left;
+
+}
+.FilmItem3{
     float:left;
     margin: 0px 20px 50px 5px;
-	left: 33%;
-	position: relative;
-	clear:left;
-	
+    left: 33%;
+    position: relative;
+    clear:left;
+    
+}
+.FilmItem4{
+    float:left;
+    top: 301.5px;
+    margin: 0px 20px 10px 5px;
+    left: 33%;
+    position: relative;
+}
+.FilmItem5{
+    float:left;
+    top: 500px;
+    margin: 0px 20px 10px 5px;
+    left: 33%;
+    position: relative;
+    clear:left
+}
+.FilmItem6{
+    float:left;
+    top: 500px;
+    margin: 0px 20px 10px 5px;
+    left: 33%;
+    position: relative;
 }
 
 
 .FilmItem:hover{
     box-shadow: 5px 5px 1.2em black;
-}
-
-content{
-    height:1000px;
 }
 /* clear:left

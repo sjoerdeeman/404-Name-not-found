@@ -5,84 +5,86 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-    <head>
-        <title>Filmpje</title>
-        <meta name="keywords" content="film, films, movie, movies, bios, bioscoop, cinema, oer, hollandse, oer-hollandse, 3D, Imax, Aura3d, Aura, zaal, zalen, stoel, stoelen, bioscoopzaal, bioscoopzalen, bioscoopstoel, bioscoopstoelen, uniek, unieke, inrichting, ervaring, zit, plaatsen, goed, nu in de bioscoop, nu in de bios, films op dit moment, movies op dit moment, verwachte films, verwachte movies">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta property="og:sitename" content="Filmpje">
-        <meta property="og:description" content="Filmpje is een oer-Hollandse bioscoop met de meeste nieuwe technieken.">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="../style.css" rel="stylesheet" type="text/css">
-        <link href="ContactStyle.css" rel="stylesheet" type="text/css">
-        <script src="../Javascript/ContactScript.js" type="text/javascript"></script>
-    </head>
-    <body>
-        <div id="container">
-            <div id="TopMenuBar">
-                <a href="../index.html"> <img id="Logo" src="../Images/Logo.png" alt="logo"> </a>
-                <nav id="UpperMenu">
-                    <a href="../index.html" class="MenuItem">Home</a>
-                    <a href="..//Films/index.html" class="MenuItem">Films</a>
-                    <a href="../Algemene Bioscoop Info/overons.html" class="MenuItem">Over ons</a>
-                    <a href="contact.html" class="MenuItem">Contact</a>
-                </nav><!--UpperMenu-->
-                <div id="SearchBlock">
-                    <button class="SearchInput">Zoeken</button><input class="SearchInput">
-                </div><!--SearchBlock-->
-            </div><!--TopMenuBar-->
-            <div id="TopText">
-                <center>
-                    <h1>Contact</h1>
-                </center>
-            </div><!--TopText-->
-            <div id="Content">
-			<p>Adres: &nbsp;West-Kruiskade 26, 3014 AS Rotterdam</br><a href="../google maps/Bereikbaarheid.html">Google maps.</a></p>
-			</br>
-                <p>Via onderstaand formulier kunt u contact opnemen met Filmpje voor klachten en opmerkingen.</p>
+<head>
+    <title>Filmpje</title>
+    <meta name="keywords" content="film, films, movie, movies, bios, bioscoop, cinema, oer, hollandse, oer-hollandse, 3D, Imax, Aura3d, Aura, zaal, zalen, stoel, stoelen, bioscoopzaal, bioscoopzalen, bioscoopstoel, bioscoopstoelen, uniek, unieke, inrichting, ervaring, zit, plaatsen, goed, nu in de bioscoop, nu in de bios, films op dit moment, movies op dit moment, verwachte films, verwachte movies">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:sitename" content="Filmpje">
+    <meta property="og:description" content="Filmpje is een oer-Hollandse bioscoop met de meeste nieuwe technieken.">
+    <meta charset="UTF-8">
+    <link href="../search.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../style.css" rel="stylesheet" type="text/css">
+    <link href="ContactStyle.css" rel="stylesheet" type="text/css">
+    <script src="../Javascript/ContactScript.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="TopMenuBar">
+            <a href="../index.html"> <img id="Logo" src="../Images/Logo.png" alt="logo"> </a>
+            <nav id="UpperMenu">
+                <a href="../index.html" class="MenuItem">Home</a>
+                <a href="..//Films/index.html" class="MenuItem">Films</a>
+                <a href="../Algemene Bioscoop Info/overons.html" class="MenuItem">Over ons</a>
+                <a href="contact.html" class="MenuItem">Contact</a>
+            </nav><!--UpperMenu-->
+            <form class="form-wrapper ag">
+                <input type="text" placeholder="Zoek een film..." required>
+                <button type="submit">Zoeken</button>
+            </form>
+        </div><!--TopMenuBar-->
+        <div id="TopText">
+            <center>
+                <h1>Contact</h1>
+            </center>
+        </div><!--TopText-->
+        <div id="Content">
+           <p>Adres: &nbsp;West-Kruiskade 26, 3014 AS Rotterdam</br><a href="../google maps/Bereikbaarheid.html">Google maps.</a></p>
+       </br>
+       <p>Via onderstaand formulier kunt u contact opnemen met Filmpje voor klachten en opmerkingen.</p>
 
-                <p style="display:none;" id="error"></p>
-
-
-                <div id="Omschrijving" style="float:left;">
-                    Voornaam <br />
-                    tussenvoegsel <br/> 
-                    Achternaam <br />
-                    <div style="margin-top:10px;"> Onderwerp<br /></div>
-                    <div style="margin-top:5px;">Mail<br /></div>
-                    Bericht<br />
-                </div>
-                <div style="float:left;">
-                    <form action="Process/doSendContactForm.php" method="POST" onsubmit="return CheckContactForm()" id="Contact">
-                        <input class="FormInput" type="text" name="voornaam" id="voornaam" required><br />
-                        <input class="FormInput" type="text" name="tussenvoegsel" id="tussenvoegsel" required><br />
-                        <input class="FormInput" type="text" name="achternaam" id="achternaam" required><br />
-                        <div class="OutLined">
-                            <select class="OutLined" name="select" required form="Contact">
-                                <option></option>
-                                <option id="vraag" value="vraag">Vraag</option>
-                                <option id="opmerking" value="Opmerking">Opmerking</option>
-                                <option id="klacht" value="Klacht">Klacht</option>
-                            </select><br />
-                        </div>
+       <p style="display:none;" id="error"></p>
 
 
-                        <input class="FormInput" type="email" name="email" id="email" required onblur="CheckMailAdress();"><br />
-                        <textarea class="FormInput" name="bericht" placeholder="Max 500 tekens" rows="10" cols="20" id="Bericht" onblur="CheckIfValueEmpty('Bericht')"></textarea><br />						<script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LdiuPoSAAAAAJt81AoIg_auVT6IF0xv18GfDomU"></script>	<noscript>	  		<iframe src="http://www.google.com/recaptcha/api/noscript?k=6LdiuPoSAAAAAJt81AoIg_auVT6IF0xv18GfDomU" height="300" width="500" frameborder="0"></iframe><br/>  		<textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>  		<input type="hidden" name="recaptcha_response_field" value="manual_challenge"/>	</noscript>
-                        <div class="OutLined"><button class="OutLined" type="submit">Verzenden</button></div>
-                    </form>
-                </div><?php          require_once('recaptchalib.php');          $publickey = "6LdiuPoSAAAAAJt81AoIg_auVT6IF0xv18GfDomU"; // you got this from the signup page          echo recaptcha_get_html($publickey);        ?>
-            </div><!--Content-->
-            <footer>
-                <div id="FooterText">
-                    <div id="FooterImages">
-                       <img src="../../Images/3DLogo.jpg" class="footerlogo" alt="logo">
-                        <img src="../../Images/AuraLogo.jpg" class="footerlogo" alt="logo">
-                        <img src="../../Images/ImaxLogo.jpg" class="footerlogo" alt="logo">
-                    </div>
-                    <p id="CopyTekst"> &copy; Filmpje | adres | telefoonnummers  </p>
-                </div><!--FooterText-->
-            </footer>
-        </div>
-    </body>
+       <div id="Omschrijving" style="float:left;">
+        Voornaam <br />
+        tussenvoegsel <br/> 
+        Achternaam <br />
+        <div style="margin-top:10px;"> Onderwerp<br /></div>
+        <div style="margin-top:5px;">Mail<br /></div>
+        Bericht<br />
+    </div>
+    <div style="float:left;">
+        <form action="Process/doSendContactForm.php" method="POST" onsubmit="return CheckContactForm()" id="Contact">
+            <input class="FormInput" type="text" name="voornaam" id="voornaam" required><br />
+            <input class="FormInput" type="text" name="tussenvoegsel" id="tussenvoegsel" required><br />
+            <input class="FormInput" type="text" name="achternaam" id="achternaam" required><br />
+            <div class="OutLined">
+                <select class="OutLined" name="select" required form="Contact">
+                    <option></option>
+                    <option id="vraag" value="vraag">Vraag</option>
+                    <option id="opmerking" value="Opmerking">Opmerking</option>
+                    <option id="klacht" value="Klacht">Klacht</option>
+                </select><br />
+            </div>
+
+
+            <input class="FormInput" type="email" name="email" id="email" required onblur="CheckMailAdress();"><br />
+            <textarea class="FormInput" name="bericht" placeholder="Max 500 tekens" rows="10" cols="20" id="Bericht" onblur="CheckIfValueEmpty('Bericht')"></textarea><br />						<script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LdiuPoSAAAAAJt81AoIg_auVT6IF0xv18GfDomU"></script>	<noscript>	  		<iframe src="http://www.google.com/recaptcha/api/noscript?k=6LdiuPoSAAAAAJt81AoIg_auVT6IF0xv18GfDomU" height="300" width="500" frameborder="0"></iframe><br/>  		<textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>  		<input type="hidden" name="recaptcha_response_field" value="manual_challenge"/>	</noscript>
+            <div class="OutLined"><button class="OutLined" type="submit">Verzenden</button></div>
+        </form>
+    </div><?php          require_once('recaptchalib.php');          $publickey = "6LdiuPoSAAAAAJt81AoIg_auVT6IF0xv18GfDomU"; // you got this from the signup page          echo recaptcha_get_html($publickey);        ?>
+</div><!--Content-->
+<footer>
+    <div id="FooterText">
+        <div id="FooterImages">
+           <img src="../../Images/3DLogo.jpg" class="footerlogo" alt="logo">
+           <img src="../../Images/AuraLogo.jpg" class="footerlogo" alt="logo">
+           <img src="../../Images/ImaxLogo.jpg" class="footerlogo" alt="logo">
+       </div>
+       <p id="CopyTekst"> &copy; Filmpje | adres | telefoonnummers  </p>
+   </div><!--FooterText-->
+</footer>
+</div>
+</body>
 </html>
