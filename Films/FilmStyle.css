@@ -55,7 +55,14 @@
 }
 
 
-.FilmItem:hover{
+.FilmItemPart1:hover{
     box-shadow: 5px 5px 1.2em black;
 }
-/* clear:left
+/* clear:left*/
+
+#TopText{
+    background-color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    height:120px;
+}
