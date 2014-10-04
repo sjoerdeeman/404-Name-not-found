@@ -41,7 +41,7 @@ body{
 }
 #UpperMenu{
     position: absolute;
-    top:7px;
+    top:20px;
     margin-left: 135px;
 }
 
@@ -56,7 +56,7 @@ body{
 }
 #Logo{
     height:30px;
-    margin-top: 7px;
+    margin-top: 20px;
     margin-left: 15px;
     position:absolute;
 }
@@ -98,15 +98,7 @@ img{
         top:6px;
         margin-left: 30%;
     }
-
-    #SearchBlock{
-        height: 0px;
-        visibility: hidden;
-        margin-right:50px;
-
-
-    }
-    .SearchInput{
+    .form-wrapper{
         height: 0px;
         visibility: hidden;
 
