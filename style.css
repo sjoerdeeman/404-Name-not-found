@@ -136,11 +136,12 @@ img{
         /* border: solid green 5px; */
     }
     .Break1{
+        z-index: -1;
         background-color: #666666;
         width: 60%;
         height: 4px;
         margin: 0 auto;
-        margin-top: 20px;
+        margin-top: 535px;
     }
     .Break2{
         background-color: #FF6600;
