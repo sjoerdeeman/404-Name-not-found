@@ -8,17 +8,17 @@
     border: 0px 0px 0px 0px;
 }
 a:link{
-    color: #BA200B;
+    color: #444;
 }
 a:visited{
-    color: #BA200B;
+    color: #444;
 }
 a:hover{
     color: black;
-    background-color: #839C36;
+    background-color: rgba(99, 88, 121,0.3);
 }
 a:active{
-    color: #BA200B;
+    color: #444;
 }
 body{
     font-family: 'Ubuntu', sans-serif;
@@ -261,7 +261,7 @@ img{
         z-index: -1;
         height: 530px;
         width: 100%;
-        background-color: #3E6DB5;
+        background-color: rgba(171,178,200,0.3);
     }
     #kleur3{
         position: absolute;
@@ -269,20 +269,21 @@ img{
         margin-top: 1134px;
         height: 495px;
         width: 100%;
-        background-color: #BA200B;
+        background-color: rgba(99, 88, 121,0.3);
     }
     #kleur4{
         position: absolute;
         z-index: -1;
         height: 525px;
         width: 100%;
-        background-color: #3E6DB5;
+        background-color: rgba(171,178,200,0.3);
     }
     .section1{
         margin: 0 auto;
     }
 
     .Txt1{
+        color: #465958;
         position: absolute;
         left: 0%;
         width: 50%;
@@ -290,15 +291,15 @@ img{
         /* border: solid green 5px; */
     }
     .Break1{
-        background-color: #FFFFFF;
-        width: 60%;
+        background-color: #ACC399;
+        width: 40%;
         height: 6px;
         margin: 0 auto;
         margin-top: 135px;
     }
     .Break2{
-        background-color: #3E6DB5;
-        width: 40%;
+        background-color: rgba(171,178,200,0.3);
+        width: 60%;
         height: 6px;
         margin: 0 auto;
         margin-top: 0px;  
@@ -317,7 +318,7 @@ img{
         margin: 0 auto;
     }
     .Txt2{
-        color: black;
+        color: #465958;
         position: absolute;
         margin-top: 10px;
         right: 20px;
@@ -331,20 +332,21 @@ img{
         margin-left: 0%;
     }
     .Break3{
-        background-color: #BA200B;
+        background-color: rgba(99, 88, 121,0.3);
         width: 60%;
         height: 6px;
         margin: 0 auto;
         margin-top: 100px;
     }
     .Break4{
-        background-color: #FFFFFF;
+        background-color: #678468;
         width: 40%;
         height: 6px;
         margin: 0 auto;
         margin-top: 4px;  
     }
     .Txt3{
+        color: #7C9E9C;
         position: absolute;
         margin-top: 0px;
         margin-bottom: 60px;
@@ -358,21 +360,21 @@ img{
         margin-left: 70%;
     }
     .Break5{
-        background-color: #FFFFFF;
-        width: 60%;
+        background-color: #40463A;
+        width: 40%;
         height: 6px;
         margin: 0 auto;
         margin-top: 60px;
     }
     .Break6{
-        background-color: #BA200B;
-        width: 40%;
+        background-color: rgba(99, 88, 121,0.3);
+        width: 60%;
         height: 6px;
         margin: 0 auto;
         margin-top: 0px;  
     }
     .Txt4{
-        color: black;
+        color: #7C9E9C;
         position: absolute;
         margin-top: 0px;
         margin-bottom: 60px;
