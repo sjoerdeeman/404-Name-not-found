@@ -2,6 +2,156 @@
     Created on : 11-sep-2014, 9:58:01
     Author     : Mark Hartging, Sjoerd Eeman, Niek Guijt, Jhinenton Hooplot, Tim Nijssen
 */
+@media screen and (max-width: 640px){
+	@font-face {
+    font-family: 'Ubuntu';
+    src: url("Fonts/Ubuntu-R.ttf");
+}
+
+*{
+    margin: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+}
+a:link{
+    color: rgb(0, 136, 204);
+}
+a:visited{
+    color: rgb(0, 136, 204);
+}
+a:hover{
+    background-color: #CCCCCC;
+    
+    
+}
+a:active{
+    color: gray;
+}
+#TopMenuBar{ 
+    background-color: #EEEEEE;
+    height: 100px;
+    width: 100%;
+    
+}
+.MenuItem{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 4px 4px 4px 4px;
+}
+#UpperMenu{
+    position:absolute;
+    top:3px;
+    margin-left: 10px;
+	top: 50px;
+}
+
+#SearchBlock{
+	float: right;
+	top: 100px;
+    /*margin-right:50px;*/
+    
+    
+}
+.SearchInput{
+    float:right;
+	margin-right: 10px;
+	margin-top: 15px;
+	width: 75px;
+    
+}
+#Logo{
+    height:40px;
+    margin-top: 7px;
+    margin-left: 8px;
+    position:absolute;
+}
+
+#TopText{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    background-color:#CCCCCC;
+	}
+	#Content{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+	max-width: 1300px;
+	position: absolute;
+    height: 1000px;
+	margin: auto;
+	margin-bottom: 40px;
+	float: center;
+	
+	}
+	#NovemberManImg{
+	height: 300px;
+	width: 200px;
+	float:left;
+	clear: both;
+	}
+	#Info{
+	margin-top: 110px;
+	width: auto;
+	height:300px;
+	}
+	#InfoAll{
+	visibility: show;
+	height: 400px;
+	}
+	#InfoMeerMinder{
+	visibility: hidden;
+	}
+	.Details{
+	position:absolute;
+	float:left;
+	left: 210px;
+	clear:both;
+	width: 150px;
+	height: 150px;
+	}
+	.Details2{
+	position:absolute;
+	top:170px;
+	left:210px;
+	width: auto;
+	}
+	.Details3{
+	display: inline-block;
+	margin-right: 300px;
+	}
+	.Details4{
+	position:absolute;
+	float:left;
+	left: 210px;
+	top:95px;
+	width: 200px;
+	height: 150px;
+	}
+	#ReserveerKnop
+	{
+	position:absolute;
+	top:310px;
+	left:50px;
+	clear:both;
+	font-size: 35px;
+	
+	}
+	#KijkWijzer
+	{
+	position:absolute;
+	top:360px;
+	left: 70px;
+	clear:both;
+	font-size: 35px;
+	
+	}
+	
+footer{
+	visibility: hidden;
+}
+}
+
+
+@media screen and (min-width: 800px){
 @font-face {
     font-family: 'Ubuntu';
     src: url("Fonts/Ubuntu-R.ttf");
@@ -67,7 +217,6 @@ a:active{
     background-color:#CCCCCC;
     height:145px;
 }
-@media screen and (min-width: 600px){
 	#Content{
     font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
@@ -90,6 +239,13 @@ a:active{
 	width:auto;
     float:right;
 	height:500px;
+	}
+	#InfoMeerMinder{
+	visibility: show;
+	height: 400px;
+	}
+	#InfoAll{
+	visibility: hidden;
 	}
 	.Details{
 	position:absolute;
@@ -138,7 +294,6 @@ a:active{
 	
 	}
 
-}
 
 footer{
   width: 100%;
@@ -163,4 +318,5 @@ footer{
 }
 #FooterImages{
    margin-right: 5px;
+}
 }
