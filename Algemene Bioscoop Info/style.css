@@ -22,11 +22,10 @@ a:active{
 }
 body{
     font-family: 'Ubuntu', sans-serif;
-    background-color: #FFFFF9;
+    background-image: url(../Images/Background.jpg);
     font-size: 14px;
 }
 #TopMenuBar{ 
-    background-color: white;
     height: 42px;
     width: 100%;
 
@@ -62,7 +61,6 @@ body{
 }
 
 #TopText{
-    background-color: white;
     font-family: 'Ubuntu', sans-serif;
     font-size: 22px;
     height:120px;
@@ -264,14 +262,6 @@ img{
         height: 530px;
         width: 100%;
         background-color: #3E6DB5;
-    }
-    #kleur2{
-        position: absolute;
-        margin-top: 530px;
-        z-index: -1;
-        height: 604px;
-        width: 100%;
-        background-color: #FFFFFF;
     }
     #kleur3{
         position: absolute;
