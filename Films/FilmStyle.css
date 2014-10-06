@@ -56,10 +56,9 @@ body{
 }
 
 @media screen and (max-width: 640px){
-.FilmItem{
-    float:center;
-    top: 97.5px;
-    position: relative;
+#Films{
+    float:left;
+	margin-left: 50px
 }
 
 }
