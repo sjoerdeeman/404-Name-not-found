@@ -18,17 +18,11 @@ a:link{
 a:visited{
     color: rgb(0, 136, 204);
 }
-a:hover{
-    background-color: #CCCCCC;
-    
-    
-}
 a:active{
     color: gray;
 }
 #TopMenuBar{ 
-    background-color: #EEEEEE;
-    height: 100px;
+    height: 140px;
     width: 100%;
     
 }
@@ -40,36 +34,18 @@ a:active{
 }
 #UpperMenu{
     position:absolute;
-    top:3px;
     margin-left: 10px;
-	top: 50px;
-}
-
-#SearchBlock{
-	float: right;
-	top: 100px;
-    /*margin-right:50px;*/
-    
-    
-}
-.SearchInput{
-    float:right;
-	margin-right: 10px;
-	margin-top: 15px;
-	width: 75px;
-    
+	margin-top: 60px;
 }
 #Logo{
     height:40px;
     margin-top: 7px;
-    margin-left: 8px;
-    position:absolute;
+	margin-left: 100px;
 }
 
 #TopText{
     font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
-    background-color:#CCCCCC;
 	}
 	#Content{
     font-family: 'Ubuntu', sans-serif;
@@ -149,6 +125,7 @@ footer{
 	visibility: hidden;
 }
 }
+
 @media screen and (min-width: 600px){
 @font-face {
     font-family: 'Ubuntu';
@@ -174,7 +151,6 @@ a:active{
     color: gray;
 }
 #TopMenuBar{ 
-    background-color: #EEEEEE;
     height: 42px;
     width: 100%;
     
@@ -189,19 +165,10 @@ a:active{
 }
 #UpperMenu{
     position:absolute;
-    top:7px;
+    top:10px;
     margin-left: 135px;
 }
 
-#SearchBlock{
-    margin-right:50px;
-    
-    
-}
-.SearchInput{
-    float:right;
-    
-}
 #Logo{
     height:30px;
     margin-top: 7px;
@@ -212,7 +179,6 @@ a:active{
 #TopText{
     font-family: 'Ubuntu', sans-serif;
     font-size: 22px;
-    background-color:#CCCCCC;
     height:145px;
 }
 	#Content{
@@ -292,8 +258,6 @@ a:active{
 	
 	}
 
-}
-
 footer{
   width: 100%;
     
@@ -317,4 +281,5 @@ footer{
 }
 #FooterImages{
    margin-right: 5px;
+}
 }

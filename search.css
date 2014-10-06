@@ -86,3 +86,13 @@
 .form-wrapper button:focus:before{
     border-right-color: rgb(65, 81, 70);
 }    
+
+@media screen and (max-width: 640px){
+.form-wrapper {
+    margin-left: 50px;
+	position: absolute;
+	float: none;
+}
+
+    
+}
