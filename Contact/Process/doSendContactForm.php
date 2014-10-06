@@ -18,7 +18,7 @@ $mail = filter_input(INPUT_POST, 'email');
 $type = filter_input(INPUT_POST, 'select');
 $bericht = filter_input(INPUT_POST, 'bericht');
 //set het mail adres waar de mail naar toe gestuurd moet worden
-$to = "mar.rho@Kpnmail.nl";
+$to = "mail@mail.mail";
 /*
 De headers zorgen voor de HTML en waar de mail vandaan komt
 */

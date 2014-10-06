@@ -8,7 +8,7 @@ var nsOptions = {
     speed: 600,
     startSlide: 0,
     aspectRatio: "fixed",
-    circular: true,
+    circular: false,
     touchCircular: true,
     mobileNav: true,
     before: null,
