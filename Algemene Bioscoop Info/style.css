@@ -291,14 +291,14 @@ img{
         /* border: solid green 5px; */
     }
     .Break1{
-        background-color: #ACC399;
+        background-color: transparent;
         width: 40%;
         height: 6px;
         margin: 0 auto;
         margin-top: 135px;
     }
     .Break2{
-        background-color: rgba(171,178,200,0.3);
+        background-color: transparent;
         width: 60%;
         height: 6px;
         margin: 0 auto;
@@ -332,21 +332,21 @@ img{
         margin-left: 0%;
     }
     .Break3{
-        background-color: rgba(99, 88, 121,0.3);
+        background-color: transparent;
         width: 60%;
         height: 6px;
         margin: 0 auto;
         margin-top: 100px;
     }
     .Break4{
-        background-color: #678468;
+        background-color: transparent;
         width: 40%;
         height: 6px;
         margin: 0 auto;
         margin-top: 4px;  
     }
     .Txt3{
-        color: #7C9E9C;
+        color: #8CB2B1;
         position: absolute;
         margin-top: 0px;
         margin-bottom: 60px;
@@ -360,14 +360,14 @@ img{
         margin-left: 70%;
     }
     .Break5{
-        background-color: #40463A;
+        background-color: transparent;
         width: 40%;
         height: 6px;
         margin: 0 auto;
         margin-top: 60px;
     }
     .Break6{
-        background-color: rgba(99, 88, 121,0.3);
+        background-color: transparent;
         width: 60%;
         height: 6px;
         margin: 0 auto;

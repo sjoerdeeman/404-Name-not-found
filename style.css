@@ -8,21 +8,21 @@
     border: 0px 0px 0px 0px;
 }
 a:link{
-    color: #BA200B;
+    color: #444;
 }
 a:visited{
-    color: #BA200B;
+    color: #444;
 }
 a:hover{
     color: black;
-    /*background-color: #839C36;*/
+    background-color: rgba(99, 88, 121,0.3);
 }
 a:active{
-    color: #BA200B;
+    color: #444;
 }
 body{
     font-family: 'Ubuntu', sans-serif;
-    background-image: url();
+    background-image: url(Images/Background.jpg);
     background-color: #FFFFF9;
     font-size: 14px;
 }
@@ -263,15 +263,7 @@ img{
         z-index: -1;
         height: 530px;
         width: 100%;
-        background-color: #3E6DB5;
-    }
-    #kleur2{
-        position: absolute;
-        margin-top: 530px;
-        z-index: -1;
-        height: 604px;
-        width: 100%;
-        background-color: #FFFFFF;
+        background-color: rgba(171,178,200,0.3);
     }
     #kleur3{
         position: absolute;
@@ -279,14 +271,14 @@ img{
         margin-top: 1134px;
         height: 495px;
         width: 100%;
-        background-color: #BA200B;
+        background-color: rgba(99, 88, 121,0.3);
     }
     #kleur4{
         position: absolute;
         z-index: -1;
         height: 525px;
         width: 100%;
-        background-color: #3E6DB5;
+        background-color: rgba(171,178,200,0.3);
     }
     .section1{
         margin: 0 auto;
