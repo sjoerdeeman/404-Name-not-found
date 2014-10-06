@@ -17,6 +17,30 @@ and open the template in the editor.
     <link href="../style.css" rel="stylesheet" type="text/css">
     <link href="ContactStyle.css" rel="stylesheet" type="text/css">
     <script src="../Javascript/ContactScript.js" type="text/javascript"></script>
+	<script>
+            var myCenter = new
+                    google.maps.LatLng(51.9204173, 4.4697347);
+            function initialize()
+            {
+                var mapProp = {
+                    center: myCenter,
+                    zoom: 16,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                };
+                var map = new google.maps.Map(document.getElementById("googleMap")
+                        , mapProp);
+
+					//https://developers.google.com/maps/documentation/javascript/examples/places-searchbox	
+						
+                var marker = new google.maps.Marker({
+                    position: myCenter,
+                });
+
+                marker.setMap(map);
+            }
+
+            google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
 </head>
 <body>
     <div id="container">
@@ -39,8 +63,9 @@ and open the template in the editor.
             </center>
         </div><!--TopText-->
         <div id="Content">
-           <p>Adres: &nbsp;West-Kruiskade 26, 3014 AS Rotterdam</br><a href="../google maps/Bereikbaarheid.html">Google maps.</a></p>
+           <p>Adres: &nbsp;West-Kruiskade 26, 3014 AS Rotterdam</br></p>
        </br>
+<div id="googleMap" style="width:500px;height:380px; float:left;"></div>
        <p>Via onderstaand formulier kunt u contact opnemen met Filmpje voor klachten en opmerkingen.</p>
 
        <p style="display:none;" id="error"></p>
