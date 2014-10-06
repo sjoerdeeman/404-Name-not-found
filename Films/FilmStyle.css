@@ -1,5 +1,6 @@
+@media screen and (min-width: 800px){
 body{
-    margin-bottom:2150px;
+    margin-bottom:1650px;
 }
 
 .FilmItem{
@@ -16,15 +17,6 @@ body{
     left: 33%;
     position: relative;
     clear:left
-}
-.FilmItem2{
-    top: 614px;
-    float:left;
-    margin: 0px 20px 10px 5px;
-    left: 33%;
-    position: relative;
-    clear:left;
-
 }
 .FilmItem3{
     float:left;
@@ -61,3 +53,13 @@ body{
 }
 /* clear:left*/
 
+}
+
+@media screen and (max-width: 640px){
+.FilmItem{
+    float:center;
+    top: 97.5px;
+    position: relative;
+}
+
+}
