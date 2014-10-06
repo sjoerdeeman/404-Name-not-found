@@ -25,6 +25,7 @@ body{
     background-image: url(../Images/Background.jpg);
     font-size: 14px;
 }
+
 #TopMenuBar{ 
     height: 42px;
     width: 100%;
@@ -44,20 +45,10 @@ body{
     margin-left: 135px;
 }
 
-#SearchBlock{
-    margin-right:50px;
-
-
-}
-.SearchInput{
-    float:right;
-
-}
 #Logo{
     height:30px;
     margin-top: 20px;
     margin-left: 15px;
-    position:absolute;
 }
 
 #TopText{
@@ -68,6 +59,7 @@ body{
 img{
     max-width: 100%
 }
+
 @media screen and (max-width: 640px){
     a:hover{
         background-color: transparent;
@@ -77,36 +69,28 @@ img{
         background-color: #FFFFF9;
         font-size: 8px;
     }
-    #TopMenuBar{ 
-        background-color: #666666;
-        height: 24px;
-        width: 100%;
-
-    }
-    .MenuItem{
-        font-family: 'Ubuntu', sans-serif;
-        font-size: 10px;
-        position: static;
-        text-decoration: none;
-        margin: 2px 2px 2px 2px;
-
-    }
-    #UpperMenu{
-        position:absolute;
-        top:6px;
-        margin-left: 30%;
-    }
-    .form-wrapper{
-        height: 0px;
-        visibility: hidden;
-
-    }
-    #Logo{
-        height:18px;
-        margin-top: 2px;
-        margin-left: 4px;
-        position:absolute;
-    }
+#TopMenuBar{ 
+    height: 120px;
+    width: 100%;
+    
+}
+.MenuItem{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 4px 4px 4px 4px;
+	padding: 0px 0px 0px 0px;
+}
+#UpperMenu{
+    position:absolute;
+    margin-left: 10px;
+	top: 105px;
+}
+#Logo{
+    height:40px;
+    margin-top: 0px;
+	margin-left: 90px;
+}
     
     #TopText{
         height: 0px;
