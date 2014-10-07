@@ -26,6 +26,7 @@ function ShowPrice(ChairCat, ID) {
                         ;
                 }
                 r = false;
+                break
             }        
         }
         return r;
@@ -64,7 +65,11 @@ function ShowPrice(ChairCat, ID) {
             OutDiv.innerHTML = "Klik op een stoel"
         }
     }
-    else {
+    else if (ChangeChairState(ID, ChairCat) == false) {
+        var index = OccChair.indexOf(ID);
+        if (index != -1) {
+            OccChair.splice(index, 1);
+        }
         var value = 0;
         switch (ChairCat) {            
             case 1:
