@@ -23,7 +23,7 @@ and open the template in the editor.
 </head>
 <body onload="javascript: SetCurrentFilms();
 Slider();">
-<div id="TopMenuBar">
+<div id="TopMenuBar"><!--Menu Block-->
     <img id="Logo" src="Images/Logo.png" alt="logo">
     <nav id="UpperMenu">
         <a href="index.html" class="MenuItem">Home</a>
@@ -35,7 +35,7 @@ Slider();">
         <input type="text" placeholder="Zoek een film..." required>
         <button type="submit">Zoeken</button>
     </form>
-</div><!--TopMenuBar-->
+</div><!--TopMenuBar--><!-- end Menu Block-->
 <div id="TopText">
     <center>
         <br/>
@@ -47,7 +47,7 @@ Slider();">
 <div id="kleur3"></div>
 <div id="kleur4"></div>
 <div id="Content">    
-    <div id="TopVijfWrapper">
+    <div id="TopVijfWrapper"><!--Slider block-->
         <div id="ninja-slider" style="width:100%; height:530px;">
             <ul>
                 <li><a data-image="http://www.backstageol.com/wp-content/uploads/2014/07/lets-be-cops-poster-620x400.jpg"></a></li>
@@ -58,8 +58,8 @@ Slider();">
 
             </ul>
         </div>
-    </div>  
-    <div id="MoreAboutFilms">
+    </div> <!--End Slider block--> 
+    <div id="MoreAboutFilms"><!--Meer over films block, movie onhover-->
 
         <section id="NoFilmHover">
             <p>
@@ -193,8 +193,8 @@ Slider();">
                         <iframe  width="400" height="240"src="https://www.youtube.com/embed/4xD0junWlFc"frameborder="0" allowfullscreen></iframe>
                     </section>
                 </section>
-            </div>
-    <div id="FilmsVandaag">            
+            </div><!--End Meer Over Films block-->
+    <div id="FilmsVandaag"> <!-- Lijst van films die vandaag spelen-->           
         <div id="LaatsteFilms"><strong>De films die vanavond spelen</strong></div>
         <p id="LoadingFilms">Loading...</p>
         <div id="FilmVandaagContent">
@@ -221,44 +221,7 @@ Slider();">
             <section id="GeenFilms" style="display:none;">
                 <p>Er zijn geen films meer beschikbaar voor vanavond. &nbsp;Vanaf 8 uur 's ochtends staan de films van de volgende dag er.</p>
             </section>
-        </div>
-        
-           <!-- <div id="TopVijfWrapper">
-                <p>De beste films:</p>
-                <div id="Top5">
-                    <img class="NavigationImages"src="Images/GoLeft.png" alt="GoLeft" width="100" onclick="javascript:ShowOtherFilmsBack();"/>
-                    <span class="ImageLinkWrapper1"><a href="DetailPagina/LetsBeCops/LetsBeCops.html"><img id="ImageLinkWrapper1Image" src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/letsbecops3.jpg" width="120" height="200" /></a></span>
-                    <span id="ImageLinkWrapper2"><a href="DetailPagina/MapsToTheStars/MapsToTheStars.html"><img id="ImageLinkWrapper2Image" src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/mapstotherstars3.jpg" width="120" height="200" /></a></span>
-                    <span id="ImageLinkWrapperEnd"><a href="DetailPagina/GuardiansOfTheGalaxy/GuardiansOfTheGalaxy.html"><img id="ImageLinkWrapperEndImage" src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/guardiansofthegalaxy1.jpg" width="120" height="200" /></a></span>
-                    <img class="NavigationImages"src="Images/GoRight.png" alt="GoLeft" width="100" onclick="javascript:ShowOtherFilmsFor();" />
-                </div>-->
-            <!--
-            <marquee onmouseover="this.stop();" onmouseout="this.start();">
-                <a href="Detailpagina/LetsBeCops/LetsBeCops.html" >      <img  src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/letsbecops3.jpg" width="120" height="200" /></a>
-                <a href="Detailpagina/MapsToTheStars/MapsToTheStars.html" >   <img  src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/mapstotherstars3.jpg" width="120" height="200" /></a>
-                <a href="Detailpagina/GuardiansOfTheGalaxy/GuardiansOfTheGalaxy.html" >  <img  src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/guardiansofthegalaxy1.jpg" width="120" height="200" /></a>
-                <a href="Detailpagina/CubanFury/CubanFury.html" >   <img  src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/cubanfury1(1).jpg" width="120" height="200" /></a>
-                <a href="Detailpagina/FindingFanny/FindingFanny.html" >    <img  src="http://upload.wikimedia.org/wikipedia/en/3/35/Finding_Fanny_Theatrical_release_poster.jpg" width="120" height="200" /></a>
-            </marquee>-->
-            <!-- <div id="TopVijf">
-                 <ul id="TopVijfUL">
-                     <li>
-                         <p class="TopVijfUlNumber">1</p><a class="TopVijfUlImageLink" href="Detailpagina/FindingFanny/FindingFanny.html"><img src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/letsbecops3.jpg" width="200" /></a>
-                     </li>
-                     <li>
-                         <p class="TopVijfUlNumber">2</p><a class="TopVijfUlImageLink" href="Detailpagina/FindingFanny/FindingFanny.html"><img src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/mapstotherstars3.jpg" width="200" /></a>
-                     </li>
-                     <li>
-                         <p class="TopVijfUlNumber">3</p><a class="TopVijfUlImageLink" href="Detailpagina/FindingFanny/FindingFanny.html"><img src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/guardiansofthegalaxy1.jpg" width="200" /></a>
-                     </li>
-                     <li>
-                         <p class="TopVijfUlNumber">4</p><a class="TopVijfUlImageLink" href="Detailpagina/FindingFanny/FindingFanny.html"><img src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/cubanfury1(1).jpg" width="200" /></a>
-                     </li>
-                     <li>
-                         <p class="TopVijfUlNumber">5</p><a class="TopVijfUlImageLink" href="Detailpagina/FindingFanny/FindingFanny.html"><img src="http://upload.wikimedia.org/wikipedia/en/3/35/Finding_Fanny_Theatrical_release_poster.jpg" width="200" /></a>
-                     </li>
-                 </ul>
-             </div>-->
+        </div><!--Einde lijst van films die vandaag spelen-->        
          </div>
 
      </div><!--Content-->
