@@ -17,6 +17,7 @@ and open the template in the editor.
     <link href="../style.css" rel="stylesheet" type="text/css">
     <link href="ContactStyle.css" rel="stylesheet" type="text/css">
     <script src="../Javascript/ContactScript.js" type="text/javascript"></script>
+	<!--
 	<script>
             var myCenter = new
                     google.maps.LatLng(51.9204173, 4.4697347);
@@ -41,6 +42,7 @@ and open the template in the editor.
 
             google.maps.event.addDomListener(window, 'load', initialize);
         </script>
+		!-->
 </head>
 <body>
     <div id="container">
@@ -63,9 +65,14 @@ and open the template in the editor.
             </center>
         </div><!--TopText-->
         <div id="Content">
+		<center>
+		<iframe id="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2460.742043466261!2d4.469734700000004!3d51.92041729999991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c434a3f2470a65%3A0xd4bc43a2c385f1ed!2sWest-Kruiskade+26%2C+3014+AS+Rotterdam!5e0!3m2!1snl!2snl!4v1412690525233" width="600" height="450" frameborder="0" style="border:0"></iframe>
            <p>Adres: &nbsp;West-Kruiskade 26, 3014 AS Rotterdam</br></p>
+		   </center>
        </br>
-<div id="googleMap" style="width:500px;height:380px; float:left;"></div>
+	   
+	<div id="googleMap" style="width:500px;height:380px; float:left;"></div>
+	
        <p>Via onderstaand formulier kunt u contact opnemen met Filmpje voor klachten en opmerkingen.</p>
 
        <p style="display:none;" id="error"></p>
@@ -96,7 +103,7 @@ and open the template in the editor.
 
             <input class="FormInput" type="email" name="email" id="email" required onblur="CheckMailAdress();"><br />
             <textarea class="FormInput" name="bericht" placeholder="Max 500 tekens" rows="10" cols="20" id="Bericht" onblur="CheckIfValueEmpty('Bericht')"></textarea><br />						<script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LdiuPoSAAAAAJt81AoIg_auVT6IF0xv18GfDomU"></script>	<noscript>	  		<iframe src="http://www.google.com/recaptcha/api/noscript?k=6LdiuPoSAAAAAJt81AoIg_auVT6IF0xv18GfDomU" height="300" width="500" frameborder="0"></iframe><br/>  		<textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>  		<input type="hidden" name="recaptcha_response_field" value="manual_challenge"/>	</noscript>
-            <div class="OutLined"><button class="OutLined" type="submit">Verzenden</button></div>
+            <div class="OutLined" style="margin-bottom: 50px;"><button class="OutLined" type="submit">Verzenden</button></div>
         </form>
     </div><?php          require_once('recaptchalib.php');          $publickey = "6LdiuPoSAAAAAJt81AoIg_auVT6IF0xv18GfDomU"; // you got this from the signup page          echo recaptcha_get_html($publickey);        ?>
 </div><!--Content-->
