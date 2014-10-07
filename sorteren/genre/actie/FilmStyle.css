@@ -52,14 +52,9 @@ body{
     box-shadow: 5px 5px 1.2em black;
 }
 .selectmenu{
-	float:left;
-	margin-left: 200px;
-	
-   
+	position:relative;
+    left:200px;   
 }
-.klotemenu
-       margin-left: 1000px;
-/* clear:left*/
 
 }
 
