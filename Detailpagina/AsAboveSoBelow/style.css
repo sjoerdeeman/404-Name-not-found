@@ -2,6 +2,11 @@
     Created on : 11-sep-2014, 9:58:01
     Author     : Mark Hartging, Sjoerd Eeman, Niek Guijt, Jhinenton Hooplot, Tim Nijssen
 */
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(../../Images/Background.jpg);
+    font-size: 14px;
+}
 @media screen and (max-width: 640px){
 	@font-face {
     font-family: 'Ubuntu';
@@ -13,13 +18,17 @@
     border: 0px 0px 0px 0px;
 }
 a:link{
-    color: rgb(0, 136, 204);
+    color: #444;
 }
 a:visited{
-    color: rgb(0, 136, 204);
+    color: #444;
+}
+a:hover{
+    color: black;
+    background-color: rgba(99, 88, 121,0.3);
 }
 a:active{
-    color: gray;
+    color: #444;
 }
 #TopMenuBar{ 
     height: 140px;
@@ -137,18 +146,17 @@ footer{
     border: 0px 0px 0px 0px;
 }
 a:link{
-    color: rgb(0, 136, 204);
+    color: #444;
 }
 a:visited{
-    color: rgb(0, 136, 204);
+    color: #444;
 }
 a:hover{
-    background-color: #CCCCCC;
-    
-    
+    color: black;
+    background-color: rgba(99, 88, 121,0.3);
 }
 a:active{
-    color: gray;
+    color: #444;
 }
 #TopMenuBar{ 
     height: 42px;
