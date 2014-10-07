@@ -52,7 +52,8 @@ body{
     box-shadow: 5px 5px 1.2em black;
 }
 .selectmenu{
-	margin: 0 auto;
+	position: absolute;
+	margin-left: 500px;
    
 }
 /* clear:left*/
