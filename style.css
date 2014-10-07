@@ -230,6 +230,15 @@ img{
     footer{
         visibility: hidden;
     }
+	#TopVijfWrapper{
+		display: none;
+	}
+	#MoreAboutFilms{
+		display: none;
+	}
+	#FilmsVandaag{
+		margin-left: 55px;
+	}
 
 }
 
