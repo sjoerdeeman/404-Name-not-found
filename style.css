@@ -239,6 +239,13 @@ img{
 	#FilmsVandaag{
 		margin-left: 55px;
 	}
+	#CForm{
+		display: none;
+	}
+	#gmap{
+		width: 100%;
+		height: 300px;
+	}
 
 }
 
