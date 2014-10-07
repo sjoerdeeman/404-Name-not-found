@@ -51,9 +51,9 @@ body{
 .FilmItemPart1:hover{
     box-shadow: 5px 5px 1.2em black;
 }
-.selectmenu{
-	position:relative;
-    left:200px;   
+.FilterWrapper{
+	position:fixed;
+      
 }
 
 }
