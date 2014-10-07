@@ -91,6 +91,7 @@ img{
     height:40px;
     margin-top: 0px;
 	margin-left: 90px;
+	position: relative;
 }
     
     #TopText{
