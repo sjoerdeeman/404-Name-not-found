@@ -147,15 +147,17 @@ footer{
     border: 0px 0px 0px 0px;
 }
 a:link{
-    color: rgb(0, 136, 204);
+    color: #444;
 }
 a:visited{
-    color: rgb(0, 136, 204);
+    color: #444;
 }
 a:hover{
-    background-color: #CCCCCC;
-    
-    
+    color: black;
+    background-color: rgba(99, 88, 121,0.3);
+}
+a:active{
+    color: #444;
 }
 a:active{
     color: gray;
