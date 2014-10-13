@@ -135,7 +135,6 @@ footer{
 }
 }
 
-
 @media screen and (min-width: 800px){
 @font-face {
     font-family: 'Ubuntu';
@@ -191,7 +190,8 @@ a:active{
 #TopText{
     font-family: 'Ubuntu', sans-serif;
     font-size: 22px;
-    height:
+    height:145px;
+	clear: both;
 	}
 	#Content{
     font-family: 'Ubuntu', sans-serif;

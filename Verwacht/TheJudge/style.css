@@ -67,7 +67,7 @@ a:active{
 	float: center;
 	
 	}
-	#CubanFuryImg{
+	#TheJudgeImg{
 	height: 300px;
 	width: 200px;
 	float:left;
@@ -135,6 +135,7 @@ footer{
 }
 }
 
+
 @media screen and (min-width: 800px){
 @font-face {
     font-family: 'Ubuntu';
@@ -157,6 +158,9 @@ a:hover{
 }
 a:active{
     color: #444;
+}
+a:active{
+    color: gray;
 }
 #TopMenuBar{ 
     height: 42px;
@@ -189,7 +193,7 @@ a:active{
     font-size: 22px;
     height:145px;
 	clear: both;
-}
+	}
 	#Content{
     font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
@@ -201,7 +205,7 @@ a:active{
 	float: center;
 	
 	}
-	#CubanFuryImg{
+	#TheJudgeImg{
 	height: 650px;
 	width: 440px;
 	float:left;
@@ -231,7 +235,7 @@ a:active{
 	}
 	.Details2{
 	position:absolute;
-	top:700px;
+	top:630px;
 	left:500px;
 	clear:both;
 	width: auto;
@@ -266,9 +270,7 @@ a:active{
 	font-size: 35px;
 	
 	}
-
-
-footer{
+	footer{
   width: 100%;
     
     position: fixed;
@@ -292,4 +294,5 @@ footer{
 #FooterImages{
    margin-right: 5px;
 }
+
 }
