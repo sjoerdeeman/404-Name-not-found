@@ -192,6 +192,7 @@ a:active{
     font-family: 'Ubuntu', sans-serif;
     font-size: 22px;
     height:145px;
+	clear: both;
 	}
 	#Content{
     font-family: 'Ubuntu', sans-serif;
