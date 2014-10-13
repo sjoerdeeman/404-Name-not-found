@@ -16,7 +16,20 @@ and open the template in the editor.
         <link href="../style.css" rel="stylesheet" type="text/css">
         <link href="ResVerStyles.css" rel="stylesheet" type="text/css">
         <script src="ReservScript.js" type="text/javascript"></script>
-        
+        <script type="text/javascript">
+            function CheckForm(){
+            var inp = document.getElementById("FormPrice").value;    
+            if(inp == 0){
+            alert("U heeft geen stoel geselecteerd");    
+            return false;
+                
+            }
+            else{
+                return true;
+            }
+                
+            }
+        </script>
     </head>
     <body onload="PrintZaal('1')">
         <div id="container">
@@ -50,8 +63,10 @@ and open the template in the editor.
             </div>
                 <div id="TotalPrice">
                 </div>
-                <form>
-                <input type="submit" value="Plaats Bestelling">
+                <br/>
+                <form method="get" action="do/ProcessOrder.php" onsubmit="return CheckForm();">
+                    <input id="FormPrice" name="FormPrice" type="hidden" value="">
+                <input type="submit" value="Bestel kaartjes">
                 </form>
             </div><!--Content-->
             

@@ -60,9 +60,11 @@ function ShowPrice(ChairCat, ID) {
         }
         if (Total > 0) {
             OutDiv.innerHTML = "<p>De totaalprijs van de geselecteerde stoelen: €" + Total + "</p>";
+            document.getElementById("FormPrice").value = Total;
         }
         else {
             OutDiv.innerHTML = "Klik op een stoel"
+            document.getElementById("FormPrice").value = "0";
         }
     }
     else if (ChangeChairState(ID, ChairCat) == false) {
@@ -88,9 +90,12 @@ function ShowPrice(ChairCat, ID) {
         Total = Total - value;
         if (Total > 0) {
             OutDiv.innerHTML = "<p>De totaalprijs van de geselecteerde stoelen: €" + Total + "</p>";
+            document.getElementById("FormPrice").value = Total;
+            
         }
         else {
             OutDiv.innerHTML = "Klik op een stoel"
+            document.getElementById("FormPrice").value = Total;
         }
     }
 }
