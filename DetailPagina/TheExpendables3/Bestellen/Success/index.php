@@ -13,12 +13,12 @@ and open the template in the editor.
         <meta property="og:description" content="Filmpje is een oer-Hollandse bioscoop met de meeste nieuwe technieken.">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="../style.css" rel="stylesheet" type="text/css">       
+        <link href="../../style.css" rel="stylesheet" type="text/css">       
     </head>
     <body>
         <div id="container">
             <div id="TopMenuBar">                
-                    <a href="../index.html"> <img id="Logo" src="../Images/Logo.png" alt="logo"> </a>                
+                    <a href="../index.html"> <img id="Logo" src="../../Images/Logo.png" alt="logo"> </a>                
                 <nav id="UpperMenu">
                     <a href="../index.html" class="MenuItem">Home</a>
                     <a href="..//Films/index.html" class="MenuItem">Films</a>
@@ -35,6 +35,12 @@ and open the template in the editor.
                 </center>
             </div><!--TopText-->
             <div id="Content">
+                <strong>U hebt kaartjes besteld voor de film 'A Most Wanted Man'.<br/></strong><Br/>
+                <strong>Uw Reserveringsnummer:</strong>
+                <?php
+                echo $_GET['ResCode'];
+                ?>      <br/><br/>          
+                <button>Uw kaartjes</button>
                
 			
             </div><!--Content-->
