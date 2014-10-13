@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Filmpje</title>
+		<meta name="keywords" content="film, films, movie, movies, bios, bioscoop, cinema, oer, hollandse, oer-hollandse, 3D, Imax, Aura3d, Aura, zaal, zalen, stoel, stoelen, bioscoopzaal, bioscoopzalen, bioscoopstoel, bioscoopstoelen, uniek, unieke, inrichting, ervaring, zit, plaatsen, goed, nu in de bioscoop, nu in de bios, films op dit moment, movies op dit moment, verwachte films, verwachte movies">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta property="og:sitename" content="Filmpje">
+		<meta property="og:description" content="Filmpje is een oer-Hollandse bioscoop met de meeste nieuwe technieken.">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css">
+		<link href="../../search.css" rel="stylesheet" type="text/css">
+		
+		<script language="JavaScript">
+            function showMeerMinder(thisObj, bonusContent) {
+                var caption = thisObj.innerHTML;
+                //alert(caption);
+                if (caption == "Meer info") {
+                    document.getElementById(bonusContent).style.display = "inline";
+                    thisObj.innerHTML = "Minder info";
+                } else {
+                    document.getElementById(bonusContent).style.display = "none";
+                    thisObj.innerHTML = "Meer info";
+                }
+            }//je was dit haakje vergeten
+	</script>
+    </head>
+    <body>
+        <div id="TopMenuBar">
+            <a href="../../index.html"> <img id="Logo" src="images/Logo.png" alt="logo"> </a>
+            <nav id="UpperMenu">
+                <a href="../../index.html" class="MenuItem" >Home</a>
+                <a href="../../Films/index.html" class="MenuItem">Films</a>
+                <a href="../../Algemene Bioscoop Info/overons.html" class="MenuItem">Over ons</a>
+                <a href="../../Contact/contact.html" class="MenuItem">Contact</a>
+            </nav><!--UpperMenu-->
+            <form class="form-wrapper ag">
+                <input type="text" placeholder="Zoek een film..." required>
+                <button type="submit">Zoeken</button>
+            </form>
+        </div><!--TopMenuBar-->
+        <div id="TopText">
+            <center>
+            <h1>The Judge</h1>
+			<p>Release: 16 oktober 2014</p>
+            </center>
+        </div><!--TopText-->
+        <div id="Content">
+		<section class="Poster">
+				<img id="TheJudgeImg" src="Posters/TheJudgePoster.jpg" alt="Poster">
+		</section> 
+		<section class="Details">
+				<p><b>Genre:</b> komedie, drama</p>
+				<br>
+				<p><b>Lengte:</b> 142m</p>
+				<br>
+				<p><b>Regisseur:</b></p>
+					<p>David Dobkin</p>
+				</section>
+				<section class="Details4">
+				<p><b>Acteurs/Actrices:</b></p>
+					<p>Robert Downey Jr.</p>
+					<p>Vera Farmiga</p>
+					<p>Leighton Meester</p>
+			</section>
+		<section class="Details2">
+				<p class="Details3"><b>Prijs:</b></p>
+				<p class="Details3"><b>Zaal:</b></p>
+				<p class="Details3"><b>Draaitijd:</b></p>
+		</section>
+		<button id="ReserveerKnop">Reserveer nu!</button>
+		<img id="KijkWijzer" src="images/KijkWijzer.png">
+			<section id="Info">
+			<section id="InfoMeerMinder">
+				<p>In The Judge speelt Robert Downey Jr. de advocaat Hank Palmer. Hij keert terug naar zijn geboortedorp als zijn vader, de plaatselijke rechter met wie hij ruzie heeft, wordt verdacht van moord.</p>
+					<span id="MeerInfo" style="display:none">Hank gaat op zoek naar de waarheid en al doende worden de banden met zijn familie hersteld. Een film van Warner Bros. Pictures en Village Roadshow Pictures met Oscar-genomineerde Robert Downey Jr. (Tropic Thunder, de Sherlock Holmes films, de Iron Man cyclus), Oscar-winnaar Robert Duvall (Tender Mercies, Crazy Heart) en Oscar-genomineerde Vera Farmiga (Up in the Air, The Conjuring). Geregisseerd door David Dobkin (Wedding Crashers).</span> <a onclick="showMeerMinder(this,'MeerInfo');">Meer info</a>
+				<!--Trailer: https://www.youtube.com/watch?v=-m8V7G7e7gw-->
+				
+				<br>
+				<iframe type="text/html" 
+				width="100%" height="115%" src="https://www.youtube.com/embed/ZBvK6ni97W8"
+				frameborder="0" allowFullScreen>
+				</iframe>
+		</section>
+			</section>
+			<section id="InfoAll">
+				In The Judge speelt Robert Downey Jr. de advocaat Hank Palmer. Hij keert terug naar zijn geboortedorp als zijn vader, de plaatselijke rechter met wie hij ruzie heeft, wordt verdacht van moord
+				Hank gaat op zoek naar de waarheid en al doende worden de banden met zijn familie hersteld. Een film van Warner Bros. Pictures en Village Roadshow Pictures met Oscar-genomineerde Robert Downey Jr. (Tropic Thunder, de Sherlock Holmes films, de Iron Man cyclus), Oscar-winnaar Robert Duvall (Tender Mercies, Crazy Heart) en Oscar-genomineerde Vera Farmiga (Up in the Air, The Conjuring). Geregisseerd door David Dobkin (Wedding Crashers).
+			</section>
+			</section>
+			
+        </div><!--Content-->
+        <footer>
+            <div id="FooterText">
+                <div id="FooterImages">
+                        <img src="../../Images/3DLogo.jpg" class="footerlogo" alt="logo">
+                        <img src="../../Images/AuraLogo.jpg" class="footerlogo" alt="logo">
+                        <img src="../../Images/ImaxLogo.jpg" class="footerlogo" alt="logo">
+                    </div>
+                <p id="CopyTekst"> &copy; Filmpje | adres | telefoonnummers  </p>
+            </div><!--FooterText-->
+        </footer>
+    </body>
+</html>

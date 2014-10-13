@@ -67,7 +67,7 @@ a:active{
 	float: center;
 	
 	}
-	#AMostWantedManImg{
+	#TheJudgeImg{
 	height: 300px;
 	width: 200px;
 	float:left;
@@ -134,6 +134,7 @@ footer{
 	visibility: hidden;
 }
 }
+
 
 @media screen and (min-width: 800px){
 @font-face {
@@ -203,7 +204,7 @@ a:active{
 	float: center;
 	
 	}
-	#AMostWantedManImg{
+	#TheJudgeImg{
 	height: 650px;
 	width: 440px;
 	float:left;
@@ -233,7 +234,7 @@ a:active{
 	}
 	.Details2{
 	position:absolute;
-	top:600px;
+	top:630px;
 	left:500px;
 	clear:both;
 	width: auto;
