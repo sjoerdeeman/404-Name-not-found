@@ -49,7 +49,7 @@ body{
     height:30px;
     margin-top: 20px;
     margin-left: 15px;
-	position:absolute;
+    position:absolute;
 }
 
 #TopText{
@@ -70,29 +70,29 @@ img{
         background-color: #FFFFF9;
         font-size: 8px;
     }
-#TopMenuBar{ 
-    height: 120px;
-    width: 100%;
-    
-}
-.MenuItem{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 18px;
-    text-decoration: none;
-    margin: 4px 4px 4px 4px;
-	padding: 0px 0px 0px 0px;
-}
-#UpperMenu{
-    position:absolute;
-    margin-left: 10px;
-	top: 105px;
-}
-#Logo{
-    height:40px;
-    margin-top: 0px;
-	margin-left: 90px;
-	position: relative;
-}
+    #TopMenuBar{ 
+        height: 120px;
+        width: 100%;
+
+    }
+    .MenuItem{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 18px;
+        text-decoration: none;
+        margin: 4px 4px 4px 4px;
+        padding: 0px 0px 0px 0px;
+    }
+    #UpperMenu{
+        position:absolute;
+        margin-left: 10px;
+        top: 105px;
+    }
+    #Logo{
+        height:40px;
+        margin-top: 0px;
+        margin-left: 90px;
+        position: relative;
+    }
     
     #TopText{
         height: 0px;
@@ -274,6 +274,7 @@ img{
         left: 0%;
         width: 50%;
         height: 453px;
+        margin-top: -52.5px;
         /* border: solid green 5px; */
     }
     .Break1{
@@ -295,8 +296,7 @@ img{
         visibility: hidden;
     }
     .Image1{
-        margin-top: 60px;
-        margin-bottom: 60px;
+        margin-top: 100px;
         margin-left: 70%;
     }
 
@@ -306,15 +306,14 @@ img{
     .Txt2{
         color: #465958;
         position: absolute;
-        margin-top: 10px;
+        margin-top: 5px;
         right: 20px;
         width: 50%;
         height: 453px;
         /* border: solid green 5px; */
     }
     .Image2{
-        margin-top: 60px;
-        margin-bottom: 60px;
+        margin-top: 40px;
         margin-left: 0%;
     }
     .Break3{
@@ -335,14 +334,14 @@ img{
         color: #8CB2B1;
         position: absolute;
         margin-top: 0px;
-        margin-bottom: 60px;
+        margin-bottom: 65px;
         left: 0%;
         width: 50%;
         height: 453px;
         /* border: solid green 5px; */
     }
     .Image3{
-        margin-top: 60px;
+        margin-top: 40px;
         margin-left: 70%;
     }
     .Break5{
@@ -362,15 +361,14 @@ img{
     .Txt4{
         color: #7C9E9C;
         position: absolute;
-        margin-top: 0px;
-        margin-bottom: 60px;
+        margin-top: 20px;
         left: 50%;
         width: 50%;
         height: 453px;
         /* border: solid green 5px; */
     }
     .Image4{
-        margin-top: 60px;
+        margin-top: 90px;
         left: 0px;
     }
 }
