@@ -137,6 +137,68 @@ nav ul ul {
 
 }
 
+@media screen and (max-width: 800px){
+.FilmItem{
+    float:left;
+    top: 97.5px;
+    margin: 0px 20px 10px 5px;
+    left: 5%;
+    position: relative;
+}
+.FilmItem1{
+    float:left;
+    top: 301.5px;
+    margin: 0px 20px 10px 5px;
+    left: 5%;
+    position: relative;
+    clear:left
+}
+.FilmItem3{
+    float:left;
+    margin: 0px 20px 50px 5px;
+    left: 5%;
+    position: relative;
+    clear:left;
+    
+}
+.FilmItem4{
+    float:left;
+    top: 301.5px;
+    margin: 0px 20px 10px 5px;
+    left: 5%;
+    position: relative;
+}
+.FilmItem5{
+    float:left;
+    top: 500px;
+    margin: 0px 20px 10px 5px;
+    left: 5%;
+    position: relative;
+    clear:left
+}
+.FilmItem6{
+    float:left;
+    top: 500px;
+    margin: 0px 20px 10px 5px;
+    left: 5%;
+    position: relative;
+}
+.FilmItemPart1:hover{
+    box-shadow: 5px 5px 1.2em black;
+}
+.selectmenu{
+	position: absolute;
+	margin-left: 500px;
+   
+}
+#glist{
+	display: none;
+}
+#selectmenu{
+	display: none;
+}
+
+}
 
 
 
