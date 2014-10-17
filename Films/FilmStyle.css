@@ -1,53 +1,77 @@
-@media screen and (min-width: 800px){
+@media screen and (min-width: 1000px){
 body{
     margin-bottom:1650px;
 }
 
 .FilmItem{
     float:left;
-    top: 97.5px;
-    margin: 0px 20px 10px 5px;
-    left: 33%;
-    position: relative;
-}
-.FilmItem1{
-    float:left;
-    top: 301.5px;
+    top: 100px;
     margin: 0px 20px 10px 5px;
     left: 33%;
     position: relative;
     clear:left
 }
-.FilmItem3{
+.FilmItem1{
     float:left;
-    margin: 0px 20px 50px 5px;
+    top: 100px;
+    margin: 0px 20px 10px 5px;
     left: 33%;
     position: relative;
-    clear:left;
-    
+}
+.FilmItem2{
+    float:left;
+	top: 100px;
+    margin: 0px 20px 50px 5px;
+    left: 33%;
+    position: relative; 
+	
+}
+.FilmItem3{
+    float:left;
+    top: 200.5px;
+    margin: 0px 20px 10px 5px;
+    left: 33%;
+    position: relative;
+	clear: left;
 }
 .FilmItem4{
     float:left;
-    top: 301.5px;
+    top: 200px;
     margin: 0px 20px 10px 5px;
     left: 33%;
     position: relative;
 }
 .FilmItem5{
     float:left;
-    top: 500px;
+    top: 200px;
+    margin: 0px 20px 10px 5px;
+    left: 33%;
+    position: relative;
+}
+.FilmItem6{
+    float:left;
+    top: 300px;
     margin: 0px 20px 10px 5px;
     left: 33%;
     position: relative;
     clear:left
 }
-.FilmItem6{
+.FilmItem7{
     float:left;
-    top: 500px;
+    top: 300px;
     margin: 0px 20px 10px 5px;
     left: 33%;
     position: relative;
 }
+.FilmItem8{
+    float:left;
+    top: 300px;
+    margin: 0px 20px 10px 5px;
+    left: 33%;
+    position: relative;
+}
+
+
 .FilmItemPart1:hover{
     box-shadow: 5px 5px 1.2em black;
 }
@@ -124,9 +148,78 @@ nav ul ul {
 }
 
 @media screen and (max-width: 640px){
-#Films{
+
+.FilmItem{
     float:left;
-	margin-left: 50px
+    top: 100px;
+    margin: 0px 20px 10px 5px;
+    left: 20%;
+    position: relative;
+    clear:left
+}
+.FilmItem1{
+    float:left;
+    top: 200px;
+    margin: 0px 20px 10px 5px;
+    left: 20%;
+    position: relative;
+	clear: left;
+}
+.FilmItem2{
+    float:left;
+    top: 300px;
+    margin: 0px 20px 10px 5px;
+    left: 20%;
+    position: relative;
+    clear:left
+}
+.FilmItem3{
+    float:left;
+    top: 400px;
+    margin: 0px 20px 10px 5px;
+    left: 20%;
+    position: relative;
+	clear: left;
+}
+.FilmItem4{
+    float:left;
+    top: 500px;
+    margin: 0px 20px 10px 5px;
+    left: 20%;
+    position: relative;
+    clear:left
+}
+.FilmItem5{
+    float:left;
+    top: 600px;
+    margin: 0px 20px 10px 5px;
+    left: 20%;
+    position: relative;
+	clear: left;
+}
+.FilmItem6{
+    float:left;
+    top: 700px;
+    margin: 0px 20px 10px 5px;
+    left: 20%;
+    position: relative;
+    clear:left
+}
+.FilmItem7{
+    float:left;
+    top: 800px;
+    margin: 0px 20px 10px 5px;
+    left: 20%;
+    position: relative;
+	clear: left;
+}
+.FilmItem8{
+    float:left;
+    top: 900px;
+    margin: 0px 20px 10px 5px;
+    left: 20%;
+    position: relative;
+    clear:left
 }
 #glist{
 	display: none;
@@ -137,51 +230,75 @@ nav ul ul {
 
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1000px){
+
 .FilmItem{
     float:left;
-    top: 97.5px;
+    top: 100px;
     margin: 0px 20px 10px 5px;
-    left: 5%;
+    left: 20%;
     position: relative;
+    clear:left
 }
 .FilmItem1{
     float:left;
-    top: 301.5px;
+    top: 100px;
     margin: 0px 20px 10px 5px;
-    left: 5%;
+    left: 20%;
+    position: relative;
+}
+.FilmItem2{
+    float:left;
+    top: 200px;
+    margin: 0px 20px 10px 5px;
+    left: 20%;
     position: relative;
     clear:left
 }
 .FilmItem3{
     float:left;
-    margin: 0px 20px 50px 5px;
-    left: 5%;
+    top: 200px;
+    margin: 0px 20px 10px 5px;
+    left: 20%;
     position: relative;
-    clear:left;
-    
 }
 .FilmItem4{
     float:left;
-    top: 301.5px;
+    top: 300px;
     margin: 0px 20px 10px 5px;
-    left: 5%;
-    position: relative;
-}
-.FilmItem5{
-    float:left;
-    top: 500px;
-    margin: 0px 20px 10px 5px;
-    left: 5%;
+    left: 20%;
     position: relative;
     clear:left
 }
+.FilmItem5{
+    float:left;
+    top: 300px;
+    margin: 0px 20px 10px 5px;
+    left: 20%;
+    position: relative;
+}
 .FilmItem6{
+    float:left;
+    top: 400px;
+    margin: 0px 20px 10px 5px;
+    left: 20%;
+    position: relative;
+    clear:left
+}
+.FilmItem7{
+    float:left;
+    top: 400px;
+    margin: 0px 20px 10px 5px;
+    left: 20%;
+    position: relative;
+}
+.FilmItem8{
     float:left;
     top: 500px;
     margin: 0px 20px 10px 5px;
-    left: 5%;
+    left: 20%;
     position: relative;
+    clear:left
 }
 .FilmItemPart1:hover{
     box-shadow: 5px 5px 1.2em black;
