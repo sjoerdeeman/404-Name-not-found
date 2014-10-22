@@ -51,10 +51,12 @@ body{
 .FilmItemPart1:hover{
     box-shadow: 5px 5px 1.2em black;
 }
-.FilterWrapper{
-	position:fixed;
-      
+.selectmenu{
+	position: absolute;
+	margin-left: 500px;
+   
 }
+/* clear:left*/
 
 }
 

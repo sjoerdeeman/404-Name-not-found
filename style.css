@@ -130,8 +130,12 @@ body{
 img{
     max-width: 100%
 }
+#TopVijfWrapper{
+		width: 800px;
+		margin-left: 0%;
+	}
 }
-@media screen and (max-width: 640px){
+@media screen and (max-width: 800px){
     a:hover{
         background-color: transparent;
     }

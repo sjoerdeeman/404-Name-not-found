@@ -1,3 +1,10 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(Images/Background.jpg);
+    background-color: #FFFFF9;
+    font-size: 14px;
+}
+@media screen and (min-width: 1000px){
 @font-face {
     font-family: 'Ubuntu';
     src: url("Fonts/Ubuntu-R.ttf");
@@ -22,10 +29,10 @@ a:active{
 }
 body{
     font-family: 'Ubuntu', sans-serif;
-    background-image: url(../Images/Background.jpg);
+    background-image: url(Images/Background.jpg);
+    background-color: #FFFFF9;
     font-size: 14px;
 }
-
 #TopMenuBar{ 
     height: 42px;
     width: 100%;
@@ -60,49 +67,110 @@ body{
 img{
     max-width: 100%
 }
+}
+@media screen and (min-width: 800px) and (max-width: 999px){
+@font-face {
+    font-family: 'Ubuntu';
+    src: url("Fonts/Ubuntu-R.ttf");
+}
 
-@media screen and (max-width: 800px){
+*{
+    margin: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+}
+a:link{
+    color: #444;
+}
+a:visited{
+    color: #444;
+}
+a:hover{
+    color: black;
+    background-color: rgba(99, 88, 121,0.3);
+}
+a:active{
+    color: #444;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(../Images/Background.jpg) auto;
+    font-size: 14px;
+}
+#TopMenuBar{ 
+    height: 42px;
+    width: 100%;
+
+}
+.MenuItem{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 5px 5px 5px 5px;
+    padding: 20px 5px 20px 5px;
+
+}
+#UpperMenu{
+    position: absolute;
+    top:20px;
+    margin-left: 135px;
+}
+
+#Logo{
+    height:30px;
+    margin-top: 20px;
+    margin-left: 15px;
+    position:absolute;
+}
+
+#TopText{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    height:120px;
+}
+img{
+    max-width: 100%
+}
+}
+@media screen and (max-width: 640px){
     a:hover{
         background-color: transparent;
     }
     body{
         font-family: 'Ubuntu', sans-serif;
         background-color: #FFFFF9;
-        font-size: 8px;
+        font-size: 12px;
     }
-    #TopMenuBar{ 
-        height: 120px;
-        width: 100%;
-
-    }
-    .MenuItem{
-        font-family: 'Ubuntu', sans-serif;
-        font-size: 18px;
-        text-decoration: none;
-        margin: 4px 4px 4px 4px;
-        padding: 0px 0px 0px 0px;
-    }
-    #UpperMenu{
-        position:absolute;
-        margin-left: 10px;
-        top: 105px;
-		margin-bottom: 20px;
-    }
-    #Logo{
-        height:40px;
-        margin-top: 0px;
-        margin-left: 90px;
-        position: relative;
-    }
+#TopMenuBar{ 
+    height: 120px;
+    width: 100%;
     
-    #TopText{
-        height: 0px;
-        visibility: hidden;
-    }
+}
+.MenuItem{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 4px 4px 4px 4px;
+	padding: 0px 0px 0px 0px;
+}
+#UpperMenu{
+    position:absolute;
+    margin-left: 10px;
+	top: 115px;
+}
+#Logo{
+    height:40px;
+    margin-top: 0px;
+	margin-left: 90px;
+}
+
+#TopText{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+	}
     .Container{
         margin-top: 0;
         font-family: 'Ubuntu', sans-serif;
-        font-size: 8px;
+        font-size: 12px;
         position: absolute;
         max-width: 100%;
         height: auto;
@@ -121,14 +189,15 @@ img{
         /* border: solid green 5px; */
     }
     .Break1{
-        background-color: rgba(171,178,200,0.3);
+        z-index: -1;
+        background-color: #666666;
         width: 60%;
         height: 4px;
         margin: 0 auto;
-        margin-top: 20px;
+        margin-top: 535px;
     }
     .Break2{
-        background-color: rgba(99, 88, 121,0.3);
+        background-color: #FF6600;
         width: 40%;
         height: 2px;
         margin: 0 auto;
@@ -164,14 +233,14 @@ img{
         margin-left: 0%;
     }
     .Break3{
-        background-color: rgba(171,178,200,0.3);
+        background-color: #666666;
         width: 60%;
         height: 4px;
         margin: 0 auto;
         margin-top: 20px;
     }
     .Break4{
-        background-color: rgba(99, 88, 121,0.3);
+        background-color: #FF6600;
         width: 40%;
         height: 2px;
         margin: 0 auto;
@@ -196,14 +265,14 @@ img{
         margin-left: 70%;
     }
     .Break5{
-        background-color: rgba(171,178,200,0.3);
+        background-color: #666666;
         width: 60%;
         height: 4px;
         margin: 0 auto;
         margin-top: 20px;
     }
     .Break6{
-        background-color: rgba(99, 88, 121,0.3);
+        background-color: #FF6600;
         width: 40%;
         height: 2px;
         margin: 0 auto;
@@ -230,10 +299,26 @@ img{
     footer{
         visibility: hidden;
     }
+	#TopVijfWrapper{
+		display: none;
+	}
+	#MoreAboutFilms{
+		display: none;
+	}
+	#FilmsVandaag{
+		margin-left: 55px;
+	}
+	#CForm{
+		display: none;
+	}
+	#gmap{
+		width: 100%;
+		height: 300px;
+	}
 
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1020px){
     .Container{
         color: white;
         font-family: 'Ubuntu', sans-serif;
@@ -270,24 +355,22 @@ img{
     }
 
     .Txt1{
-        color: #465958;
         position: absolute;
         left: 0%;
         width: 50%;
         height: 453px;
-        margin-top: -52.5px;
         /* border: solid green 5px; */
     }
     .Break1{
-        background-color: transparent;
-        width: 40%;
+        background-color: #FFFFFF;
+        width: 60%;
         height: 6px;
         margin: 0 auto;
         margin-top: 135px;
     }
     .Break2{
-        background-color: transparent;
-        width: 60%;
+        background-color: #3E6DB5;
+        width: 40%;
         height: 6px;
         margin: 0 auto;
         margin-top: 0px;  
@@ -297,7 +380,8 @@ img{
         visibility: hidden;
     }
     .Image1{
-        margin-top: 100px;
+        margin-top: 60px;
+        margin-bottom: 60px;
         margin-left: 70%;
     }
 
@@ -305,233 +389,83 @@ img{
         margin: 0 auto;
     }
     .Txt2{
-        color: #465958;
+        color: black;
         position: absolute;
-        margin-top: 5px;
+        margin-top: 10px;
         right: 20px;
         width: 50%;
         height: 453px;
         /* border: solid green 5px; */
     }
     .Image2{
-        margin-top: 40px;
+        margin-top: 60px;
+        margin-bottom: 60px;
         margin-left: 0%;
     }
     .Break3{
-        background-color: transparent;
+        background-color: #BA200B;
         width: 60%;
         height: 6px;
         margin: 0 auto;
         margin-top: 100px;
     }
     .Break4{
-        background-color: transparent;
+        background-color: #FFFFFF;
         width: 40%;
         height: 6px;
         margin: 0 auto;
         margin-top: 4px;  
     }
     .Txt3{
-        color: #8CB2B1;
         position: absolute;
         margin-top: 0px;
-        margin-bottom: 65px;
+        margin-bottom: 60px;
         left: 0%;
         width: 50%;
         height: 453px;
         /* border: solid green 5px; */
     }
     .Image3{
-        margin-top: 40px;
+        margin-top: 60px;
         margin-left: 70%;
     }
     .Break5{
-        background-color: transparent;
-        width: 40%;
+        background-color: #FFFFFF;
+        width: 60%;
         height: 6px;
         margin: 0 auto;
         margin-top: 60px;
     }
     .Break6{
-        background-color: transparent;
-        width: 60%;
+        background-color: #BA200B;
+        width: 40%;
         height: 6px;
         margin: 0 auto;
         margin-top: 0px;  
     }
     .Txt4{
-        color: #7C9E9C;
-        position: absolute;
-        margin-top: 20px;
-        left: 50%;
-        width: 50%;
-        height: 453px;
-        /* border: solid green 5px; */
-    }
-    .Image4{
-        margin-top: 90px;
-        left: 0px;
-    }
-}
-@media screen and (min-width: 800px) and (max-width: 999px){
-    .Container{
-        color: white;
-        font-family: 'Ubuntu', sans-serif;
-        font-size: 18px;
-        position: relative;
-        max-width: 1000px;
-        height: auto;
-        margin: 0 auto;
-    }
-    #kleur1{
-        position: absolute;
-        z-index: -1;
-        height: 530px;
-        width: 100%;
-        background-color: rgba(171,178,200,0.3);
-    }
-    #kleur3{
-        position: absolute;
-        z-index: -1;
-        margin-top: 1134px;
-        height: 495px;
-        width: 100%;
-        background-color: rgba(99, 88, 121,0.3);
-    }
-    #kleur4{
-        position: absolute;
-        z-index: -1;
-        height: 525px;
-        width: 100%;
-        background-color: rgba(171,178,200,0.3);
-    }
-    .section1{
-        margin: 0 auto;
-    }
-
-    .Txt1{
-        color: #465958;
-        position: absolute;
-        left: 0%;
-        width: 50%;
-        height: 453px;
-        margin-top: -52.5px;
-        /* border: solid green 5px; */
-    }
-    .Break1{
-        background-color: transparent;
-        width: 40%;
-        height: 6px;
-        margin: 0 auto;
-        margin-top: 135px;
-    }
-    .Break2{
-        background-color: transparent;
-        width: 60%;
-        height: 6px;
-        margin: 0 auto;
-        margin-top: 0px;  
-    }
-    .ImageMobile1{
-        position: absolute;
-        visibility: hidden;
-    }
-    .Image1{
-        margin-top: 100px;
-        margin-left: 70%;
-    }
-
-    .section2{
-        margin: 0 auto;
-    }
-    .Txt2{
-        color: #465958;
-        position: absolute;
-        margin-top: 5px;
-        right: 20px;
-        width: 50%;
-        height: 453px;
-        /* border: solid green 5px; */
-    }
-    .Image2{
-        margin-top: 80px;
-        margin-left: 0%;
-    }
-    .Break3{
-        background-color: transparent;
-        width: 60%;
-        height: 6px;
-        margin: 0 auto;
-        margin-top: 100px;
-    }
-    .Break4{
-        background-color: transparent;
-        width: 40%;
-        height: 6px;
-        margin: 0 auto;
-        margin-top: 4px;  
-    }
-    .Txt3{
-        color: #8CB2B1;
+        color: black;
         position: absolute;
         margin-top: 0px;
-        margin-bottom: 65px;
-        left: 0%;
-        width: 50%;
-        height: 453px;
-        /* border: solid green 5px; */
-    }
-    .Image3{
-        margin-top: 40px;
-        margin-left: 70%;
-    }
-    .Break5{
-        background-color: transparent;
-        width: 40%;
-        height: 6px;
-        margin: 0 auto;
-        margin-top: 60px;
-    }
-    .Break6{
-        background-color: transparent;
-        width: 60%;
-        height: 6px;
-        margin: 0 auto;
-        margin-top: 0px;  
-    }
-    .Txt4{
-        color: #7C9E9C;
-        position: absolute;
-        margin-top: 20px;
+        margin-bottom: 60px;
         left: 50%;
         width: 50%;
         height: 453px;
         /* border: solid green 5px; */
     }
     .Image4{
-        margin-top: 110px;
+        margin-top: 60px;
         left: 0px;
     }
-	.MenuItem{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 22px;
-    text-decoration: none;
-    margin: 5px 5px 5px 5px;
-    padding: 20px 5px 20px 5px;
-}
-	#UpperMenu{
-    position:absolute;
-    margin-left: 135px;
-	top: 20px;
-
 }
 
-}
+
 
 footer{
     background-color: #EEEEEE;
     height: 42px;
     position: fixed;
+    
     bottom: 0px;
     width:100%;
 }
@@ -551,5 +485,6 @@ footer{
 }
 .FooterImages{
     margin-right: 5px;
+	
 }
 
