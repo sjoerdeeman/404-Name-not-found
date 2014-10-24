@@ -16,6 +16,7 @@ and open the template in the editor.
         <link href="../style.css" rel="stylesheet" type="text/css">
         <link href="ResVerStyles.css" rel="stylesheet" type="text/css">
         <script src="ReservScript.js" type="text/javascript"></script>
+        <link href="../../../search.css" rel="stylesheet" type="text/css">
         <script type="text/javascript">
             function CheckForm() {
                 var inp = document.getElementById("FormPrice").value;
@@ -32,16 +33,17 @@ and open the template in the editor.
     <body>
         <div id="container">
             <div id="TopMenuBar">                
-                <a href="../index.html"> <img id="Logo" src="../Images/Logo.png" alt="logo"> </a>                
+                <a href="../../../index.html"> <img id="Logo" src="../Images/Logo.png" alt="logo"> </a>                
                 <nav id="UpperMenu">
-                    <a href="../index.html" class="MenuItem">Home</a>
-                    <a href="..//Films/index.html" class="MenuItem">Films</a>
-                    <a href="../Algemene Bioscoop Info/overons.html" class="MenuItem">Over ons</a>
-                    <a href="contact.html" class="MenuItem">Contact</a>
+                    <a href="../../../index.html" class="MenuItem">Home</a>
+                    <a href="../../..//Films/index.html" class="MenuItem">Films</a>
+                    <a href="../../../Algemene Bioscoop Info/overons.html" class="MenuItem">Over ons</a>
+                    <a href="../../../Contact/contact.html" class="MenuItem">Contact</a>
                 </nav><!--UpperMenu-->
-                <div id="SearchBlock">
-                    <button class="SearchInput">Zoeken</button><input class="SearchInput">
-                </div><!--SearchBlock-->
+                <form class="form-wrapper ag">
+                    <input type="text" placeholder="Zoek een film..." required>
+                    <button type="submit">Zoeken</button>
+                </form>
             </div><!--TopMenuBar-->
             <div id="TopText">
                 <center>
@@ -49,43 +51,40 @@ and open the template in the editor.
                 </center>
             </div><!--TopText-->
             <div id="Content">                
-                    Selecteer een datum en tijd:
-                    <select id="selectdate" name="SelectedDay" onchange="PrintZaal(ShowCorrectPlan())">
-                        <option></option>
-                        <option value="Maandag:2200:3" class="3">Maandag :: 22.00 uur :: Zaal 3</option>
-                        <option value="Woensdag:2230:3" class="3">Woensdag :: 22.30 uur :: Zaal 3</option>
-                        <option value="Donderdag:2000:1" class="1">Donderdag :: 20.00 uur :: Zaal 1</option>
-                        <option value="Zaterdag:2000:3" class="3">Zaterdag :: 20.00 uur :: Zaal 3</option>
-                        <option value="Zondag:1300:3" class="5">Zondag :: 13.00 uur :: Zaal 3</option>
-                    </select>
+                Selecteer een datum en tijd:
+                <select id="selectdate" name="SelectedDay" onchange="PrintZaal(ShowCorrectPlan())">
+                    <option></option>
+                    <option value="Maandag:2000:2" class="2">Maandag :: 20.00 uur :: Zaal 2</option>
+                    <option value="Zaterdag:1900:2" class="2">Zaterdag :: 19.00 uur :: Zaal 2</option>  
+                </select>
 
+                <br/><br/>
+                <div id="PlatteGrondWrapper" style="display:none;">
+                    <div id="PlattegrondZaal" style="float:left;">
+                        <!-- Hier komt de zaal-->
+                        <div id="Chair" style="float:left; background-color:green; width:50px;">
+                        </div>
+                    </div>
+                    <div id="Price" style=" margin-left:10px;float:left;">
+                        <p>Klik op een stoel</p>
+                    </div>
+                    <div id="TotalPrice">
+                    </div>
                     <br/><br/>
-                    <div id="PlatteGrondWrapper" style="display:none;">
-                        <div id="PlattegrondZaal" style="float:left;">
-                            <!-- Hier komt de zaal-->
-                            <div id="Chair" style="float:left; background-color:green; width:50px;">
-                            </div>
-                        </div>
-                        <div id="Price" style=" margin-left:10px;float:left;">
-                            <p>Klik op een stoel</p>
-                        </div>
-                        <div id="TotalPrice">
-                        </div>
-                        <br/><br/>
-                        <form method="get" action="do/ProcessOrder.php" onsubmit="return CheckForm();">
+                    <form method="get" action="do/ProcessOrder.php" onsubmit="return CheckForm();">
                         <input id="FormPrice" name="FormPrice" type="hidden" value="">
                         <input id="DateAndTime" name="DateAndTime" type="hidden" value="">
                         <input type="submit" value="Bestel kaartjes">
-                        </form>
-                    </div>
+                    </form>
+                </div>
             </div><!--Content-->
 
             <footer>
                 <div id="FooterText">
                     <div id="FooterImages">
-                        <img src="../../Images/3DLogo.jpg" class="footerlogo" alt="logo">
-                        <img src="../../Images/AuraLogo.jpg" class="footerlogo" alt="logo">
-                        <img src="../../Images/ImaxLogo.jpg" class="footerlogo" alt="logo">
+                        <img src="../../../Images/3DLogo.jpg" class="footerlogo" alt="logo">
+                        <img src="../../../Images/AuraLogo.jpg" class="footerlogo" alt="logo">
+                        <img src="../../../Images/ImaxLogo.jpg" class="footerlogo" alt="logo">
                     </div>
                     <p id="CopyTekst"> &copy; Filmpje | adres | telefoonnummers  </p>
                 </div><!--FooterText-->
