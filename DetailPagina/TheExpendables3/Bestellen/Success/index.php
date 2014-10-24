@@ -4,9 +4,15 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html>
+<html>  
     <head>
         <title>Filmpje</title>
+        <?php
+        $movie = "Finding Fanny";
+        $DateAndTimeZaal = filter_input(INPUT_GET, "DateAndTime");
+        $ResVerCode = filter_input(INPUT_GET, "ResCode");
+        $LinkToTicket = "ticket.php?movie=".$movie . "&DateAndTime=".$DateAndTimeZaal . "&ResVerCode=".$ResVerCode ;
+        ?>
         <meta name="keywords" content="film, films, movie, movies, bios, bioscoop, cinema, oer, hollandse, oer-hollandse, 3D, Imax, Aura3d, Aura, zaal, zalen, stoel, stoelen, bioscoopzaal, bioscoopzalen, bioscoopstoel, bioscoopstoelen, uniek, unieke, inrichting, ervaring, zit, plaatsen, goed, nu in de bioscoop, nu in de bios, films op dit moment, movies op dit moment, verwachte films, verwachte movies">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta property="og:sitename" content="Filmpje">
@@ -35,12 +41,15 @@ and open the template in the editor.
                 </center>
             </div><!--TopText-->
             <div id="Content">
-                <strong>U hebt kaartjes besteld voor de film 'A Most Wanted Man'.<br/></strong><Br/>
+                <strong>U hebt kaartjes besteld voor de film 'Finding Fanny'.<br/></strong><Br/>
                 <strong>Uw Reserveringsnummer:</strong>
                 <?php
-                echo $_GET['ResCode'];
+                echo $_GET['ResCode'] . "<br/>";
+                $DateAndTime = $_GET['DateAndTime'];
+                $ex = explode(":", $DateAndTime);
+                echo "<br/><strong>Uw kaartjes zijn geldig op:</strong> ". $ex[0] . " om " . $ex[1] ." uur in zaal ". $ex[2];
                 ?>      <br/><br/>          
-                <button>Uw kaartjes</button>
+                <a href="<?php echo $LinkToTicket;?>">Uw kaartje</a>
                
 			
             </div><!--Content-->

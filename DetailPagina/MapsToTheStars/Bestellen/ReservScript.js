@@ -1,5 +1,35 @@
 ﻿var Total = 0;
 var OccChair = new Array();
+function ShowCorrectPlan() {
+    //Maandag:2200:3
+    var d = document.getElementById("selectdate");
+    var x = d.options[d.selectedIndex].value;
+    var z = x.split(":");
+    var val = z[2];
+    switch (val) {
+        case "1" :            
+            document.getElementById("PlatteGrondWrapper").style.display = "block";
+            document.getElementById("DateAndTime").value = x;
+            return val;
+            break;
+        case "2" :      
+            document.getElementById("PlatteGrondWrapper").style.display = "block";
+            document.getElementById("DateAndTime").value = x;
+            return val;
+            break;
+        case "3" :
+            document.getElementById("PlatteGrondWrapper").style.display = "block";
+            document.getElementById("DateAndTime").value = x;
+            return val;
+                     
+            break;
+        default:
+            document.getElementById("PlatteGrondWrapper").style.display = "none";
+            return false;
+            ;
+
+    }
+}
 function ShowPrice(ChairCat, ID) {   
     var Array = [];
     var ClickedChair = document.getElementById(ID);
