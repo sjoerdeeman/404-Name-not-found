@@ -5,237 +5,260 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-<head>
-    <title>Filmpje - Home</title>
-    <meta name="keywords" content="film, films, movie, movies, bios, bioscoop, cinema, oer, hollandse, oer-hollandse, 3D, Imax, Aura3d, Aura, zaal, zalen, stoel, stoelen, bioscoopzaal, bioscoopzalen, bioscoopstoel, bioscoopstoelen, uniek, unieke, inrichting, ervaring, zit, plaatsen, goed, nu in de bioscoop, nu in de bios, films op dit moment, movies op dit moment, verwachte films, verwachte movies">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:sitename" content="Filmpje">
-    <meta property="og:description" content="Filmpje is een oer-Hollandse bioscoop met de meeste nieuwe technieken.">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <link href="HomeStyle.css" rel="stylesheet" type="text/css">
-    <script src="Javascript/FilmsToday.js" type="text/javascript"></script>
-    <link href="search.css" rel="stylesheet" type="text/css">
-    <script src="Javascript/Slider2.js" type="text/javascript"></script>
-    <link href="ninja-slider.css" rel="stylesheet" type="text/css" />
-    <script src="ninja-slider.js" type="text/javascript"></script>
-</head>
-<body onload="javascript: SetCurrentFilms();
-Slider();">
-<div id="TopMenuBar"><!--Menu Block-->
-    <img id="Logo" src="Images/Logo.png" alt="logo">
-    <nav id="UpperMenu">
-        <a href="index.html" class="MenuItem">Home</a>
-        <a href="Films/index.html" class="MenuItem">Films</a>
-        <a href="Algemene Bioscoop Info/overons.html" class="MenuItem">Over ons</a>
-        <a href="Contact/contact.html" class="MenuItem">Contact</a>
-    </nav><!--UpperMenu-->
-    <form class="form-wrapper ag">
-        <input type="text" placeholder="Zoek een film..." required>
-        <button type="submit">Zoeken</button>
-    </form>
-</div><!--TopMenuBar--><!-- end Menu Block-->
-<div id="TopText">
-    <center>
-        <br/>
-        <h1>Homepage</h1>
-    </center>
-</div><!--TopText-->
-<div id="kleur1"></div>
-<div id="kleur2"></div>
-<div id="kleur3"></div>
-<div id="kleur4"></div>
-<div id="Content">    
-    <div id="TopVijfWrapper"><!--Slider block-->
-        <div id="ninja-slider" style="width:100%; height:530px;">
-            <ul>
-                <li><a data-image="http://www.backstageol.com/wp-content/uploads/2014/07/lets-be-cops-poster-620x400.jpg"></a></li>
-                <li><a data-image="http://www.visualmmg.com/wp-content/uploads/2014/08/AASB1.jpg"></a></li>
-                <li><a data-image="http://static1.jim.vmmacdn.be/sites/jim.be/files/film1.jpg"></a></li>
-                <li><a data-image="http://i.ytimg.com/vi/5O86FUOrlkY/maxresdefault.jpg"></a></li>
-                <li><a data-image="http://cdn.superbwallpapers.com/wallpapers/movies/guardians-of-the-galaxy-32272-1680x1050.jpg"></a></li>
-
-            </ul>
-        </div>
-    </div> <!--End Slider block--> 
-    <div id="MoreAboutFilms"><!--Meer over films block, movie onhover-->
-        <section id="NoFilmHover">
-            <p>
-            <p>Ga met uw muis over een film voor meer informatie.</p>
-            </p>
-        </section>
-        <section id="More2000" style="display:none;">
-            <img src="Images/CloseIcon.png" width="30" height="30" class="CloseImage" alt="Sluiten" onclick="javascript: HideMe('More2000');" />
-            <section id=" info">
-                <h1>Maps to the stars</h1>
-                <p>
-                    Een cliënt van een psychotherapeut wil een remake maken van een film waarin haar inmiddels overleden moeder in speelde
-                    De familie Weiss uit Hollywood bestaat uit Dr. Stafford Weiss; een psychotherapeut die zelfhulphandleidingen schrijft, zijn vrouw Cristina; manager van hun 13-jarige zoon, en hun dochter die onlangs vrijgelaten is uit een sanatorium waar ze werd behandeld voor criminele pyromanie. Eén van de cliënten van Dr. Weiss, actrice Havana, wil graag een remake maken van een film waarin haar inmiddels overleden moeder speelde.
-                </p>
-                <br>
-                <iframe  width="400" height="240" src="https://www.youtube.com/embed/tsFnwgUlrxs" frameborder="0" allowfullscreen></iframe>
-            </section>
-        </section>
-        <section id="More2030" style="display:none;">
-            <img src="Images/CloseIcon.png" width="30" height="30" class="CloseImage" alt="Sluiten" onclick="javascript: HideMe('More2030');" />
-            <section id=" info">
-                <h1>Hercules</h1>
-                <p>
-                    Dwayne Johnson is Hercules in de spectaculaire 3D actiefilm gebaseerd op de klassieke mythe.
-                    De film, geïnspireerd door de Radical Comics 'Hercules' van Steven Moore, heeft een internationale cast bestaande uit o.a. Ian McShane, Rufus Sewell, Joseph Fiennes, Peter Mullan, John Hurt en Irina Shayk.
-                </p>
-                <br>
-                <iframe  width="400" height="240" src="https://www.youtube.com/embed/OwlynHlZEc4" frameborder="0" allowfullscreen></iframe>
-            </section>
-        </section>
-        <section id="More2100" style="display:none;">
-            <img src="Images/CloseIcon.png" width="30" height="30" class="CloseImage" alt="Sluiten" onclick="javascript: HideMe('More2100');" />
-            <section id=" info">
-                <h1>Finding Fanny</h1>
-                <p>Finding Fanny is een komische film over een aantal outsiders die een zoektocht starten naar Stefanie Fernandes (Fanny). Onderweg vinden ze troost en comfort bij elkaar en krijgen zo weer hoop in de toekomst ten opzichte van hun eerdere zinloze levens</p>
-                <p>
-                    In Finding Fanny volgende we vijf disfunctionele karakters uit Pocolim, Goa. Een plek waar nooit iets gebeurt en waar nutteloze conversaties de dag vullen. Op een avond wordt bij de oude postbode Ferdie (Naseeruddin Shah) een brief onder zijn deur geschoven. Al snel beseft hij dat het gaat om een brief die hij 46 jaar geleden heeft geschreven aan de liefde van zijn leven Stefanie Fernandes, waarin hij vraagt om met hem te trouwen. Nu blijkt dat de brief nooit is bezorgd. Ferdie heeft zijn hele leven met een pijnlijk plekje in zijn hart geleefd, omdat hij dacht dat Stefanie hem had afgewezen. Hij besluit om naar zijn geliefde Fanny op zoek te gaan en haar de waarheid te vertellen.
-                    Waar zou ze zijn na 46 jaar? Dood? Gelukkig getrouwd? Zou ze hem wel herinneren? Of is Stefanie Fernandes slechts een verzinsel van Ferdie’s verbeelding? Vier kleurrijke personages reizen met Ferdie mee als afleiding van hun alledaagse leven. De jonge weduwe (Deepika Padukone), een bittere monteur (Arjun Kapoor), een oorlogvoerende kunstenaar (Pankaj Kapur) en de onaangename zelfbenoemde "Lady" van Pocolim (Dimple Kapadia). Of ze Fanny nu vinden of niet, het wordt in ieder geval een reis vol hilarische en ontroerende gebeurtenissen die voor altijd hun leven zal veranderen.
-                </p>
-                <br>
-                <iframe  width="400" height="240" src="https://www.youtube.com/embed/5O86FUOrlkY" frameborder="0" allowfullscreen></iframe>
-            </section>
-        </section>
-        <section id="More2200" style="display:none;">
-            <img src="Images/CloseIcon.png" width="30" height="30" class="CloseImage" alt="Sluiten" onclick="javascript: HideMe('More2200');" />
-            <section id=" info">
-                <h1>Let's be cops</h1>
-                <p>
-                    De ultieme politiefilm over politiemannen die geen politiemannen zijn
-                    Twee vrienden gaan naar een verkleedfeestje, verkleed als politieagenten, en worden ongewild de sensatie van de buurt. Maar als de nieuwbakken 'helden' verstrikt raken in een web van echte gangsters en corrupte rechercheurs, moeten ze hun nepbadges op het spel zetten.
-                </p>
-                <br>
-                <iframe  width="400" height="240" src="https://www.youtube.com/embed/UKIAZjs__Xc" frameborder="0" allowfullscreen></iframe>
-            </section>
-        </section>
-        <section id="More2230" style="display:none;">
-            <img src="Images/CloseIcon.png" width="30" height="30" class="CloseImage" alt="Sluiten" onclick="javascript: HideMe('More2230');" />
-            <section id=" info">
-                <h1>The expendables 3</h1>
-                <p>
-                    Barney (Stallone), Christmas (Statham) en de rest van het team komen oog in oog te staan met Conrad Stonebanks (Gibson), die jaren geleden samen met Barney The Expendables oprichtte.
-                    <!--Trailer: https://www.youtube.com/watch?v=4xD0junWlFc -->
-                    <br>
-                    <iframe  width="400" height="240" src="https://www.youtube.com/embed/4xD0junWlFc" frameborder="0" allowfullscreen></iframe>
-            </section>
-        </section>
-    </div><div id="MoreAboutFilms">
-
-            <section id="NoFilmHover">
-                <p>
-                    <p>Ga met uw muis over een film voor meer informatie.</p>
-                </p>
-            </section>
-            <section id="More2000" style="display:none;">
-                <img src="Images/CloseIcon.png" width="30" height="30" class="CloseImage" alt="Sluiten" onclick="javascript: HideMe('More2000');" />
-                <section id=" info">
-                    <h1>Maps to the stars</h1>
-                    <p>
-                        Een cliënt van een psychotherapeut wil een remake maken van een film waarin haar inmiddels overleden moeder in speelde
-                        De familie Weiss uit Hollywood bestaat uit Dr. Stafford Weiss; een psychotherapeut die zelfhulphandleidingen schrijft, zijn vrouw Cristina; manager van hun 13-jarige zoon, en hun dochter die onlangs vrijgelaten is uit een sanatorium waar ze werd behandeld voor criminele pyromanie. Eén van de cliënten van Dr. Weiss, actrice Havana, wil graag een remake maken van een film waarin haar inmiddels overleden moeder speelde.
-                    </p>                    
-                    <br>
-                    <iframe  width="400" height="240"src="https://www.youtube.com/embed/tsFnwgUlrxs"frameborder="0" allowfullscreen></iframe>
-                </section>
-            </section>
-            <section id="More2030" style="display:none;">
-                <img src="Images/CloseIcon.png" width="30" height="30" class="CloseImage" alt="Sluiten" onclick="javascript: HideMe('More2030');" />
-                <section id=" info">
-                    <h1>Hercules</h1>
-                    <p>
-                        Dwayne Johnson is Hercules in de spectaculaire 3D actiefilm gebaseerd op de klassieke mythe.
-                        De film, geïnspireerd door de Radical Comics 'Hercules' van Steven Moore, heeft een internationale cast bestaande uit o.a. Ian McShane, Rufus Sewell, Joseph Fiennes, Peter Mullan, John Hurt en Irina Shayk.
-                    </p>                    
-                    <br>
-                    <iframe  width="400" height="240"src="https://www.youtube.com/embed/OwlynHlZEc4"frameborder="0" allowfullscreen></iframe>
-                </section>
-            </section>
-            <section id="More2100" style="display:none;">
-                <img src="Images/CloseIcon.png" width="30" height="30" class="CloseImage" alt="Sluiten" onclick="javascript: HideMe('More2100');" />
-                <section id=" info">
-                    <h1>Finding Fanny</h1>
-                    <p>Finding Fanny is een komische film over een aantal outsiders die een zoektocht starten naar Stefanie Fernandes (Fanny). Onderweg vinden ze troost en comfort bij elkaar en krijgen zo weer hoop in de toekomst ten opzichte van hun eerdere zinloze levens</p>
-                    <p>
-                        In Finding Fanny volgende we vijf disfunctionele karakters uit Pocolim, Goa. Een plek waar nooit iets gebeurt en waar nutteloze conversaties de dag vullen. Op een avond wordt bij de oude postbode Ferdie (Naseeruddin Shah) een brief onder zijn deur geschoven. Al snel beseft hij dat het gaat om een brief die hij 46 jaar geleden heeft geschreven aan de liefde van zijn leven Stefanie Fernandes, waarin hij vraagt om met hem te trouwen. Nu blijkt dat de brief nooit is bezorgd. Ferdie heeft zijn hele leven met een pijnlijk plekje in zijn hart geleefd, omdat hij dacht dat Stefanie hem had afgewezen. Hij besluit om naar zijn geliefde Fanny op zoek te gaan en haar de waarheid te vertellen.
-                        Waar zou ze zijn na 46 jaar? Dood? Gelukkig getrouwd? Zou ze hem wel herinneren? Of is Stefanie Fernandes slechts een verzinsel van Ferdie’s verbeelding? Vier kleurrijke personages reizen met Ferdie mee als afleiding van hun alledaagse leven. De jonge weduwe (Deepika Padukone), een bittere monteur (Arjun Kapoor), een oorlogvoerende kunstenaar (Pankaj Kapur) en de onaangename zelfbenoemde "Lady" van Pocolim (Dimple Kapadia). Of ze Fanny nu vinden of niet, het wordt in ieder geval een reis vol hilarische en ontroerende gebeurtenissen die voor altijd hun leven zal veranderen.
-                    </p>                    
-                    <br>
-                    <iframe  width="400" height="240" src="https://www.youtube.com/embed/5O86FUOrlkY"frameborder="0" allowfullscreen></iframe>
-                </section>
-            </section>
-            <section id="More2200" style="display:none;">
-                <img src="Images/CloseIcon.png" width="30" height="30" class="CloseImage" alt="Sluiten" onclick="javascript: HideMe('More2200');" />
-                <section id=" info">
-                    <h1>Let's be cops</h1>
-                    <p>
-                        De ultieme politiefilm over politiemannen die geen politiemannen zijn
-                        Twee vrienden gaan naar een verkleedfeestje, verkleed als politieagenten, en worden ongewild de sensatie van de buurt. Maar als de nieuwbakken 'helden' verstrikt raken in een web van echte gangsters en corrupte rechercheurs, moeten ze hun nepbadges op het spel zetten.
-                    </p>                    
-                    <br>
-                    <iframe  width="400" height="240"src="https://www.youtube.com/embed/UKIAZjs__Xc"frameborder="0" allowfullscreen></iframe>
-                </section>
-            </section>
-            <section id="More2230" style="display:none;">
-                <img src="Images/CloseIcon.png" width="30" height="30" class="CloseImage" alt="Sluiten" onclick="javascript: HideMe('More2230');" />
-                <section id=" info">
-                    <h1>The expendables 3</h1>
-                    <p>
-                        Barney (Stallone), Christmas (Statham) en de rest van het team komen oog in oog te staan met Conrad Stonebanks (Gibson), die jaren geleden samen met Barney The Expendables oprichtte.
-                        <!--Trailer: https://www.youtube.com/watch?v=4xD0junWlFc -->
-                        <br>
-                        <iframe  width="400" height="240"src="https://www.youtube.com/embed/4xD0junWlFc"frameborder="0" allowfullscreen></iframe>
+    <head>
+        <title>Filmpje - Home</title>
+        <meta name="keywords" content="film, films, movie, movies, bios, bioscoop, cinema, oer, hollandse, oer-hollandse, 3D, Imax, Aura3d, Aura, zaal, zalen, stoel, stoelen, bioscoopzaal, bioscoopzalen, bioscoopstoel, bioscoopstoelen, uniek, unieke, inrichting, ervaring, zit, plaatsen, goed, nu in de bioscoop, nu in de bios, films op dit moment, movies op dit moment, verwachte films, verwachte movies">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:sitename" content="Filmpje">
+        <meta property="og:description" content="Filmpje is een oer-Hollandse bioscoop met de meeste nieuwe technieken.">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="HomeStyle.css" rel="stylesheet" type="text/css">
+        <script src="Javascript/FilmsToday.js" type="text/javascript"></script>
+        <link href="search.css" rel="stylesheet" type="text/css">
+        <script src="Javascript/Slider2.js" type="text/javascript"></script>
+        <link href="ninja-slider.css" rel="stylesheet" type="text/css" />
+        <script src="ninja-slider.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            window.onload = function() {
+                var WindowWidth = window.innerWidth - 30;
+                
+                
+                var Slider = Sliderman.slider({container: 'SliderName_2', width: WindowWidth, height: 530, effects: "slide",
+                    display: {
+                        autoplay: 3000,
+                        loading: {background: '#000000', opacity: 0.5, image: 'img/loading.gif'},
+                        buttons: {hide: false, opacity: 1, prev: {className: 'SliderNamePrev_2', label: '<img src="img/left.png" style="margin-top:250px;" />'}, next: {className: 'SliderNameNext_2', label: '<img src="img/right.png" style="margin-top:250px;"/>'}},
+                        
+                        navigation: {container: 'SliderNameNavigation_2', label: '<img src="img/bullet.png" />'}
+                    }
+                });
+                document.getElementById("slider_container_2").style.display = "block";
+                document.getElementById("SliderLoad").style.display = "none";
+            };
+        </script>
+        <script type="text/javascript" src="Javascript/sliderman.1.3.8.js"></script>
+        <link rel="stylesheet" type="text/css" href="sliderman.css" />
+    </head>
+    <body onload="javascript: SetCurrentFilms();
+            Slider();">
+        <div id="TopMenuBar"><!--Menu Block-->
+            <img id="Logo" src="Images/Logo.png" alt="logo">
+            <nav id="UpperMenu">
+                <a href="index.html" class="MenuItem">Home</a>
+                <a href="Films/index.html" class="MenuItem">Films</a>
+                <a href="Algemene Bioscoop Info/overons.html" class="MenuItem">Over ons</a>
+                <a href="Contact/contact.html" class="MenuItem">Contact</a>
+            </nav><!--UpperMenu-->
+            <form class="form-wrapper ag">
+                <input type="text" placeholder="Zoek een film..." required>
+                <button type="submit">Zoeken</button>
+            </form>
+        </div><!--TopMenuBar--><!-- end Menu Block-->
+        <div id="TopText">
+            <center>
+                <br/>
+                <h1>Homepage</h1>
+            </center>
+        </div><!--TopText-->
+        <div id="kleur1"></div>
+        <div id="kleur2"></div>
+        <div id="kleur3"></div>
+        <div id="kleur4"></div>
+        <div id="Content">    
+            <div id="TopVijfWrapper"><!--Slider block-->
+                <div id="SliderLoad">
+                    Loading...
+                </div>
+                <div id="slider_container_2" style="display:none;">
+                    <div id="SliderName_2" class="SliderName_2">
+                        <img src="http://www.backstageol.com/wp-content/uploads/2014/07/lets-be-cops-poster-620x400.jpg"  alt=""  />             
+                        <img src="http://www.visualmmg.com/wp-content/uploads/2014/08/AASB1.jpg"  alt="" />                        
+                        <img src="http://static1.jim.vmmacdn.be/sites/jim.be/files/film1.jpg"  alt="" />                        
+                        <img src="http://i.ytimg.com/vi/5O86FUOrlkY/maxresdefault.jpg"  alt="" />                        
+                        <img src="http://cdn.superbwallpapers.com/wallpapers/movies/guardians-of-the-galaxy-32272-1680x1050.jpg"  alt="" />                     
+                    </div>
+                    <div class="c"></div>
+                    <div id="SliderNameNavigation_2"></div>
+                </div>
+                <div id="MoreAboutFilms"><!--Meer over films block, movie onhover-->
+                    <section id="NoFilmHover">
+                        <p>
+                        <p>Ga met uw muis over een film voor meer informatie.</p>
+                        </p>
                     </section>
-                </section>
-            </div><!--End Meer Over Films block-->
-    <div id="FilmsVandaag"> <!-- Lijst van films die vandaag spelen-->           
-        <div id="LaatsteFilms"><strong>De films die vanavond spelen</strong></div>
-        <p id="LoadingFilms">Loading...</p>
-        <div id="FilmVandaagContent">
-            <section id="2000" style="display:none;">
-                <p>Vanavond om 20.00uur speelt:</p>
-                <a href="DetailPagina/MapsToTheStars/MapsToTheStars.html"><img onmouseover="javascript:ShowMoreOnHover(2000)" src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/mapstotherstars3.jpg" width="200" /></a>
-            </section>
-            <section id="2030" style="display:none;">
-			<!--
-                <p>Vanavond om 20.30uur speelt:</p>
-                <a href="DetailPagina/Hercules/Hercules.html"><img onmouseover="javascript:ShowMoreOnHover(2030)" src="http://www.pathe.nl/thumb/180x252/gfx_content/profiel/herculesnlposter3b.jpg" width="200" /></a>
-            !-->
-			</section>
-            <section id="2100" style="display:none;">
-                <p>Vanavond om 21.00uur speelt:</p>
-                <a href="DetailPagina/FindingFanny/FindingFanny.html"><img onmouseover="javascript:ShowMoreOnHover(2100)" src="http://upload.wikimedia.org/wikipedia/en/3/35/Finding_Fanny_Theatrical_release_poster.jpg" width="200" /></a>
-            </section>
-            <section id="2200" style="display:none;">
-                <p>Vanavond om 22.00uur speelt:</p>
-                <a href="DetailPagina/LetsBeCops/LetsBeCops.html"><img onmouseover="javascript:ShowMoreOnHover(2200)" src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/letsbecops3.jpg" width="200" /></a>
-            </section>
-            <section id="2230" style="display:none;">
-                <p>Vanavond om 22.30uur speelt:</p>
-                <a href="DetailPagina/TheExpendables3/TheExpendables3.html"><img onmouseover="javascript:ShowMoreOnHover(2230)" src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/expendables3defposter.jpg" width="200" /></a>
-            </section>
-            <section id="GeenFilms" style="display:none;">
-                <p>Er zijn geen films meer beschikbaar voor vanavond. &nbsp;Vanaf 8 uur 's ochtends staan de films van de volgende dag er.</p>
-            </section>
-        </div><!--Einde lijst van films die vandaag spelen-->        
-         </div>
+                    <section id="More2000" style="display:none;">
+                        <img src="Images/CloseIcon.png" width="30" height="30" class="CloseImage" alt="Sluiten" onclick="javascript: HideMe('More2000');" />
+                        <section id=" info">
+                            <h1>Maps to the stars</h1>
+                            <p>
+                                Een cliënt van een psychotherapeut wil een remake maken van een film waarin haar inmiddels overleden moeder in speelde
+                                De familie Weiss uit Hollywood bestaat uit Dr. Stafford Weiss; een psychotherapeut die zelfhulphandleidingen schrijft, zijn vrouw Cristina; manager van hun 13-jarige zoon, en hun dochter die onlangs vrijgelaten is uit een sanatorium waar ze werd behandeld voor criminele pyromanie. Eén van de cliënten van Dr. Weiss, actrice Havana, wil graag een remake maken van een film waarin haar inmiddels overleden moeder speelde.
+                            </p>
+                            <br>
+                            <iframe  width="400" height="240" src="https://www.youtube.com/embed/tsFnwgUlrxs" frameborder="0" allowfullscreen></iframe>
+                        </section>
+                    </section>
+                    <section id="More2030" style="display:none;">
+                        <img src="Images/CloseIcon.png" width="30" height="30" class="CloseImage" alt="Sluiten" onclick="javascript: HideMe('More2030');" />
+                        <section id=" info">
+                            <h1>Hercules</h1>
+                            <p>
+                                Dwayne Johnson is Hercules in de spectaculaire 3D actiefilm gebaseerd op de klassieke mythe.
+                                De film, geïnspireerd door de Radical Comics 'Hercules' van Steven Moore, heeft een internationale cast bestaande uit o.a. Ian McShane, Rufus Sewell, Joseph Fiennes, Peter Mullan, John Hurt en Irina Shayk.
+                            </p>
+                            <br>
+                            <iframe  width="400" height="240" src="https://www.youtube.com/embed/OwlynHlZEc4" frameborder="0" allowfullscreen></iframe>
+                        </section>
+                    </section>
+                    <section id="More2100" style="display:none;">
+                        <img src="Images/CloseIcon.png" width="30" height="30" class="CloseImage" alt="Sluiten" onclick="javascript: HideMe('More2100');" />
+                        <section id=" info">
+                            <h1>Finding Fanny</h1>
+                            <p>Finding Fanny is een komische film over een aantal outsiders die een zoektocht starten naar Stefanie Fernandes (Fanny). Onderweg vinden ze troost en comfort bij elkaar en krijgen zo weer hoop in de toekomst ten opzichte van hun eerdere zinloze levens</p>
+                            <p>
+                                In Finding Fanny volgende we vijf disfunctionele karakters uit Pocolim, Goa. Een plek waar nooit iets gebeurt en waar nutteloze conversaties de dag vullen. Op een avond wordt bij de oude postbode Ferdie (Naseeruddin Shah) een brief onder zijn deur geschoven. Al snel beseft hij dat het gaat om een brief die hij 46 jaar geleden heeft geschreven aan de liefde van zijn leven Stefanie Fernandes, waarin hij vraagt om met hem te trouwen. Nu blijkt dat de brief nooit is bezorgd. Ferdie heeft zijn hele leven met een pijnlijk plekje in zijn hart geleefd, omdat hij dacht dat Stefanie hem had afgewezen. Hij besluit om naar zijn geliefde Fanny op zoek te gaan en haar de waarheid te vertellen.
+                                Waar zou ze zijn na 46 jaar? Dood? Gelukkig getrouwd? Zou ze hem wel herinneren? Of is Stefanie Fernandes slechts een verzinsel van Ferdie’s verbeelding? Vier kleurrijke personages reizen met Ferdie mee als afleiding van hun alledaagse leven. De jonge weduwe (Deepika Padukone), een bittere monteur (Arjun Kapoor), een oorlogvoerende kunstenaar (Pankaj Kapur) en de onaangename zelfbenoemde "Lady" van Pocolim (Dimple Kapadia). Of ze Fanny nu vinden of niet, het wordt in ieder geval een reis vol hilarische en ontroerende gebeurtenissen die voor altijd hun leven zal veranderen.
+                            </p>
+                            <br>
+                            <iframe  width="400" height="240" src="https://www.youtube.com/embed/5O86FUOrlkY" frameborder="0" allowfullscreen></iframe>
+                        </section>
+                    </section>
+                    <section id="More2200" style="display:none;">
+                        <img src="Images/CloseIcon.png" width="30" height="30" class="CloseImage" alt="Sluiten" onclick="javascript: HideMe('More2200');" />
+                        <section id=" info">
+                            <h1>Let's be cops</h1>
+                            <p>
+                                De ultieme politiefilm over politiemannen die geen politiemannen zijn
+                                Twee vrienden gaan naar een verkleedfeestje, verkleed als politieagenten, en worden ongewild de sensatie van de buurt. Maar als de nieuwbakken 'helden' verstrikt raken in een web van echte gangsters en corrupte rechercheurs, moeten ze hun nepbadges op het spel zetten.
+                            </p>
+                            <br>
+                            <iframe  width="400" height="240" src="https://www.youtube.com/embed/UKIAZjs__Xc" frameborder="0" allowfullscreen></iframe>
+                        </section>
+                    </section>
+                    <section id="More2230" style="display:none;">
+                        <img src="Images/CloseIcon.png" width="30" height="30" class="CloseImage" alt="Sluiten" onclick="javascript: HideMe('More2230');" />
+                        <section id=" info">
+                            <h1>The expendables 3</h1>
+                            <p>
+                                Barney (Stallone), Christmas (Statham) en de rest van het team komen oog in oog te staan met Conrad Stonebanks (Gibson), die jaren geleden samen met Barney The Expendables oprichtte.
+                                <!--Trailer: https://www.youtube.com/watch?v=4xD0junWlFc -->
+                                <br>
+                                <iframe  width="400" height="240" src="https://www.youtube.com/embed/4xD0junWlFc" frameborder="0" allowfullscreen></iframe>
+                        </section>
+                    </section>
+                </div><div id="MoreAboutFilms">
 
-     </div><!--Content-->
-     <footer>
-        <div id="FooterText">
-            <div id="FooterImages">
-                <img src="Images/3DLogo.jpg" class="footerlogo" alt="logo">
-                <img src="Images/AuraLogo.jpg" class="footerlogo" alt="logo">
-                <img src="Images/ImaxLogo.jpg" class="footerlogo" alt="logo">
-            </div>
-            <p id="CopyTekst"> &copy; Filmpje | adres | telefoonnummers  </p>
-        </div><!--FooterText-->
-    </footer>
-</div>
-</body>
+                    <section id="NoFilmHover">
+                        <p>
+                        <p>Ga met uw muis over een film voor meer informatie.</p>
+                        </p>
+                    </section>
+                    <section id="More2000" style="display:none;">
+                        <img src="Images/CloseIcon.png" width="30" height="30" class="CloseImage" alt="Sluiten" onclick="javascript: HideMe('More2000');" />
+                        <section id=" info">
+                            <h1>Maps to the stars</h1>
+                            <p>
+                                Een cliënt van een psychotherapeut wil een remake maken van een film waarin haar inmiddels overleden moeder in speelde
+                                De familie Weiss uit Hollywood bestaat uit Dr. Stafford Weiss; een psychotherapeut die zelfhulphandleidingen schrijft, zijn vrouw Cristina; manager van hun 13-jarige zoon, en hun dochter die onlangs vrijgelaten is uit een sanatorium waar ze werd behandeld voor criminele pyromanie. Eén van de cliënten van Dr. Weiss, actrice Havana, wil graag een remake maken van een film waarin haar inmiddels overleden moeder speelde.
+                            </p>                    
+                            <br>
+                            <iframe  width="400" height="240"src="https://www.youtube.com/embed/tsFnwgUlrxs"frameborder="0" allowfullscreen></iframe>
+                        </section>
+                    </section>
+                    <section id="More2030" style="display:none;">
+                        <img src="Images/CloseIcon.png" width="30" height="30" class="CloseImage" alt="Sluiten" onclick="javascript: HideMe('More2030');" />
+                        <section id=" info">
+                            <h1>Hercules</h1>
+                            <p>
+                                Dwayne Johnson is Hercules in de spectaculaire 3D actiefilm gebaseerd op de klassieke mythe.
+                                De film, geïnspireerd door de Radical Comics 'Hercules' van Steven Moore, heeft een internationale cast bestaande uit o.a. Ian McShane, Rufus Sewell, Joseph Fiennes, Peter Mullan, John Hurt en Irina Shayk.
+                            </p>                    
+                            <br>
+                            <iframe  width="400" height="240"src="https://www.youtube.com/embed/OwlynHlZEc4"frameborder="0" allowfullscreen></iframe>
+                        </section>
+                    </section>
+                    <section id="More2100" style="display:none;">
+                        <img src="Images/CloseIcon.png" width="30" height="30" class="CloseImage" alt="Sluiten" onclick="javascript: HideMe('More2100');" />
+                        <section id=" info">
+                            <h1>Finding Fanny</h1>
+                            <p>Finding Fanny is een komische film over een aantal outsiders die een zoektocht starten naar Stefanie Fernandes (Fanny). Onderweg vinden ze troost en comfort bij elkaar en krijgen zo weer hoop in de toekomst ten opzichte van hun eerdere zinloze levens</p>
+                            <p>
+                                In Finding Fanny volgende we vijf disfunctionele karakters uit Pocolim, Goa. Een plek waar nooit iets gebeurt en waar nutteloze conversaties de dag vullen. Op een avond wordt bij de oude postbode Ferdie (Naseeruddin Shah) een brief onder zijn deur geschoven. Al snel beseft hij dat het gaat om een brief die hij 46 jaar geleden heeft geschreven aan de liefde van zijn leven Stefanie Fernandes, waarin hij vraagt om met hem te trouwen. Nu blijkt dat de brief nooit is bezorgd. Ferdie heeft zijn hele leven met een pijnlijk plekje in zijn hart geleefd, omdat hij dacht dat Stefanie hem had afgewezen. Hij besluit om naar zijn geliefde Fanny op zoek te gaan en haar de waarheid te vertellen.
+                                Waar zou ze zijn na 46 jaar? Dood? Gelukkig getrouwd? Zou ze hem wel herinneren? Of is Stefanie Fernandes slechts een verzinsel van Ferdie’s verbeelding? Vier kleurrijke personages reizen met Ferdie mee als afleiding van hun alledaagse leven. De jonge weduwe (Deepika Padukone), een bittere monteur (Arjun Kapoor), een oorlogvoerende kunstenaar (Pankaj Kapur) en de onaangename zelfbenoemde "Lady" van Pocolim (Dimple Kapadia). Of ze Fanny nu vinden of niet, het wordt in ieder geval een reis vol hilarische en ontroerende gebeurtenissen die voor altijd hun leven zal veranderen.
+                            </p>                    
+                            <br>
+                            <iframe  width="400" height="240" src="https://www.youtube.com/embed/5O86FUOrlkY"frameborder="0" allowfullscreen></iframe>
+                        </section>
+                    </section>
+                    <section id="More2200" style="display:none;">
+                        <img src="Images/CloseIcon.png" width="30" height="30" class="CloseImage" alt="Sluiten" onclick="javascript: HideMe('More2200');" />
+                        <section id=" info">
+                            <h1>Let's be cops</h1>
+                            <p>
+                                De ultieme politiefilm over politiemannen die geen politiemannen zijn
+                                Twee vrienden gaan naar een verkleedfeestje, verkleed als politieagenten, en worden ongewild de sensatie van de buurt. Maar als de nieuwbakken 'helden' verstrikt raken in een web van echte gangsters en corrupte rechercheurs, moeten ze hun nepbadges op het spel zetten.
+                            </p>                    
+                            <br>
+                            <iframe  width="400" height="240"src="https://www.youtube.com/embed/UKIAZjs__Xc"frameborder="0" allowfullscreen></iframe>
+                        </section>
+                    </section>
+                    <section id="More2230" style="display:none;">
+                        <img src="Images/CloseIcon.png" width="30" height="30" class="CloseImage" alt="Sluiten" onclick="javascript: HideMe('More2230');" />
+                        <section id=" info">
+                            <h1>The expendables 3</h1>
+                            <p>
+                                Barney (Stallone), Christmas (Statham) en de rest van het team komen oog in oog te staan met Conrad Stonebanks (Gibson), die jaren geleden samen met Barney The Expendables oprichtte.
+                                <!--Trailer: https://www.youtube.com/watch?v=4xD0junWlFc -->
+                                <br>
+                                <iframe  width="400" height="240"src="https://www.youtube.com/embed/4xD0junWlFc"frameborder="0" allowfullscreen></iframe>
+                        </section>
+                    </section>
+                </div><!--End Meer Over Films block-->
+                <div id="FilmsVandaag"> <!-- Lijst van films die vandaag spelen-->           
+                    <div id="LaatsteFilms"><strong>De films die vanavond spelen</strong></div>
+                    <p id="LoadingFilms">Loading...</p>
+                    <div id="FilmVandaagContent">
+                        <section id="2000" style="display:none;">
+                            <p>Vanavond om 20.00uur speelt:</p>
+                            <a href="DetailPagina/MapsToTheStars/MapsToTheStars.html"><img onmouseover="javascript:ShowMoreOnHover(2000)" src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/mapstotherstars3.jpg" width="200" /></a>
+                        </section>
+                        <section id="2030" style="display:none;">
+                            <!--
+                    <p>Vanavond om 20.30uur speelt:</p>
+                    <a href="DetailPagina/Hercules/Hercules.html"><img onmouseover="javascript:ShowMoreOnHover(2030)" src="http://www.pathe.nl/thumb/180x252/gfx_content/profiel/herculesnlposter3b.jpg" width="200" /></a>
+                !-->
+                        </section>
+                        <section id="2100" style="display:none;">
+                            <p>Vanavond om 21.00uur speelt:</p>
+                            <a href="DetailPagina/FindingFanny/FindingFanny.html"><img onmouseover="javascript:ShowMoreOnHover(2100)" src="http://upload.wikimedia.org/wikipedia/en/3/35/Finding_Fanny_Theatrical_release_poster.jpg" width="200" /></a>
+                        </section>
+                        <section id="2200" style="display:none;">
+                            <p>Vanavond om 22.00uur speelt:</p>
+                            <a href="DetailPagina/LetsBeCops/LetsBeCops.html"><img onmouseover="javascript:ShowMoreOnHover(2200)" src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/letsbecops3.jpg" width="200" /></a>
+                        </section>
+                        <section id="2230" style="display:none;">
+                            <p>Vanavond om 22.30uur speelt:</p>
+                            <a href="DetailPagina/TheExpendables3/TheExpendables3.html"><img onmouseover="javascript:ShowMoreOnHover(2230)" src="http://www.pathe.nl/thumb/180x252/gfx_content/posters/expendables3defposter.jpg" width="200" /></a>
+                        </section>
+                        <section id="GeenFilms" style="display:none;">
+                            <p>Er zijn geen films meer beschikbaar voor vanavond. &nbsp;Vanaf 8 uur 's ochtends staan de films van de volgende dag er.</p>
+                        </section>
+                    </div><!--Einde lijst van films die vandaag spelen-->        
+                </div>
+
+            </div><!--Content-->
+            <footer>
+                <div id="FooterText">
+                    <div id="FooterImages">
+                        <img src="Images/3DLogo.jpg" class="footerlogo" alt="logo">
+                        <img src="Images/AuraLogo.jpg" class="footerlogo" alt="logo">
+                        <img src="Images/ImaxLogo.jpg" class="footerlogo" alt="logo">
+                    </div>
+                    <p id="CopyTekst"> &copy; Filmpje | adres | telefoonnummers  </p>
+                </div><!--FooterText-->
+            </footer>
+        </div>
+    </body>
 </html>
