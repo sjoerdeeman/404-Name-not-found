@@ -68,14 +68,23 @@ and open the template in the editor.
                     <div id="Price" style=" margin-left:10px;float:left;">
                         <p>Klik op een stoel</p>
                     </div>
+                    <br/>
                     <div id="TotalPrice">
                     </div>
+                    
                     <br/><br/>
                     <form method="get" action="do/ProcessOrder.php" onsubmit="return CheckForm();">
                         <input id="FormPrice" name="FormPrice" type="hidden" value="">
                         <input id="DateAndTime" name="DateAndTime" type="hidden" value="">
                         <input type="submit" value="Bestel kaartjes">
                     </form>
+                    <div id="Legenda" style="float:left; margin-left:10px;" >
+                        <br/>
+                        <strong>Legenda</strong><br/>
+                        <div class="Chair"></div> is een 3e rang stoel<br/>
+                         <div class="Chair2"></div> is een 2e rang stoel<br/>
+                          <div class="Chair3"></div> is een 1e rang stoel<br/>
+                    </div>
                 </div>
             </div><!--Content-->
 
