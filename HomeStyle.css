@@ -96,7 +96,7 @@
 
    }
 }*/
-#TopVijfWrapper{
+/*#TopVijfWrapper{
     height:530px;
 }
 #MoreAboutFilms{    
@@ -108,4 +108,43 @@
 #FilmsVandaag{    
     position:absolute;
     margin-top:30px; 
+}*/
+#Agenda{
+    margin-left:25%;
+}
+.AgendaItem{
+    
+    width:200px;
+    height:200px;
+    float: left;
+    margin:0px 15px 15px 15px;
+}
+.AgendaItemN{
+   
+    width:200px;
+    height:200px;
+    clear:left;
+   float:left;
+    margin:0px 15px 0px 15px;
+}
+#overlay {
+    display:none;
+    position:fixed;
+    top:50px;
+    left:50px;
+    right:50px;
+    bottom:50px;
+    background-color:rgba(0, 0, 0, 0.85);    
+    z-index:9999;
+    color:white;
+}
+.Close{
+    float:right;
+}
+#promo{
+    margin:15px 0px 0px 15px;
+}
+#Reserveerknop{
+    margin:15px 0px 10px 15px;
+    
 }
