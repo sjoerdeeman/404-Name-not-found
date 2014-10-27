@@ -9,8 +9,8 @@ function LoadAgenda() {
     var date = new Date();
     var Today = date.getDay();
     var FilmsID = [
-        ["<strong>Finding Fanny</strong> <img onmousedown=\"javascript:ShowOverlay('Finding Fanny')\" src='http://upload.wikimedia.org/wikipedia/en/3/35/Finding_Fanny_Theatrical_release_poster.jpg' alt='Finding Fanny' width='100' heigth='200'>"],
-        ["<strong>Novemberman</strong><img onmousedown=\"javascript:ShowOverlay('Novemberman')\" src='http://m.929jackfm.ca/files/VVS_TheNovemberMan_Poster-637x920.jpg' alt='Novemberman' width='100' heigth='200'>"],
+        ["<strong>Finding Fanny</strong><br/> <img onmousedown=\"javascript:ShowOverlay('Finding Fanny')\" src='http://upload.wikimedia.org/wikipedia/en/3/35/Finding_Fanny_Theatrical_release_poster.jpg' alt='Finding Fanny' width='100' heigth='200'>"],
+        ["<strong>Novemberman</strong><br/> <img onmousedown=\"javascript:ShowOverlay('Novemberman')\" src='http://m.929jackfm.ca/files/VVS_TheNovemberMan_Poster-637x920.jpg' alt='Novemberman' width='100' heigth='200'>"],
         ["<strong>Let's be cops</strong><Br/> <img onmousedown=\"javascript:ShowOverlay('Lets be cops')\" src='http://www.pathe.nl/thumb/180x252/gfx_content/posters/letsbecops3.jpg' alt='Lets be cops' width='100' heigth='200'>"],
         ["<strong>As Above So Below</strong><Br/> <img onmousedown=\"javascript:ShowOverlay('As Above So Below')\" src='http://www.pathe.nl/thumb/180x252/gfx_content/posters/asabove500(1).jpg' alt='As Above So Below' width='100' heigth='200'>"],
         ["<strong>Guardians Of The Galaxy</strong><Br/> <img onmousedown=\"javascript:ShowOverlay('Guardians Of The Galaxy')\" src='http://www.pathe.nl/thumb/180x252/gfx_content/posters/guardiansofthegalaxy1.jpg' alt='Guardians Of The Galaxy' width='100' heigth='200'>"],
