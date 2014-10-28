@@ -86,7 +86,7 @@ img{
         position:absolute;
         margin-left: 10px;
         top: 105px;
-		margin-bottom: 20px;
+        margin-bottom: 20px;
     }
     #Logo{
         height:40px;
@@ -226,6 +226,18 @@ img{
         position: absolute;
         margin-top: 60px;
         left: 0px;
+    }
+    .kleur3{
+        visibility: hidden;
+        position: absolute;
+        margin-top: 60px;
+        left: 0px
+    }
+    .kleur4{
+        visibility: hidden;
+        position: absolute;
+        margin-top: 60px;
+        left: 0px
     }
     footer{
         visibility: hidden;
@@ -512,19 +524,19 @@ img{
         margin-top: 110px;
         left: 0px;
     }
-	.MenuItem{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 22px;
-    text-decoration: none;
-    margin: 5px 5px 5px 5px;
-    padding: 20px 5px 20px 5px;
-}
-	#UpperMenu{
-    position:absolute;
-    margin-left: 135px;
-	top: 20px;
+    .MenuItem{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 22px;
+        text-decoration: none;
+        margin: 5px 5px 5px 5px;
+        padding: 20px 5px 20px 5px;
+    }
+    #UpperMenu{
+        position:absolute;
+        margin-left: 135px;
+        top: 20px;
 
-}
+    }
 
 }
 
