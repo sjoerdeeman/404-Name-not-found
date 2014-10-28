@@ -7,7 +7,7 @@ body{
     background-image: url(../../Images/Background.jpg);
     font-size: 14px;
 }
-@media screen and (max-width: 640px){
+@media screen and (max-width: 800px){
 	@font-face {
     font-family: 'Ubuntu';
     src: url("Fonts/Ubuntu-R.ttf");
@@ -111,7 +111,7 @@ a:active{
 	width: 200px;
 	height: 150px;
 	}
-	.Reserveerknop {
+.Reserveerknop {
 	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	box-shadow:inset 0px 1px 0px 0px #ffffff;
@@ -166,8 +166,7 @@ footer{
 }
 }
 
-
-@media screen and (min-width: 800px){
+@media screen and (min-width: 1000px){
 @font-face {
     font-family: 'Ubuntu';
     src: url("Fonts/Ubuntu-R.ttf");
@@ -266,7 +265,7 @@ a:active{
 	}
 	.Details2{
 	position:absolute;
-	top:630px;
+	top:600px;
 	left:500px;
 	clear:both;
 	width: auto;
@@ -323,11 +322,204 @@ a:active{
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#f9f9f9',GradientType=0);
 	background-color:#e9e9e9;
 }
+	
 	#KijkWijzer
 	{
 	position:absolute;
 	top:660px;
 	left: 120px;
+	clear:both;
+	font-size: 35px;
+	
+	}
+	footer{
+  width: 100%;
+    
+    position: fixed;
+    background-color:#EEEEEE;
+    bottom: 0%;
+}
+#FooterText{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+}
+.footerlogo{
+    margin-left: 5px;
+    position: relative;
+    height: 42px;
+    width: auto;
+    float:right;
+}
+#CopyTekst{
+    padding: 9px 0 0 10px;
+}
+#FooterImages{
+   margin-right: 5px;
+}
+
+}
+@media screen and (min-width: 800px) and (max-width: 999px){
+@font-face {
+    font-family: 'Ubuntu';
+    src: url("Fonts/Ubuntu-R.ttf");
+}
+
+*{
+    margin: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+}
+a:link{
+    color: #444;
+}
+a:visited{
+    color: #444;
+}
+a:hover{
+    color: black;
+    background-color: rgba(99, 88, 121,0.3);
+}
+a:active{
+    color: #444;
+}
+a:active{
+    color: gray;
+}
+#TopMenuBar{ 
+    height: 42px;
+    width: 100%;
+    
+}
+.MenuItem{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 5px 5px 5px 5px;
+    padding: 20px 5px 20px 5px;
+        
+}
+#UpperMenu{
+    position:absolute;
+    top:7px;
+    margin-left: 135px;
+}
+
+#Logo{
+    height:30px;
+    margin-top: 7px;
+    margin-left: 5px;
+    position:absolute;
+}
+
+#TopText{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    height:145px;
+	clear: both;
+	}
+	#Content{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+	position: relative;
+	max-width: 1300px;
+    height: 1000px;
+	margin: auto;
+	margin-bottom: 40px;
+	float: center;
+	
+	}
+	#PrideImg{
+	height: 433px;
+	width: 293px;
+	float:left;
+	}
+	#Info{
+	position:absolute;
+	margin-left: 330px;
+	width:auto;
+    float:right;
+	height:500px;
+	}
+	#InfoMeerMinder{
+	visibility: show;
+	height: 400px;
+	}
+	#InfoAll{
+	visibility: hidden;
+	}
+	.Details{
+	position:absolute;
+	float:left;
+	top:520px;
+	left: 10px;
+	clear:both;
+	width: 150px;
+	height: 150px;
+	}
+	.Details2{
+	position:absolute;
+	top:600px;
+	left:330px;
+	clear:both;
+	width: auto;
+	}
+	.Details3{
+	display: inline-block;
+	margin-right: 100px;
+	}
+	.Details4{
+	position:absolute;
+	float:left;
+	left: 160px;
+	top:520px;
+	width: 100px;
+	height: 150px;
+	}
+	.Reserveerknop {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #e9e9e9));
+	background:-moz-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-webkit-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-o-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-ms-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9',GradientType=0);
+	background-color:#f9f9f9;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:3px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 41px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+	position:absolute;
+	top:720px;
+	left:60px;
+	clear:both;
+}
+.Reserveerknop:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e9e9e9), color-stop(1, #f9f9f9));
+	background:-moz-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-webkit-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-o-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-ms-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#f9f9f9',GradientType=0);
+	background-color:#e9e9e9;
+}
+	
+	#KijkWijzer
+	{
+	position:absolute;
+	top:450px;
+	left: 50px;
 	clear:both;
 	font-size: 35px;
 	

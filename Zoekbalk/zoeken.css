@@ -1,0 +1,33 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(Images/Background.jpg);
+    background-color: #FFFFF9;
+    font-size: 14px;
+}
+
+.searchVal, .dropdown, .result {
+   margin:0;
+   padding:0;
+   border:0;
+   width:250px;
+
+}
+
+.searchVal {
+   padding:4px;
+   border:1px solid #000;
+
+}
+
+.result {
+   width:260px;
+   list-style:none;
+}
+
+.result li {
+   padding:5px;
+   border:1px solid #000;
+   border-top:0;
+   cursor:pointer;
+
+}

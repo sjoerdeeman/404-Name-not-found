@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<title>Search</title>
+<link href="index2.php" rel="stylesheet" type="text/php">
+<link rel="stylesheet" href="zoeken.css">
+<script src="index2.js" type="text/javascript"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+</head>
+<body>
+<form action="index.php" method="post">  
+     <input type="text" class="searchVal" placeholder="Zoek naar films" onkeydown="searchq();" />
+     <input type="submit" value="zoek" />
+	 <div class="dropdown">
+	    <ul class="result">
+		<li></li>
+		<li></li>
+		<li></li>
+
+		</ul>
+	 </div>
+
+</form>
+
+<div id="output">
+
+</div>
+
+</body>
+
+</html>

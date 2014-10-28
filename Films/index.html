@@ -30,7 +30,10 @@ and open the template in the editor.
 
             </nav><!--UpperMenu-->
             <form class="form-wrapper ag">
-                <input type="text" placeholder="Zoek een film..." required>
+                <input type="text" name="searchVal" placeholder="Zoek een film" onkeydown="searchq();" />
+                <input type="submit" value="zoek" />
+				
+				<input type="text" placeholder="Zoek een film..." required>
                 <button type="submit">Zoeken</button>
             </form>
         </div><!--TopMenuBar-->
