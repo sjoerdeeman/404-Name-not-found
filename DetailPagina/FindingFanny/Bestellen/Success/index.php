@@ -8,7 +8,7 @@ and open the template in the editor.
     <head>
         <title>Filmpje</title>
         <?php
-        $movie = "A Most Wanted Man";
+        $movie = "Finding Fanny";
         $DateAndTimeZaal = filter_input(INPUT_GET, "DateAndTime");
         $ResVerCode = filter_input(INPUT_GET, "ResCode");
         $LinkToTicket = "ticket.php?movie=".$movie . "&DateAndTime=".$DateAndTimeZaal . "&ResVerCode=".$ResVerCode ;

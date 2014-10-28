@@ -135,6 +135,7 @@ function PrintZaal(Zaalnummer) {
     var id = "1";
     var OutputDiv = document.getElementById("PlattegrondZaal");
     OutputDiv.innerHTML = "";
+    
     function GoThroughRij() {
         var RijLength = rij.length;
         for (ab = 0 ; ab < RijLength ; ab++) {
@@ -183,6 +184,9 @@ function PrintZaal(Zaalnummer) {
             //nieuwe regel als de rij stoelen klaar is
             OutputDiv.innerHTML += "<br/>";
         }
+        var OutputDivWidth = OutputDiv.offsetWidth;
+        var SchermStyle = "style='width:"+OutputDivWidth+"; background-color:grey; heigth:50px;'";
+        OutputDiv.innerHTML = "<p id='scherm' "+SchermStyle+">scherm</p>" + OutputDiv.innerHTML;
     }
     if (Zaalnummer == "1") {              
         //zaal 1
