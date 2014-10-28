@@ -3,17 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 function LoadSlider(WIDTH) {
     var SliderWidth = WIDTH;
     document.getElementById("SliderNameNavigation_2").innerHTML = "";
-  var Slider = "";
+    var Slider = "";
 
-     Slider = Sliderman.slider({container: 'SliderName_2', width: SliderWidth, height: 700, effects: "slide",
+    Slider = Sliderman.slider({container: 'SliderName_2', width: SliderWidth, height: 700, effects: "slide",
         display: {
             autoplay: 3000,
             loading: {background: '#000000', opacity: 0.5, image: 'img/loading.gif'},
-            buttons: {hide: false, opacity: 1, prev: {className: 'SliderNamePrev_2', label: '<img src="img/left.png" style="margin-top:250px;" />'}, next: {className: 'SliderNameNext_2', label: '<img src="img/right.png" style="margin-top:250px;"/>'}},
+            buttons: {hide: false, opacity: 1, prev: {className: 'SliderNamePrev_2', label: ''}, next: {className: 'SliderNameNext_2', label: ''}},
             navigation: {container: 'SliderNameNavigation_2', label: '<img src="img/bullet.png" />'}
         }
     });
@@ -22,18 +21,19 @@ function LoadSlider(WIDTH) {
 
 }
 function LoadAgenda() {
+
     var date = new Date();
     var Today = date.getDay();
     var FilmsID = [
-        ["<strong>Finding Fanny</strong><br/> <img onmousedown=\"javascript:ShowOverlay('Finding Fanny')\" src='http://upload.wikimedia.org/wikipedia/en/3/35/Finding_Fanny_Theatrical_release_poster.jpg' alt='Finding Fanny' width='100' heigth='200'>"],
-        ["<strong>Novemberman</strong><br/> <img onmousedown=\"javascript:ShowOverlay('NovemberMan')\" src='http://m.929jackfm.ca/files/VVS_TheNovemberMan_Poster-637x920.jpg' alt='Novemberman' width='100' heigth='200'>"],
-        ["<strong>Let's be cops</strong><Br/> <img onmousedown=\"javascript:ShowOverlay('Lets be cops')\" src='http://www.pathe.nl/thumb/180x252/gfx_content/posters/letsbecops3.jpg' alt='Lets be cops' width='100' heigth='200'>"],
-        ["<strong>As Above So Below</strong><Br/> <img onmousedown=\"javascript:ShowOverlay('As Above So Below')\" src='http://www.pathe.nl/thumb/180x252/gfx_content/posters/asabove500(1).jpg' alt='As Above So Below' width='100' heigth='200'>"],
-        ["<strong>Guardians Of The Galaxy</strong><Br/> <img onmousedown=\"javascript:ShowOverlay('Guardians Of The Galaxy')\" src='http://www.pathe.nl/thumb/180x252/gfx_content/posters/guardiansofthegalaxy1.jpg' alt='Guardians Of The Galaxy' width='100' heigth='200'>"],
-        ["<strong>The Expandables 3</strong><Br/> <img onmousedown=\"javascript:ShowOverlay('The Expandables 3')\" src='http://www.pathe.nl/thumb/180x252/gfx_content/posters/expendables3defposter.jpg' alt='The Expandables 3' width='100' heigth='200'>"],
-        ["<strong>Maps To The Stars</strong><Br/> <img onmousedown=\"javascript:ShowOverlay('Maps To The Stars')\" src='http://www.pathe.nl/thumb/180x252/gfx_content/posters/mapstotherstars3.jpg' alt='Maps To The Stars' width='100' heigth='200'>"],
-        ["<strong>Cuban Fury</strong><Br/> <img onmousedown=\"javascript:ShowOverlay('Cuban Fury')\" src='http://www.pathe.nl/thumb/180x252/gfx_content/posters/cubanfury1(1).jpg' alt='Cuban Fury' width='100' heigth='200'>"],
-        ["<strong>A Most Wanted Man</strong><Br/> <img onmousedown=\"javascript:ShowOverlay('A Most Wanted Man')\" src='http://www.pathe.nl/thumb/180x252/gfx_content/posters/amostwantedman2.jpg' alt='A Most Wanted Man' width='100' heigth='200'>"]
+        ["<strong>Finding Fanny</strong><br/> <img onmousedown=\"javascript:ShowOverlay('Finding Fanny', 0)\" src='http://upload.wikimedia.org/wikipedia/en/3/35/Finding_Fanny_Theatrical_release_poster.jpg' alt='Finding Fanny' width='100' heigth='200'>"],
+        ["<strong>Novemberman</strong><br/> <img onmousedown=\"javascript:ShowOverlay('NovemberMan', 0)\" src='http://m.929jackfm.ca/files/VVS_TheNovemberMan_Poster-637x920.jpg' alt='Novemberman' width='100' heigth='200'>"],
+        ["<strong>Let's be cops</strong><Br/> <img onmousedown=\"javascript:ShowOverlay('Lets be cops', 0)\" src='http://www.pathe.nl/thumb/180x252/gfx_content/posters/letsbecops3.jpg' alt='Lets be cops' width='100' heigth='200'>"],
+        ["<strong>As Above So Below</strong><Br/> <img onmousedown=\"javascript:ShowOverlay('As Above So Below', 0)\" src='http://www.pathe.nl/thumb/180x252/gfx_content/posters/asabove500(1).jpg' alt='As Above So Below' width='100' heigth='200'>"],
+        ["<strong>Guardians Of The Galaxy</strong><Br/> <img onmousedown=\"javascript:ShowOverlay('Guardians Of The Galaxy', 0)\" src='http://www.pathe.nl/thumb/180x252/gfx_content/posters/guardiansofthegalaxy1.jpg' alt='Guardians Of The Galaxy' width='100' heigth='200'>"],
+        ["<strong>The Expandables 3</strong><Br/> <img onmousedown=\"javascript:ShowOverlay('The Expandables 3', 0)\" src='http://www.pathe.nl/thumb/180x252/gfx_content/posters/expendables3defposter.jpg' alt='The Expandables 3' width='100' heigth='200'>"],
+        ["<strong>Maps To The Stars</strong><Br/> <img onmousedown=\"javascript:ShowOverlay('Maps To The Stars', 0)\" src='http://www.pathe.nl/thumb/180x252/gfx_content/posters/mapstotherstars3.jpg' alt='Maps To The Stars' width='100' heigth='200'>"],
+        ["<strong>Cuban Fury</strong><Br/> <img onmousedown=\"javascript:ShowOverlay('Cuban Fury', 0)\" src='http://www.pathe.nl/thumb/180x252/gfx_content/posters/cubanfury1(1).jpg' alt='Cuban Fury' width='100' heigth='200'>"],
+        ["<strong>A Most Wanted Man</strong><Br/> <img onmousedown=\"javascript:ShowOverlay('A Most Wanted Man', 0)\" src='http://www.pathe.nl/thumb/180x252/gfx_content/posters/amostwantedman2.jpg' alt='A Most Wanted Man' width='100' heigth='200'>"]
     ];
     var FilmPlayDate = [
         [6, 0, 7, 2, 6, 1],
@@ -55,16 +55,20 @@ function LoadAgenda() {
     var Rest = 6 - length;
     for (r = 0; r <= Rest; r++) {
         var idr = "Agenda" + (6 - r);
-        ;
+
         document.getElementById(idr).style.display = "none";
 
     }
 
 }
-function ShowOverlay(FILM) {
+function ShowOverlay(FILM, WIDTH) {
     var output = document.getElementById("overlay");
-    var width = screen.width - 500;
-    var height = screen.height - 500;
+    var width = WIDTH;
+    if (width == 0) {
+        width = window.innerWidth - 150;
+//width = "80%";
+    }
+    var height = window.innerHeight - 350;
     switch (FILM) {
         case 'Finding Fanny':
             output.innerHTML = '<iframe id="promo"  width="' + width + '" height="' + height + '" src="https://www.youtube.com/embed/5O86FUOrlkY"frameborder="0" allowfullscreen></iframe>\n\
