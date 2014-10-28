@@ -1,3 +1,7 @@
+#glist{
+	position: relative;
+	z-index: 10000000;
+}
 @media screen and (min-width: 1000px){
 body{
     margin-bottom:1680px;
@@ -162,6 +166,7 @@ body{
 }
 #glist{
 	display: none;
+	position: relative;
 }
 #selectmenu{
 	display: none;

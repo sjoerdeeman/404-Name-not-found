@@ -1,3 +1,7 @@
+#glist{
+	position: relative;
+	z-index: 10000000;
+}
 @media screen and (min-width: 800px){
 body{
     margin-bottom:1650px;

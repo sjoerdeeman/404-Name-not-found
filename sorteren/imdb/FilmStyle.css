@@ -1,3 +1,7 @@
+#glist{
+	position: relative;
+	z-index: 10000000;
+}
 body{
     margin-bottom:2150px;
 }
