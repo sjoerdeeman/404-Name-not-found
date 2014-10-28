@@ -23,20 +23,13 @@ and open the template in the editor.
         <link href="ninja-slider.css" rel="stylesheet" type="text/css" />
         <script src="ninja-slider.js" type="text/javascript"></script>-->
         <script type="text/javascript">
+            window.onresize = function() {
+                var SliderWidth = window.innerWidth - 30;
+                LoadSlider(SliderWidth);
+            };
             window.onload = function() {
-                var WindowWidth = window.innerWidth - 30;
-
-
-                var Slider = Sliderman.slider({container: 'SliderName_2', width: WindowWidth, height: 530, effects: "slide",
-                    display: {
-                        autoplay: 3000,
-                        loading: {background: '#000000', opacity: 0.5, image: 'img/loading.gif'},
-                        buttons: {hide: false, opacity: 1, prev: {className: 'SliderNamePrev_2', label: '<img src="img/left.png" style="margin-top:250px;" />'}, next: {className: 'SliderNameNext_2', label: '<img src="img/right.png" style="margin-top:250px;"/>'}},
-                        navigation: {container: 'SliderNameNavigation_2', label: '<img src="img/bullet.png" />'}
-                    }
-                });
-                document.getElementById("slider_container_2").style.display = "block";
-                document.getElementById("SliderLoad").style.display = "none";
+                var SliderWidth = window.innerWidth - 30;
+                LoadSlider(SliderWidth);
                 LoadAgenda();
             };
         </script>
@@ -85,48 +78,48 @@ and open the template in the editor.
                     <div id="SliderNameNavigation_2"></div>
                 </div><!--Eind slider_containter_2-->
             </div>
-            
+
             <center>
                 <p><strong>Hieronder een overzicht van de films die vanavond spelen:</strong></p><br/>
             </center>
             <div id="Agenda" >
                 <div class="AgendaItem">
                     <div id="Agenda0">
-                        
+
                     </div>
                 </div>
                 <div class="AgendaItem">
                     <div id="Agenda1">
-                        
+
                     </div>
                 </div>
                 <div class="AgendaItem">
                     <div id="Agenda2">
-                        
+
                     </div>
                 </div>
                 <div class="AgendaItemN">
                     <div id="Agenda3">
-                        
+
                     </div>
                 </div>
                 <div class="AgendaItem">
                     <div id="Agenda4">
-                        
+
                     </div>
                 </div>
                 <div class="AgendaItem">
                     <div id="Agenda5">
-                        
+
                     </div>
                 </div>
                 <div class="AgendaItemN">
                     <div id="Agenda6">
-                        
+
                     </div>
                 </div>
             </div>
-           
+
             <div id="overlay">
 
             </div>

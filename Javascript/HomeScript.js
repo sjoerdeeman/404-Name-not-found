@@ -4,8 +4,25 @@
  * and open the template in the editor.
  */
 
+function LoadSlider(WIDTH) {
+    var SliderWidth = WIDTH;
+    document.getElementById("SliderNameNavigation_2").innerHTML = "";
+  var Slider = "";
 
+     Slider = Sliderman.slider({container: 'SliderName_2', width: SliderWidth, height: 700, effects: "slide",
+        display: {
+            autoplay: 3000,
+            loading: {background: '#000000', opacity: 0.5, image: 'img/loading.gif'},
+            buttons: {hide: false, opacity: 1, prev: {className: 'SliderNamePrev_2', label: '<img src="img/left.png" style="margin-top:250px;" />'}, next: {className: 'SliderNameNext_2', label: '<img src="img/right.png" style="margin-top:250px;"/>'}},
+            navigation: {container: 'SliderNameNavigation_2', label: '<img src="img/bullet.png" />'}
+        }
+    });
+    document.getElementById("slider_container_2").style.display = "block";
+    document.getElementById("SliderLoad").style.display = "none";
+
+}
 function LoadAgenda() {
+
     var date = new Date();
     var Today = date.getDay();
     var FilmsID = [
@@ -41,7 +58,7 @@ function LoadAgenda() {
         var idr = "Agenda" + (6 - r);
         ;
         document.getElementById(idr).style.display = "none";
-        
+
     }
 
 }
