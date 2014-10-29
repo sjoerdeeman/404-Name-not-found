@@ -12,8 +12,10 @@ and open the template in the editor.
         <meta property="og:sitename" content="Filmpje">
         <meta property="og:description" content="Filmpje is een oer-Hollandse bioscoop met de meeste nieuwe technieken.">
         <meta charset="UTF-8">
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="../style.css" rel="stylesheet" type="text/css">
+		<link href="../search.css" rel="stylesheet" type="text/css">
         <link href="ResVerStyles.css" rel="stylesheet" type="text/css">
     </head>
     <body onload="PrintZaal('1')">
@@ -26,9 +28,13 @@ and open the template in the editor.
                     <a href="../Algemene Bioscoop Info/overons.html" class="MenuItem">Over ons</a>
                     <a href="contact.html" class="MenuItem">Contact</a>
                 </nav><!--UpperMenu-->
-                <div id="SearchBlock">
-                    <button class="SearchInput">Zoeken</button><input class="SearchInput">
-                </div><!--SearchBlock-->
+                <form class="form-wrapper ag" action="index.php" method="post">  
+                <input type="text" name="searchVal" placeholder="Zoek naar films"  onkeyup="searchq();"/>
+                <button type="submit" value="zoek">Zoeken</button>
+                <div  style="position:absolute; top:50px;" id="output">
+
+                </div>
+            </form><!--SearchBlock-->
             </div><!--TopMenuBar-->
             <div id="TopText">
                 <center>

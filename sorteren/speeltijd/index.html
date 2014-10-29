@@ -12,6 +12,7 @@ and open the template in the editor.
     <meta property="og:sitename" content="Filmpje">
     <meta property="og:description" content="Filmpje is een oer-Hollandse bioscoop met de meeste nieuwe technieken.">
     <meta charset="UTF-8">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../../style.css" rel="stylesheet" type="text/css">
     <link href="FilmStyle.css" rel="stylesheet" type="text/css">
@@ -29,9 +30,12 @@ and open the template in the editor.
                 <a href="../../Contact/contact.html" class="MenuItem">Contact</a>
 
             </nav><!--UpperMenu-->
-            <form class="form-wrapper ag">
-                <input type="text" placeholder="Zoek een film..." required>
-                <button type="submit">Zoeken</button>
+            <form class="form-wrapper ag" action="index.php" method="post">  
+                <input type="text" name="searchVal" placeholder="Zoek naar films"  onkeyup="searchq();"/>
+                <button type="submit" value="zoek">Zoeken</button>
+                <div  style="position:absolute; top:50px;" id="output">
+
+                </div>
             </form>
         </div><!--TopMenuBar-->
         <div id="TopText">
