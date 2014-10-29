@@ -63,7 +63,7 @@ and open the template in the editor.
                         <img src="../../../../Images/AuraLogo.jpg" class="footerlogo" alt="logo">
                         <img src="../../../../Images/ImaxLogo.jpg" class="footerlogo" alt="logo">
                     </div>
-                    <p id="CopyTekst"> &copy; Filmpje | adres | telefoonnummers  </p>
+                    <p id="CopyTekst"> &copy; Filmpje | West-Kruiskade 26, 3014 AS Rotterdam | 010-6356666  </p>
                 </div><!--FooterText-->
             </footer>
         </div>
