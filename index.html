@@ -54,9 +54,9 @@ and open the template in the editor.
                 <button type="submit">Zoeken</button>
             </form>-->
             <form class="form-wrapper ag" action="index.php" method="post">  
-                <input type="text" name="searchVal" placeholder="Zoek naar films" onkeydown="searchq();" />
+                <input type="text" name="searchVal" placeholder="Zoek naar films"  onkeyup="searchq();"/>
                 <button type="submit" value="zoek">Zoeken</button>
-                <div id="output">
+                <div  style="position:absolute; top:50px;" id="output">
 
                 </div>
             </form>
